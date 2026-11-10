@@ -1,0 +1,223 @@
+{
+ "arms": [
+  "B3",
+  "B4"
+ ],
+ "budget_usd": "2",
+ "config_hash": "edfd0173e0804d5685bdae89160335db1b545d7a87891ee106eb0970db09ebf6",
+ "corpus_id": "ca8e01d67009c",
+ "episodes": "15-16",
+ "estimator": {
+  "calibration_sha256": "1a0f5d719845238a788f396810192fccfbbe939a97d77241f2025c4ebfc3b1cf",
+  "coefficients": {
+   "json": {
+    "a": "0.396422",
+    "a_hi": "0.476115",
+    "b": "123.304824"
+   },
+   "other": {
+    "a": "0.423053",
+    "a_hi": "0.483429",
+    "b": "4.942834"
+   },
+   "prose": {
+    "a": "0.378599",
+    "a_hi": "0.502914",
+    "b": "-17.31882"
+   },
+   "python": {
+    "a": "0.3684",
+    "a_hi": "0.641234",
+    "b": "190.166804"
+   }
+  },
+  "envelope": {
+   "base": 3,
+   "message": 3,
+   "text": 0,
+   "thinking": 0,
+   "tool_result": 0,
+   "tool_use": 62
+  },
+  "envelope_sha256": "be562d1f68874495f0b1a8d32392e120cc8cce36553e4253a2691db0628dc10f",
+  "estimator": "calib-v3",
+  "model": "claude-haiku-5-5",
+  "version": 3
+ },
+ "incomplete": false,
+ "l_mechanism": "l-v2b",
+ "leakscan": "pass",
+ "live": true,
+ "model": "claude-haiku-5-5",
+ "pressure": {
+  "B3": {
+   "answer_calls": 40,
+   "calls_over_w": 0,
+   "compactions_per_episode": "0",
+   "folds_per_episode": "0",
+   "prompt_over_w_max": "0.6095",
+   "prompt_over_w_p50": "0.471",
+   "prompt_over_w_p95": "0.604",
+   "share_calls_half_full": "0.125"
+  },
+  "B4": {
+   "answer_calls": 105,
+   "calls_over_w": 1,
+   "compactions_per_episode": "37.5",
+   "folds_per_episode": "0",
+   "prompt_over_w_max": "1.0095",
+   "prompt_over_w_p50": "0.769",
+   "prompt_over_w_p95": "0.9025",
+   "share_calls_half_full": "0.9429"
+  }
+ },
+ "pricing": {
+  "pricing_hash": "a6d3867dcfe43a9767e93f5fd2bdfdb6470bf9426dea9334d3c5f7feb5dbbbfc",
+  "verified": true,
+  "version": "anthropic-2026-10-31"
+ },
+ "prompts": {
+  "compaction": {
+   "sha256": "404c760cda45d02917426dafb7efe42fb9fa729dbef4091252e2632242e4713a",
+   "version": "clp-m3-compact-1"
+  },
+  "sha256": {
+   "B3": "25364aca2fb3859268991c5d731232fbcba04d354adbc56759e9bfb5764bd88a",
+   "B4": "f04ec1c5eeaef36bf6b55815fe3c76ce1ae9f8e367f1c4c5155aba1515eda2b9",
+   "L": "5c04b81465023f7afd199618120f268e2324a6c570c9dd822aadc95f3ade0ee0"
+  },
+  "version": "clp-v2-pilot-2"
+ },
+ "questions": {
+  "B3": [
+   "v2e15q00",
+   "v2e15q01",
+   "v2e15q02",
+   "v2e15q03",
+   "v2e15q04",
+   "v2e15q05",
+   "v2e15q06",
+   "v2e15q07",
+   "v2e15q08",
+   "v2e15q09",
+   "v2e15q10",
+   "v2e15q11",
+   "v2e15q12",
+   "v2e15q13",
+   "v2e15q14",
+   "v2e15q15",
+   "v2e15q16",
+   "v2e15q17",
+   "v2e15q18",
+   "v2e15q19",
+   "v2e16q00",
+   "v2e16q01",
+   "v2e16q02",
+   "v2e16q03",
+   "v2e16q04",
+   "v2e16q05",
+   "v2e16q06",
+   "v2e16q07",
+   "v2e16q08",
+   "v2e16q09",
+   "v2e16q10",
+   "v2e16q11",
+   "v2e16q12",
+   "v2e16q13",
+   "v2e16q14",
+   "v2e16q15",
+   "v2e16q16",
+   "v2e16q17",
+   "v2e16q18",
+   "v2e16q19"
+  ],
+  "B4": [
+   "v2e15q00",
+   "v2e15q01",
+   "v2e15q02",
+   "v2e15q03",
+   "v2e15q04",
+   "v2e15q05",
+   "v2e15q06",
+   "v2e15q07",
+   "v2e15q08",
+   "v2e15q09",
+   "v2e15q10",
+   "v2e15q11",
+   "v2e15q12",
+   "v2e15q13",
+   "v2e15q14",
+   "v2e15q15",
+   "v2e15q16",
+   "v2e15q17",
+   "v2e15q18",
+   "v2e15q19",
+   "v2e16q00",
+   "v2e16q01",
+   "v2e16q02",
+   "v2e16q03",
+   "v2e16q04",
+   "v2e16q05",
+   "v2e16q06",
+   "v2e16q07",
+   "v2e16q08",
+   "v2e16q09",
+   "v2e16q10",
+   "v2e16q11",
+   "v2e16q12",
+   "v2e16q13",
+   "v2e16q14",
+   "v2e16q15",
+   "v2e16q16",
+   "v2e16q17",
+   "v2e16q18",
+   "v2e16q19"
+  ]
+ },
+ "questions_per_episode": null,
+ "questions_version": "v2",
+ "read_cap_tokens": 500,
+ "rho": 1000,
+ "run_id": "pilot-v2b-haiku-w2000",
+ "smoke": false,
+ "spend": {
+  "global_cap_pusd": 150000000000000,
+  "hard_max_pusd": 150000000000000,
+  "outstanding_pusd": 0,
+  "per_model_pusd": {
+   "claude-haiku-5-5": 922663680000,
+   "claude-sonnet-5-5": 2408242900000
+  },
+  "per_run_pusd": {
+   "grid-haiku-m4": 471891770000,
+   "grid-sonnet-m4": 2408242900000,
+   "pilot-v2a-haiku": 135536345000,
+   "pilot-v2b-haiku-w2000": 71792760000,
+   "pilot-v2b-haiku-w3000": 129142390000,
+   "smoke-haiku-5-5-20261101T010213Z": 8026880000,
+   "smoke-haiku-5-5-20261101T010510Z": 5791235000,
+   "smoke-m4r1-rho10": 24846030000,
+   "smoke-m4r1-rho1000": 25560980000,
+   "smoke-m4r2-rho10": 25001980000,
+   "smoke-m4r2-rho1000": 25073310000
+  },
+  "records": 8166,
+  "remaining_pusd": 146669093420000,
+  "run_cap_pusd": 2000000000000,
+  "spent_pusd": 3330906580000
+ },
+ "spend_ledger": "./.clp-spend/spend.jsonl",
+ "stopped": null,
+ "tool_definitions": {
+  "source": "envelope calibration file",
+  "tokens": {
+   "B3": 0,
+   "B4": 666
+  }
+ },
+ "units": {
+  "done": 4,
+  "total": 4
+ },
+ "window": 2000
+}

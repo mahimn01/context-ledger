@@ -1,0 +1,6117 @@
+{
+ "builder": "corpus-v3",
+ "cache_dir": "./.cache/corpus/ca8e01d67009c",
+ "counts": {
+  "10": 25,
+  "100": 114,
+  "1000": 856
+ },
+ "estimator": {
+  "calibration_sha256": "1a0f5d719845238a788f396810192fccfbbe939a97d77241f2025c4ebfc3b1cf",
+  "coefficients": {
+   "json": {
+    "a": "0.396422",
+    "a_hi": "0.476115",
+    "b": "123.304824"
+   },
+   "other": {
+    "a": "0.423053",
+    "a_hi": "0.483429",
+    "b": "4.942834"
+   },
+   "prose": {
+    "a": "0.378599",
+    "a_hi": "0.502914",
+    "b": "-17.31882"
+   },
+   "python": {
+    "a": "0.3684",
+    "a_hi": "0.641234",
+    "b": "190.166804"
+   }
+  },
+  "estimator": "calib-v1",
+  "model": "claude-haiku-5-5",
+  "version": 1
+ },
+ "estimator_warning": null,
+ "excluded": [],
+ "files": [
+  {
+   "bytes": 11982,
+   "path": "Lib/bz2.py",
+   "rho": 10,
+   "sha256": "c7ab2f57faff333d4f2a106fa7b865dab76f27c6fbfa01e51849d06999b72781",
+   "tokens": 7871
+  },
+  {
+   "bytes": 4736,
+   "path": "Lib/io.py",
+   "rho": 10,
+   "sha256": "e6363a5baf12c660d4a81f40652cfd2b01bdf6e07d8d8c70a3481be4162e1f57",
+   "tokens": 3228
+  },
+  {
+   "bytes": 6964,
+   "path": "Lib/xml/etree/ElementInclude.py",
+   "rho": 10,
+   "sha256": "ddd31222a0062963574c179a29ab1087472a1f43fa7b2d0ec9adf88fe0e10733",
+   "tokens": 4649
+  },
+  {
+   "bytes": 13430,
+   "path": "Lib/lzma.py",
+   "rho": 10,
+   "sha256": "e81ff82476ade39e20c36b8755de3e3101ad76e37da8e75f141d4a73daa507a9",
+   "tokens": 8800
+  },
+  {
+   "bytes": 12329,
+   "path": "Lib/compression/zstd/_zstdfile.py",
+   "rho": 10,
+   "sha256": "f92d65832a6e998de5cb4345f30dc03555a9f1732e1bab62d844fde66bd87c3c",
+   "tokens": 8094
+  },
+  {
+   "bytes": 14906,
+   "path": "Lib/poplib.py",
+   "rho": 10,
+   "sha256": "fbe66c639bec0e64ad34e4bf7455f4933539e24d6b4bc42549f0eed1db72d442",
+   "tokens": 9634
+  },
+  {
+   "bytes": 2584,
+   "path": "Lib/token.py",
+   "rho": 10,
+   "sha256": "3777546c37c858e7dc4e28dc914e2adba6829b1ae48971e54aae4f00a530ecb8",
+   "tokens": 1848
+  },
+  {
+   "bytes": 6807,
+   "path": "Lib/stat.py",
+   "rho": 10,
+   "sha256": "fd88791812f963f11d717a3c81a77171054f37bcec54f8785e2ca702ace92e53",
+   "tokens": 4521
+  },
+  {
+   "bytes": 3968,
+   "path": "Lib/tkinter/messagebox.py",
+   "rho": 10,
+   "sha256": "75ca8de5ed8394b66dfa2d57a4c04ac7418b09e5b0d40d28962a89e5d51e034a",
+   "tokens": 2731
+  },
+  {
+   "bytes": 4038,
+   "path": "Lib/xml/dom/__init__.py",
+   "rho": 10,
+   "sha256": "a2dcd62600829a33c547482c487ba0b143526b553a3d8b63e23616684e9edba8",
+   "tokens": 2777
+  },
+  {
+   "bytes": 2204,
+   "path": "Lib/encodings/zlib_codec.py",
+   "rho": 10,
+   "sha256": "dbacd8f377b2891d63353da88e852617156c7a6d3069835f28a2f5cdda593ac9",
+   "tokens": 1604
+  },
+  {
+   "bytes": 2633,
+   "path": "Lib/curses/ascii.py",
+   "rho": 10,
+   "sha256": "c80d6fac79f07206309c0cc8322ac5c88748f93776a9a75b0c46e1a4dd7f01f7",
+   "tokens": 1821
+  },
+  {
+   "bytes": 2258,
+   "path": "Lib/encodings/bz2_codec.py",
+   "rho": 10,
+   "sha256": "9b9db397ab38a59356f2a7b9c7d69d50ed5c946d73d66c34c5be4501919cd904",
+   "tokens": 1633
+  },
+  {
+   "bytes": 4392,
+   "path": "Lib/dbm/sqlite3.py",
+   "rho": 10,
+   "sha256": "def32e6e20391ec74efd2078db645b77c28195deb99169c83a51e6881224c285",
+   "tokens": 2984
+  },
+  {
+   "bytes": 3425,
+   "path": "Lib/bisect.py",
+   "rho": 10,
+   "sha256": "df693281b5c119cbe20654f7fb7b20ec387e9a9aa53a3ad173caafac1fab29b3",
+   "tokens": 2386
+  },
+  {
+   "bytes": 2846,
+   "path": "Lib/encodings/uu_codec.py",
+   "rho": 10,
+   "sha256": "7228f743c1d050a6ccbf8127c47a58828d2b86ebcf07723e6b2cd243b7ad0566",
+   "tokens": 2016
+  },
+  {
+   "bytes": 2084,
+   "path": "Lib/encodings/charmap.py",
+   "rho": 10,
+   "sha256": "0250c8acd95d4de830d867f1bb308ad69ef2db6bff4ab425901e6e63565669cf",
+   "tokens": 1527
+  },
+  {
+   "bytes": 9576,
+   "path": "Lib/pathlib/_os.py",
+   "rho": 10,
+   "sha256": "89f18d624882720532589b7442f8a2bf4b2210c623c3e74f8c79b9199fc580d8",
+   "tokens": 6293
+  },
+  {
+   "bytes": 2757,
+   "path": "Lib/importlib/resources/_functional.py",
+   "rho": 10,
+   "sha256": "2ec6e131696577eaa5a35047cb6203f3af462730f2aaa39e815f48868c81c64a",
+   "tokens": 1950
+  },
+  {
+   "bytes": 7584,
+   "path": "Lib/encodings/punycode.py",
+   "rho": 10,
+   "sha256": "d51ef8474f8f14f85ad9c3d6ccb24e56a5b9fe319f98641dddecb1beaea86d6d",
+   "tokens": 5092
+  },
+  {
+   "bytes": 2127,
+   "path": "Lib/email/iterators.py",
+   "rho": 10,
+   "sha256": "658a3c5193b95ccc05353d72df5807dcb7b9f51cfdca40e8f2333a5562747989",
+   "tokens": 1553
+  },
+  {
+   "bytes": 6044,
+   "path": "Lib/re/_constants.py",
+   "rho": 10,
+   "sha256": "576f0ced6ef45dcf1b1b017623b956b42d632f31be92ace2b0cc969415763c56",
+   "tokens": 4061
+  },
+  {
+   "bytes": 10038,
+   "path": "Lib/email/contentmanager.py",
+   "rho": 10,
+   "sha256": "3e9f3c2cbfd8ead1377b59bfdb58f5764eb6475e9f2b1f4e03a77a5f51d3679d",
+   "tokens": 6620
+  },
+  {
+   "bytes": 8048,
+   "path": "Lib/reprlib.py",
+   "rho": 10,
+   "sha256": "2fe4c2d7cfef4a9f744813761e766acd89a3c4da0dcf99322baa1d2fd64c6716",
+   "tokens": 5362
+  },
+  {
+   "bytes": 3336,
+   "path": "Lib/turtledemo/penrose.py",
+   "rho": 10,
+   "sha256": "45c7cf1b9bcce2869b408e80921b45765b3b05c9269de40e6d4e886ffbc5f3fc",
+   "tokens": 2317
+  },
+  {
+   "bytes": 4607,
+   "path": "Lib/importlib/resources/_adapters.py",
+   "rho": 100,
+   "sha256": "9731335fa0f058b96fdf95543e1af3d290d559d4c660516c34b9c5707f16d95a",
+   "tokens": 3065
+  },
+  {
+   "bytes": 10452,
+   "path": "Lib/asyncio/tools.py",
+   "rho": 100,
+   "sha256": "eb0133286ac32911c43df80d15bb2040c912830bce4580ffc5979cdc6599da06",
+   "tokens": 6893
+  },
+  {
+   "bytes": 5853,
+   "path": "Lib/_pyrepl/pager.py",
+   "rho": 100,
+   "sha256": "2a6e4134c97e63d74de93f00098e8739efdcf5aad4c37381a19bf96737e91b98",
+   "tokens": 3920
+  },
+  {
+   "bytes": 5175,
+   "path": "Lib/encodings/utf_32.py",
+   "rho": 100,
+   "sha256": "5eec19496181d73e531ef6b7003d85536794a94e32899989dee601301d84c4be",
+   "tokens": 3509
+  },
+  {
+   "bytes": 5886,
+   "path": "Lib/codeop.py",
+   "rho": 100,
+   "sha256": "fc7a36c879d8e3c6a5b53c83e91f9b11718403f841fa317685fe59eab99318b1",
+   "tokens": 3969
+  },
+  {
+   "bytes": 5280,
+   "path": "Lib/encodings/utf_16.py",
+   "rho": 100,
+   "sha256": "198fbffae7ca7711fb69e54d573bb5e6248c6bc9bd54c834d39b32cf9c63ee16",
+   "tokens": 3576
+  },
+  {
+   "bytes": 4133,
+   "path": "Lib/encodings/utf_8_sig.py",
+   "rho": 100,
+   "sha256": "f57e180b660d1ab1e58620f8391c07fd802086b9e985d5e26113ab5ec6e0c617",
+   "tokens": 2841
+  },
+  {
+   "bytes": 2852,
+   "path": "Lib/turtledemo/forest.py",
+   "rho": 100,
+   "sha256": "05153f8921b7ddc66f497349b6510a1fe966c8e355f625ae5aa1c6828aa6cada",
+   "tokens": 2016
+  },
+  {
+   "bytes": 5208,
+   "path": "Lib/pty.py",
+   "rho": 100,
+   "sha256": "b440bbcff3594c8d5adb6455d08169bab437c49aa85cae21a21257b8aad44ddb",
+   "tokens": 3533
+  },
+  {
+   "bytes": 12384,
+   "path": "Lib/multiprocessing/context.py",
+   "rho": 100,
+   "sha256": "35678edb0156959fc39f8712618a6456dc077063c6c1bc02fe98aec15aaa7533",
+   "tokens": 8135
+  },
+  {
+   "bytes": 4848,
+   "path": "Lib/profiling/sampling/binary_collector.py",
+   "rho": 100,
+   "sha256": "21d64b09609e8066ae7b535cd1c6c44654fe1859663b38bc7d40f59b12d18f28",
+   "tokens": 3311
+  },
+  {
+   "bytes": 16246,
+   "path": "Lib/getpass.py",
+   "rho": 100,
+   "sha256": "3e0a279c2205d28b23a539b1696d821e35e042059bd6722a1e12474399d38f6c",
+   "tokens": 10576
+  },
+  {
+   "bytes": 8473,
+   "path": "Lib/ensurepip/__init__.py",
+   "rho": 100,
+   "sha256": "28d4d09c4ce95963cd4aadfda934cedd4569c9f0ffdf63694161c397be00b4fe",
+   "tokens": 5657
+  },
+  {
+   "bytes": 3439,
+   "path": "Lib/email/base64mime.py",
+   "rho": 100,
+   "sha256": "91e25672444f170897334e9453a0288360155b7bfa3311d439acf48dbe6f6e42",
+   "tokens": 2395
+  },
+  {
+   "bytes": 6525,
+   "path": "Lib/turtledemo/nim.py",
+   "rho": 100,
+   "sha256": "776a6e75ad622665c753a0d38639a3ae727a967da300bb8d0668d52103c74e3b",
+   "tokens": 4344
+  },
+  {
+   "bytes": 5535,
+   "path": "Lib/importlib/resources/abc.py",
+   "rho": 100,
+   "sha256": "9d7626a1794a3df3c431d73f19a2f23ee16bee5c8cc28fd19f0bb3c9033175b4",
+   "tokens": 3737
+  },
+  {
+   "bytes": 6659,
+   "path": "Lib/idlelib/textview.py",
+   "rho": 100,
+   "sha256": "666fe4fdddd9f8680263fd93a72125add598caccb91a2dc785e565b1f78aa99a",
+   "tokens": 4461
+  },
+  {
+   "bytes": 15725,
+   "path": "Lib/fileinput.py",
+   "rho": 100,
+   "sha256": "ea9b83f98ac5a0ef66c032b7c40001c696e7019c7690ea6f46d8b706139f87bf",
+   "tokens": 10269
+  },
+  {
+   "bytes": 9873,
+   "path": "Lib/email/quoprimime.py",
+   "rho": 100,
+   "sha256": "37a583738a0330f19ff770c3a8b093d747b1db0b95774be97166611d71e4e653",
+   "tokens": 6517
+  },
+  {
+   "bytes": 8841,
+   "path": "Lib/asyncio/graph.py",
+   "rho": 100,
+   "sha256": "e4c494d7b433e64777b1e0ef2373d03a86e8caff1e3793299e5ba49a49434f4a",
+   "tokens": 5869
+  },
+  {
+   "bytes": 12280,
+   "path": "Lib/xml/dom/pulldom.py",
+   "rho": 100,
+   "sha256": "633588884620b3a3149f6688d2c70a50ef1471219b1d3a8617f9d47cbb10be7f",
+   "tokens": 8066
+  },
+  {
+   "bytes": 13338,
+   "path": "Lib/encodings/idna.py",
+   "rho": 100,
+   "sha256": "6e6f0d445c53f57a33b87d59f4a212da51b485d658f7943fef6119e9831fa8e8",
+   "tokens": 8705
+  },
+  {
+   "bytes": 7766,
+   "path": "Lib/tkinter/font.py",
+   "rho": 100,
+   "sha256": "8206c08cf57acf1cc566a44873f49e38462158c1a949cc8c8981ee970caeb47a",
+   "tokens": 5157
+  },
+  {
+   "bytes": 6687,
+   "path": "Lib/idlelib/tooltip.py",
+   "rho": 100,
+   "sha256": "a89f1064c549b0d2ca4ee0eff3cd6156cf605ba9fafdb553300a6c2842538fff",
+   "tokens": 4464
+  },
+  {
+   "bytes": 12893,
+   "path": "Lib/dbm/dumb.py",
+   "rho": 100,
+   "sha256": "68565d3b8f6aeff733c316976f6fcab3d30dd85666b81f5e02fe1997895c0ca5",
+   "tokens": 8357
+  },
+  {
+   "bytes": 2168,
+   "path": "Lib/importlib/metadata/_text.py",
+   "rho": 100,
+   "sha256": "51465300806bb203a3d6ebcbc6007008ac44bb643bc5d14a622a83845b102241",
+   "tokens": 1580
+  },
+  {
+   "bytes": 13602,
+   "path": "Lib/json/decoder.py",
+   "rho": 100,
+   "sha256": "3dfb7b50d05ba0ab032231f4e188f0cf731daa8f82c27232c95923470407c7d0",
+   "tokens": 8901
+  },
+  {
+   "bytes": 15193,
+   "path": "Lib/_pyrepl/utils.py",
+   "rho": 100,
+   "sha256": "146a8fad643cbc174632949ba58ac97606dad13d42a7b34a6a4a577ec182842a",
+   "tokens": 9911
+  },
+  {
+   "bytes": 10142,
+   "path": "Lib/hmac.py",
+   "rho": 100,
+   "sha256": "0ee530bd4902f60621d0a260bb58155cfdf394bee144d4dabac9fe2c9830eaae",
+   "tokens": 6695
+  },
+  {
+   "bytes": 9065,
+   "path": "Lib/_pyrepl/console.py",
+   "rho": 100,
+   "sha256": "78e4a306d4e8213cf48d381ca127e8194fc88c825347b96109da85313cf15fd6",
+   "tokens": 5998
+  },
+  {
+   "bytes": 11958,
+   "path": "Lib/zipfile/_path/__init__.py",
+   "rho": 100,
+   "sha256": "72ce89db7fd30b2828a0df66ca41eb1c92f52c4ef7c94baf1f16ab80f557b766",
+   "tokens": 7841
+  },
+  {
+   "bytes": 2448,
+   "path": "Lib/encodings/rot_13.py",
+   "rho": 100,
+   "sha256": "b93a0f38f89d3acb129698b5bd5aa45ed306c9fe9cb40cf693eeb87f5b172215",
+   "tokens": 1760
+  },
+  {
+   "bytes": 14972,
+   "path": "Lib/tkinter/filedialog.py",
+   "rho": 100,
+   "sha256": "5b8e0f2bf1c2d75c0fbdd3e318b6801220b17f32fddbc4bff636f30dac0269be",
+   "tokens": 9770
+  },
+  {
+   "bytes": 6665,
+   "path": "Lib/profiling/sampling/live_collector/display.py",
+   "rho": 100,
+   "sha256": "4ce808e98140a2697b6400aa00300ec92fd5cf94c39f8bef344fe8b59e394279",
+   "tokens": 4449
+  },
+  {
+   "bytes": 8544,
+   "path": "Lib/email/_encoded_words.py",
+   "rho": 100,
+   "sha256": "710a794314e280264b29e3c688eb9cfcb19f2a77de9172f6c92a2ff2dc2f013c",
+   "tokens": 5668
+  },
+  {
+   "bytes": 7064,
+   "path": "Lib/idlelib/calltip_w.py",
+   "rho": 100,
+   "sha256": "2c4ec07671ecf98fd53703865136a64534dcf07fbf0360fb2fe9e801526bbee6",
+   "tokens": 4733
+  },
+  {
+   "bytes": 1714,
+   "path": "Lib/test/test_free_threading/test_bisect.py",
+   "rho": 100,
+   "sha256": "75a769fda8fcbe9cbefea7243341e57415f1eefbee86954175c3f879f0426ddc",
+   "tokens": 1290
+  },
+  {
+   "bytes": 2403,
+   "path": "Lib/unittest/signals.py",
+   "rho": 100,
+   "sha256": "f8286e818ca56e10e03745bc056cdfd31147678f9a1dc8cb6b0fe96ef9a4362a",
+   "tokens": 1732
+  },
+  {
+   "bytes": 109552,
+   "path": "Lib/test/test_os/test_posix.py",
+   "rho": 100,
+   "sha256": "337821dc39287cb28719d0d0bc49b8b61dd9c6b93d32f90468543fa62892c61a",
+   "tokens": 70439
+  },
+  {
+   "bytes": 18450,
+   "path": "Lib/_pyrepl/terminfo.py",
+   "rho": 100,
+   "sha256": "e0e49391616833a57e430c2778580b8416e9ebf2c77c80dd689f098ec1e2813c",
+   "tokens": 12021
+  },
+  {
+   "bytes": 91,
+   "path": "Lib/test/test_pathlib/support/__init__.py",
+   "rho": 100,
+   "sha256": "c53bbc45bf4c238e753a1265f93499aa06a28c9cef93e1af65cd179c48129590",
+   "tokens": 249
+  },
+  {
+   "bytes": 5917,
+   "path": "Lib/idlelib/outwin.py",
+   "rho": 100,
+   "sha256": "bf34dcae0471127af205897959eb3f73342b7075e3f684e34159b04e215ab1ce",
+   "tokens": 3985
+  },
+  {
+   "bytes": 3598,
+   "path": "Lib/opcode.py",
+   "rho": 100,
+   "sha256": "2afb1b49a8f0e8f41e70b5d9192181ea31cb2844c9b298275722f4e698cd0b39",
+   "tokens": 2498
+  },
+  {
+   "bytes": 5056,
+   "path": "Tools/c-analyzer/c_parser/preprocessor/__main__.py",
+   "rho": 100,
+   "sha256": "c0afcc9633842867a5d89baa6515edf5ce15d250f38e9c75412085a76bc6e592",
+   "tokens": 3433
+  },
+  {
+   "bytes": 1250,
+   "path": "Programs/freeze_test_frozenmain.py",
+   "rho": 100,
+   "sha256": "6b375936fc36f2e9e47ef9a94546498c771a2479ef0603781a4eb2d3bcf9c4b4",
+   "tokens": 992
+  },
+  {
+   "bytes": 32,
+   "path": "Lib/test/tokenizedata/badsyntax_3131.py",
+   "rho": 100,
+   "sha256": "7a72d9ed8bed3d8e10d9a4b2013ffe79c6cd6367254e5baad1286d43552890ec",
+   "tokens": 211
+  },
+  {
+   "bytes": 6296,
+   "path": "Lib/test/test_json/test_unicode.py",
+   "rho": 100,
+   "sha256": "592e69bdbded582614d9e509351ac01e07b32ea3e15077e1e44840ee6f4d106d",
+   "tokens": 4228
+  },
+  {
+   "bytes": 58,
+   "path": "Lib/test/test_profiling/__main__.py",
+   "rho": 100,
+   "sha256": "cb9a3ce8f18e7d0a0cadb73cc9264772462de953499534736998d3c54f8c7c3c",
+   "tokens": 228
+  },
+  {
+   "bytes": 20153,
+   "path": "Lib/idlelib/multicall.py",
+   "rho": 100,
+   "sha256": "a99ea2c03bba1660f5002363a8601c55ef20b1aa3a5a257ce591dea4acb00ee4",
+   "tokens": 13113
+  },
+  {
+   "bytes": 15938,
+   "path": "Lib/test/test_math_integer.py",
+   "rho": 100,
+   "sha256": "11ee63064511945d6b34bb9244c8e3942c9673b646ebcbbdc3eb0e5fadcd6c2f",
+   "tokens": 10411
+  },
+  {
+   "bytes": 3106,
+   "path": "Lib/test/test_tomllib/burntsushi.py",
+   "rho": 100,
+   "sha256": "1614a4678abc879069acc1c8455fd06c974b56ae1b883eb19f6d69c55b821289",
+   "tokens": 2182
+  },
+  {
+   "bytes": 1606,
+   "path": "Lib/test/test_free_threading/test_sqlite3.py",
+   "rho": 100,
+   "sha256": "0aa877c73a99db7d2b7eaf504e39cb1f32637cbc2448ed615e5344951d5f928f",
+   "tokens": 1220
+  },
+  {
+   "bytes": 71205,
+   "path": "Lib/test/test_pprint.py",
+   "rho": 100,
+   "sha256": "d82e46f331e17298a80c91c2e1d90fb9febb4f8f2fa91249943d450dbd1841cd",
+   "tokens": 45850
+  },
+  {
+   "bytes": 9721,
+   "path": "Lib/idlelib/idle_test/test_debugger.py",
+   "rho": 100,
+   "sha256": "dd38f703f60939cf0d0327b6bb5fad63d116e100be5d0c86c8015945963bdec9",
+   "tokens": 6424
+  },
+  {
+   "bytes": 12814,
+   "path": "Lib/encodings/cp1256.py",
+   "rho": 100,
+   "sha256": "ba2697cbcae35d43e12fa200481df6be992670cab3a5144b5956a7a9c3603967",
+   "tokens": 8407
+  },
+  {
+   "bytes": 7204,
+   "path": "Lib/idlelib/parenmatch.py",
+   "rho": 100,
+   "sha256": "4dfd12a3843a33f3e286b6d12442c8a94910a66812d19f2761c001061798ac7b",
+   "tokens": 4810
+  },
+  {
+   "bytes": 83035,
+   "path": "Lib/test/test_unittest/testmock/testmock.py",
+   "rho": 100,
+   "sha256": "4b28e9359c4689cbadd401ac1f90275814bf0adedba3738e420c89a8a97d16e0",
+   "tokens": 53436
+  },
+  {
+   "bytes": 16,
+   "path": "Lib/test/test_lazy_import/data/metasyntactic/plugh/__init__.py",
+   "rho": 100,
+   "sha256": "e05c612075f90565a047ea875167dd048f4d9cfea27d4f4ec878e5d7e4a6220b",
+   "tokens": 201
+  },
+  {
+   "bytes": 3367,
+   "path": "Lib/xml/dom/minicompat.py",
+   "rho": 100,
+   "sha256": "42974c4c67803dfe80b016ff8aeea0d1e5c751703ab3aec5be765f4e534367be",
+   "tokens": 2350
+  },
+  {
+   "bytes": 11693,
+   "path": "Lib/idlelib/idle_test/mock_tk.py",
+   "rho": 100,
+   "sha256": "cf8c00701e1780939317b3dc7e40e7e8c4259eefd4424350533b438ec034cd57",
+   "tokens": 7689
+  },
+  {
+   "bytes": 11831,
+   "path": "Lib/test/test_type_comments.py",
+   "rho": 100,
+   "sha256": "d38deec5b777f30ee3269a80c9e2b76bdbb2e6982ca2359722bebfdc09cda07e",
+   "tokens": 7776
+  },
+  {
+   "bytes": 110,
+   "path": "Lib/test/test_unittest/namespace_test_pkg/noop/test_noop.py",
+   "rho": 100,
+   "sha256": "ca0d1af9a86e0385990873c970af3f3729b44b9721fdd75a14de686475e7e52d",
+   "tokens": 261
+  },
+  {
+   "bytes": 7038,
+   "path": "Lib/test/test_unicode_file_functions.py",
+   "rho": 100,
+   "sha256": "9bfb52294b9ce29d9ace7b5ecfe5267f6ca8dc80bf8d708b81e676f3aadc4cdc",
+   "tokens": 4704
+  },
+  {
+   "bytes": 7768,
+   "path": "Lib/test/test_gdb/test_misc.py",
+   "rho": 100,
+   "sha256": "9c18670919f4001deddbed35128a68821dcd29aa045e7902b6bc31e20e88af30",
+   "tokens": 5172
+  },
+  {
+   "bytes": 270262,
+   "path": "Lib/test/test_inspect/test_inspect.py",
+   "rho": 100,
+   "sha256": "8dbbc7405401c0b6926103b183b8a38bc5d82e53a7f2e82a38f2274b5b22d944",
+   "tokens": 173482
+  },
+  {
+   "bytes": 46614,
+   "path": "Lib/test/test_zlib.py",
+   "rho": 100,
+   "sha256": "ddd15cb023ad9b19ebc0f9e488f6764576cc13e477eba469d9a93c07b2d06685",
+   "tokens": 30081
+  },
+  {
+   "bytes": 9496,
+   "path": "Lib/test/test_urllibnet.py",
+   "rho": 100,
+   "sha256": "c0091992e99bfd23e0b8b036a0e39a86be94bb94d5ef58916aa29246438ffe01",
+   "tokens": 6280
+  },
+  {
+   "bytes": 3262,
+   "path": "Lib/test/test_zipfile/_path/test_complexity.py",
+   "rho": 100,
+   "sha256": "28fc2f1f0ee9bff14b47e9ef6e3ea6d3382e9c8645399a982d88ceb9a198958b",
+   "tokens": 2282
+  },
+  {
+   "bytes": 9687,
+   "path": "Lib/test/test_slice.py",
+   "rho": 100,
+   "sha256": "0eeed7ae5e6c9e261942d68ad4453eea48e12d987bf7d9b5ff10737528d1e2b3",
+   "tokens": 6402
+  },
+  {
+   "bytes": 8812,
+   "path": "Lib/test/test_type_cache.py",
+   "rho": 100,
+   "sha256": "1ca26acad04191bfd90c92498a3b8b4bf7845358a974f3c62e09555dedb7e72d",
+   "tokens": 5841
+  },
+  {
+   "bytes": 2015,
+   "path": "Lib/test/test_ctypes/test_unicode.py",
+   "rho": 100,
+   "sha256": "d1ccfcc7b159ca52e78e62debfce4d869c455b7bad122a1c09feb6da9ea9ca66",
+   "tokens": 1483
+  },
+  {
+   "bytes": 177,
+   "path": "Lib/test/typinganndata/ann_module8.py",
+   "rho": 100,
+   "sha256": "ae4323fc50a690894c1585050cc6f960b6eb4a85c0717685c5e6d0b378fc02ed",
+   "tokens": 304
+  },
+  {
+   "bytes": 4228,
+   "path": "Lib/idlelib/idle_test/test_undo.py",
+   "rho": 100,
+   "sha256": "c5178b2dd77d794938fa52adce719d4948a92ba1a689068cec1fb6888d033e0e",
+   "tokens": 2902
+  },
+  {
+   "bytes": 14642,
+   "path": "Lib/timeit.py",
+   "rho": 100,
+   "sha256": "b6ebb68f0585de8effdf31a271c1cb26350b5d7e28ccbf558e4aeb47e3a373d2",
+   "tokens": 9580
+  },
+  {
+   "bytes": 2253,
+   "path": "Doc/tools/extensions/issue_role.py",
+   "rho": 100,
+   "sha256": "75eb5fb05de5a0a2812b7b1cf433ad1d787bcc1d739815a32c74d3bc8e5444fe",
+   "tokens": 1635
+  },
+  {
+   "bytes": 58,
+   "path": "Lib/test/test_importlib/source/__main__.py",
+   "rho": 100,
+   "sha256": "cb9a3ce8f18e7d0a0cadb73cc9264772462de953499534736998d3c54f8c7c3c",
+   "tokens": 228
+  },
+  {
+   "bytes": 4232,
+   "path": "Lib/test/test_ctypes/test_values.py",
+   "rho": 100,
+   "sha256": "d7bb8827207028e66b53777fd4ec18635cd1744df2a9fd04922cd4cb52209390",
+   "tokens": 2904
+  },
+  {
+   "bytes": 22107,
+   "path": "Lib/test/test_zipfile/_path/test_path.py",
+   "rho": 100,
+   "sha256": "0153452ae88bb1f341f3e201c8f56d3d9bc8c6988d15c890068e0f914ac716d1",
+   "tokens": 14366
+  },
+  {
+   "bytes": 7614,
+   "path": "Lib/test/test_ctypes/test_as_parameter.py",
+   "rho": 100,
+   "sha256": "a6f2b43ae979d26d1d33d5b4914380e4efd5d0761f16831abb788597c199010f",
+   "tokens": 5073
+  },
+  {
+   "bytes": 14068,
+   "path": "Lib/test/test_exception_variations.py",
+   "rho": 100,
+   "sha256": "1d7b1fa4bdae0354b9981db98001b2ad7ab83894c1701a83db2a434d0036cebf",
+   "tokens": 9212
+  },
+  {
+   "bytes": 80135,
+   "path": "Lib/test/test_curses.py",
+   "rho": 100,
+   "sha256": "59f88d8e6b1cdb78d9da3e7c215ec246b6f125ca44e42b211d0d8e3a9241cd8e",
+   "tokens": 51485
+  },
+  {
+   "bytes": 201,
+   "path": "Lib/test/test_multiprocessing_fork/test_misc.py",
+   "rho": 100,
+   "sha256": "028bd816fd13992c226de2251c4a3a80ce8245f29ee47f90e26ae679ef65c6b8",
+   "tokens": 320
+  },
+  {
+   "bytes": 783,
+   "path": "Lib/idlelib/idle_test/test_filelist.py",
+   "rho": 100,
+   "sha256": "ae0a779e13099f8ab23d165144747353ae029d723b02df58a680870e666a3fcc",
+   "tokens": 693
+  },
+  {
+   "bytes": 68149,
+   "path": "Lib/test/test_email/test_headerregistry.py",
+   "rho": 100,
+   "sha256": "16a9be55792b9776e9bd0085de115d8a476b4b9c44838e775023d91bb351b7df",
+   "tokens": 43890
+  },
+  {
+   "bytes": 1381,
+   "path": "Lib/test/test_free_threading/test_resource.py",
+   "rho": 100,
+   "sha256": "7dd7616f4fe8ab577507d332e9b93a6c239ff36aafd90c96542a72b588a5101a",
+   "tokens": 1076
+  },
+  {
+   "bytes": 38443,
+   "path": "Lib/test/test_sysconfig.py",
+   "rho": 100,
+   "sha256": "11e6f338c8dc0cf63684fa0a6e563f5fc22c147fcd917144cb17ee1c8736200a",
+   "tokens": 24842
+  },
+  {
+   "bytes": 23177,
+   "path": "Lib/test/libregrtest/run_workers.py",
+   "rho": 100,
+   "sha256": "ef2bbdff09760371e5f0563da2099fad65fa226509cdfe915bb88b180bc54a4c",
+   "tokens": 15053
+  },
+  {
+   "bytes": 15307,
+   "path": "Lib/idlelib/idle_test/htest.py",
+   "rho": 100,
+   "sha256": "23f3bb7460175c36dcd6ea145f401cb8da2600613c1339e400833f24c2ce5277",
+   "tokens": 10006
+  },
+  {
+   "bytes": 140261,
+   "path": "Lib/test/test_functools.py",
+   "rho": 100,
+   "sha256": "a843098f49ce57e1cbf595b28fbc1b362a163e61826d81583a231497586ff8df",
+   "tokens": 90131
+  },
+  {
+   "bytes": 24829,
+   "path": "Lib/test/test_ctypes/test_structures.py",
+   "rho": 1000,
+   "sha256": "81ac66c91003f1c67b8b165b27b83ea8aedf67c4cfd4aa0bd9307c3aad6e389e",
+   "tokens": 16112
+  },
+  {
+   "bytes": 233,
+   "path": "Lib/test/test_longexp.py",
+   "rho": 1000,
+   "sha256": "a96e466d38c6287a7ae90526ffe8eda0949f4bca67f4673bd35d11f15e64527e",
+   "tokens": 340
+  },
+  {
+   "bytes": 210761,
+   "path": "Lib/test/test_os/test_os.py",
+   "rho": 1000,
+   "sha256": "49b486f573d8da20e39de35a9751461c0740ac46cb592289f340a5a18aadd768",
+   "tokens": 135331
+  },
+  {
+   "bytes": 0,
+   "path": "Lib/test/test_importlib/metadata/__init__.py",
+   "rho": 1000,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "tokens": 0
+  },
+  {
+   "bytes": 4813,
+   "path": "Lib/test/test_importlib/test_locks.py",
+   "rho": 1000,
+   "sha256": "1816160128c7028773d06c8b8b3ca0542b9eb8ae6756e271979444ea844cb929",
+   "tokens": 3277
+  },
+  {
+   "bytes": 2452,
+   "path": "Lib/test/test_free_threading/test_lzma.py",
+   "rho": 1000,
+   "sha256": "2dfd9125145bd6b75e52197d39bffd741f30302040933e7a3d5e23f203af9a51",
+   "tokens": 1763
+  },
+  {
+   "bytes": 12300,
+   "path": "Lib/encodings/tis_620.py",
+   "rho": 1000,
+   "sha256": "223378274dd335cb6d8c7cb226c8b4e8d0546ac2c0bc033e9b484334a558b808",
+   "tokens": 8078
+  },
+  {
+   "bytes": 6486,
+   "path": "Lib/multiprocessing/sharedctypes.py",
+   "rho": 1000,
+   "sha256": "8c5143fa173c898adeb7f877d37e138e6cea15740507eb3e2e698ef7c75e881c",
+   "tokens": 4357
+  },
+  {
+   "bytes": 1669,
+   "path": "Lib/test/pyclbr_input.py",
+   "rho": 1000,
+   "sha256": "92fbf4c4a0f08ed3b9608817e77edf7c2647ee3fd01eba1f07d4b2549d74553f",
+   "tokens": 1261
+  },
+  {
+   "bytes": 2649,
+   "path": "Doc/tools/extensions/lexers/peg_lexer.py",
+   "rho": 1000,
+   "sha256": "95ec48477864d131deabdf7a1ed9111e2ec4d0d52c1aa1d72152c72649d1d3cf",
+   "tokens": 1889
+  },
+  {
+   "bytes": 7800,
+   "path": "Lib/test/test_profiling/test_sampling_profiler/test_advanced.py",
+   "rho": 1000,
+   "sha256": "22c0c3e543720d18b3fb4294add5d39a2d4093334e6ce390f59582bca04b4efb",
+   "tokens": 5192
+  },
+  {
+   "bytes": 1013,
+   "path": "Lib/idlelib/idle_test/__init__.py",
+   "rho": 1000,
+   "sha256": "52f90cf5b1c1e7b1e7ccb9245276661d03a71fb4d90bc4daf60b4b12ed1b5217",
+   "tokens": 840
+  },
+  {
+   "bytes": 10997,
+   "path": "Lib/test/test_pyrepl/test_render.py",
+   "rho": 1000,
+   "sha256": "671281961f449afc2026e1ea1dec059fbf2778a0aa6c7c0befd3260eda60a044",
+   "tokens": 7236
+  },
+  {
+   "bytes": 5213,
+   "path": "Lib/test/test___all__.py",
+   "rho": 1000,
+   "sha256": "55c80ba2c386bcdae209f33bc3e88f591556665fdc2a7f918ea052f7861f838e",
+   "tokens": 3533
+  },
+  {
+   "bytes": 1443,
+   "path": "Lib/test/test_importlib/builtin/test_loader.py",
+   "rho": 1000,
+   "sha256": "1799e0f76432a2a34b2b96c9207ea3b0dc451fd75708f48e7ba55449f56d06ca",
+   "tokens": 1116
+  },
+  {
+   "bytes": 32965,
+   "path": "Lib/encodings/cp869.py",
+   "rho": 1000,
+   "sha256": "6b6ffc79301a077cf9d3e357f02252a42e4c0b75c4cf44257f4e84c0d879bddb",
+   "tokens": 21329
+  },
+  {
+   "bytes": 40608,
+   "path": "Lib/test/test_asyncio/test_subprocess.py",
+   "rho": 1000,
+   "sha256": "d0819655a497d3bc4be15eeb04c2d1928afc81348cf42ea1d5c8c1a7ac14506a",
+   "tokens": 26230
+  },
+  {
+   "bytes": 1780,
+   "path": "Lib/test/test_free_threading/test_sys.py",
+   "rho": 1000,
+   "sha256": "d20ee3c86f4f58db0daf17e89bdac22e993f46f45096b2616eaadf089789a083",
+   "tokens": 1332
+  },
+  {
+   "bytes": 2873,
+   "path": "Lib/idlelib/window.py",
+   "rho": 1000,
+   "sha256": "9ece23e40e9764dcf4ecdb19bac5f84c7696527ca5be13f1153bcb284121d942",
+   "tokens": 2033
+  },
+  {
+   "bytes": 9647,
+   "path": "Lib/test/test_xml_etree_c.py",
+   "rho": 1000,
+   "sha256": "7731d6fe021c142289a970febf4b10caa2dffdb80a85f8abd29c32be08d3fbbc",
+   "tokens": 6377
+  },
+  {
+   "bytes": 46854,
+   "path": "Lib/test/test_complex.py",
+   "rho": 1000,
+   "sha256": "6549f98ae3ba1d6ad33df86ca4630a6677d215033895d6b33bbc349a89a90cc7",
+   "tokens": 30235
+  },
+  {
+   "bytes": 280,
+   "path": "Lib/test/typinganndata/ann_module9.py",
+   "rho": 1000,
+   "sha256": "ae810e99fdd9cb7fe0c84c20ae7e4d1cf8a0f46bcac23277ad2e4ae30111337d",
+   "tokens": 370
+  },
+  {
+   "bytes": 0,
+   "path": "Lib/pydoc_data/__init__.py",
+   "rho": 1000,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "tokens": 0
+  },
+  {
+   "bytes": 7783,
+   "path": "Lib/test/test_email/test_utils.py",
+   "rho": 1000,
+   "sha256": "5043bad4adf7d34dda22944ef2abfe20be1b2e09dc6072363b37767089890982",
+   "tokens": 5181
+  },
+  {
+   "bytes": 6261,
+   "path": "Lib/test/_code_definitions.py",
+   "rho": 1000,
+   "sha256": "fff711e8edc41b1aa3c75641f2be60d1df6d1e74d07b247a81b05885cc906aec",
+   "tokens": 4205
+  },
+  {
+   "bytes": 10808,
+   "path": "Lib/asyncio/transports.py",
+   "rho": 1000,
+   "sha256": "bfd414b25979e07b74081140bf91332957a9bf8b5aa5a0c7ff0d779d93eada21",
+   "tokens": 7121
+  },
+  {
+   "bytes": 16485,
+   "path": "Lib/test/test_importlib/metadata/test_main.py",
+   "rho": 1000,
+   "sha256": "afa58304e113bfd31d3f441831f9a3e062a9694df1275c9c7e3b2eab90e51a1f",
+   "tokens": 10761
+  },
+  {
+   "bytes": 2580,
+   "path": "Lib/test/test_ctypes/test_buffers.py",
+   "rho": 1000,
+   "sha256": "64c5400b320303d783d94e7a8c9454fafc7605bf2068253c00d9d8f3273fda42",
+   "tokens": 1845
+  },
+  {
+   "bytes": 75874,
+   "path": "Lib/xml/etree/ElementTree.py",
+   "rho": 1000,
+   "sha256": "22606ffdfc7a7e64f1fa13afb521aba7c37c8991569af980b623d0b8410a67b1",
+   "tokens": 48842
+  },
+  {
+   "bytes": 32048,
+   "path": "Lib/test/test_copy.py",
+   "rho": 1000,
+   "sha256": "62fae466a2351875fa71931c2cab76eeaa767ba3d6f467f61b47afa7e970ed82",
+   "tokens": 20741
+  },
+  {
+   "bytes": 111,
+   "path": "Lib/test/test_lazy_import/data/modules_getattr.py",
+   "rho": 1000,
+   "sha256": "7998456a2f3b0239b37be3e536e829c0f379e106fa40f8e7a9aa7f856006dcc0",
+   "tokens": 262
+  },
+  {
+   "bytes": 9050,
+   "path": "Tools/peg_generator/pegen/grammar.py",
+   "rho": 1000,
+   "sha256": "04c15e859578c0c10afd703aeb383e1f08b19a261d0891112276d475b625d66b",
+   "tokens": 5994
+  },
+  {
+   "bytes": 72,
+   "path": "Lib/test/test_tools/__main__.py",
+   "rho": 1000,
+   "sha256": "cfdf5706871c3c2d0151ec7b8232dc458f8f8df809e0bdc9cf85760b8693069c",
+   "tokens": 237
+  },
+  {
+   "bytes": 5921,
+   "path": "Lib/encodings/__init__.py",
+   "rho": 1000,
+   "sha256": "05c6065a2509621f1a134cd00c18eb02f18247a71724a29966402554076a21c6",
+   "tokens": 3984
+  },
+  {
+   "bytes": 22464,
+   "path": "Lib/test/test_scope.py",
+   "rho": 1000,
+   "sha256": "3ea4cec1e694695acba27a3338aa4f53551481c1a34201ad3d53e8403d81508f",
+   "tokens": 14595
+  },
+  {
+   "bytes": 1035,
+   "path": "Lib/test/ssltests.py",
+   "rho": 1000,
+   "sha256": "690ab03ded243e1279fb206f7544e51d4654d3ba0a644ddfe8f5e7cab55798c4",
+   "tokens": 854
+  },
+  {
+   "bytes": 767,
+   "path": "Lib/ensurepip/_uninstall.py",
+   "rho": 1000,
+   "sha256": "a128dfe1c78ca7c24c2a90e9a767fe8c8f5037a4cd5820a0c2e66dd67bab5066",
+   "tokens": 685
+  },
+  {
+   "bytes": 3110,
+   "path": "Lib/multiprocessing/popen_fork.py",
+   "rho": 1000,
+   "sha256": "9687a24fb0bca30f66ab4168aea2cfdf40679faf318d3f4e76e0e02ae823f9d1",
+   "tokens": 2185
+  },
+  {
+   "bytes": 40624,
+   "path": "Lib/_ast_unparse.py",
+   "rho": 1000,
+   "sha256": "07162f9431fb5802e34982da76f895f829c81a2997023a7eadbd854273500103",
+   "tokens": 26239
+  },
+  {
+   "bytes": 3938,
+   "path": "Lib/idlelib/mainmenu.py",
+   "rho": 1000,
+   "sha256": "092fad4454f593d7bf2e5e1e746acade92bb346d06476ba527f162f843ae3208",
+   "tokens": 2716
+  },
+  {
+   "bytes": 33,
+   "path": "Lib/test/test_import/data/circular_imports/from_cycle1.py",
+   "rho": 1000,
+   "sha256": "e37bc194ef5666a36cf865e27ea178ed94bd4a7808f8dc3c50935d53752ce9a2",
+   "tokens": 212
+  },
+  {
+   "bytes": 2757,
+   "path": "PC/validate_ucrtbase.py",
+   "rho": 1000,
+   "sha256": "c7245dd4493caa232e730dabbb45c1c9926d1a337a3e069e40f5c62df1a7d781",
+   "tokens": 1959
+  },
+  {
+   "bytes": 16054,
+   "path": "Lib/idlelib/idle_test/test_codecontext.py",
+   "rho": 1000,
+   "sha256": "cf718418658c54c74bc7a3870e1f415cc60c25fd9811269709baae6996a5e7e9",
+   "tokens": 10485
+  },
+  {
+   "bytes": 13686,
+   "path": "Lib/encodings/cp720.py",
+   "rho": 1000,
+   "sha256": "709d5b62f70805f159b2e0591350cd08f78d9bfe1ace2201237da306f5b71542",
+   "tokens": 8967
+  },
+  {
+   "bytes": 10680,
+   "path": "Lib/profiling/sampling/collector.py",
+   "rho": 1000,
+   "sha256": "476528b765fb13d9a2f8cadb05f8a652083b7b14582bdaed10cd4f71d36cbcbb",
+   "tokens": 7039
+  },
+  {
+   "bytes": 72,
+   "path": "Lib/dbm/gnu.py",
+   "rho": 1000,
+   "sha256": "36cd4904f50e00c4df4ad9d450b3970e150957425f47c00cf979ba73eff49778",
+   "tokens": 237
+  },
+  {
+   "bytes": 11016,
+   "path": "Lib/idlelib/undo.py",
+   "rho": 1000,
+   "sha256": "7c30764b337a0927e8fa18e577f03b0adcf502c0c91b331d3531aae0fff3f84e",
+   "tokens": 7255
+  },
+  {
+   "bytes": 858,
+   "path": "Lib/test/subprocessdata/fd_status.py",
+   "rho": 1000,
+   "sha256": "0b25d32004c374ecc89e4464d33b17203f86453e939625b4b12658a7a3f3b5ae",
+   "tokens": 741
+  },
+  {
+   "bytes": 26,
+   "path": "Lib/test/test_importlib/namespace_pkgs/portion1/foo/one.py",
+   "rho": 1000,
+   "sha256": "de46da9948a760db50b2abcc66b858f5b0bcc48f364f483f60721c75c13df51c",
+   "tokens": 207
+  },
+  {
+   "bytes": 14735,
+   "path": "Lib/test/test_module/__init__.py",
+   "rho": 1000,
+   "sha256": "69969193d4be0f7996a5d46884c29d92e726e0c31921397984bb89da910a3eb8",
+   "tokens": 9639
+  },
+  {
+   "bytes": 15777,
+   "path": "Lib/idlelib/format.py",
+   "rho": 1000,
+   "sha256": "dc2b00fb239f38543bf973d94daef2c52457b905d4d89c640993823127b7923c",
+   "tokens": 10307
+  },
+  {
+   "bytes": 63035,
+   "path": "Lib/test/test_capi/test_getargs.py",
+   "rho": 1000,
+   "sha256": "da6e7d0b988c0e9dd31cd9dfdf4f5481883e088d42189abd6fa87cab2ca9aa2c",
+   "tokens": 40611
+  },
+  {
+   "bytes": 12282,
+   "path": "Lib/test/test_unittest/testmock/testwith.py",
+   "rho": 1000,
+   "sha256": "333d00a739ab90e6c1a4c39c111defd049c227c790fa34bd834d5a17d4a2e2c0",
+   "tokens": 8066
+  },
+  {
+   "bytes": 33,
+   "path": "Lib/test/test_import/data/circular_imports/use.py",
+   "rho": 1000,
+   "sha256": "b7df7fde431410701a137ad4b28880bd8877dedb72fdfa7c95e7912dabd0c28f",
+   "tokens": 212
+  },
+  {
+   "bytes": 17555,
+   "path": "Lib/test/test_email/test_policy.py",
+   "rho": 1000,
+   "sha256": "c166f7e026714be45a95314d16bf3a3d7ac004e1b373dda3e283bb9564f4c487",
+   "tokens": 11448
+  },
+  {
+   "bytes": 327,
+   "path": "Lib/importlib/readers.py",
+   "rho": 1000,
+   "sha256": "d0d57d118d64916f7e6edb04f8bd1a760a1abb879125899ef50a36d09ef54df4",
+   "tokens": 400
+  },
+  {
+   "bytes": 4062,
+   "path": "Lib/colorsys.py",
+   "rho": 1000,
+   "sha256": "65e3dfbf7bad61d4d7d7731a69dd7e75a347fd350d91327a51010a94e6fd2f1d",
+   "tokens": 2795
+  },
+  {
+   "bytes": 8377,
+   "path": "Lib/test/test__colorize.py",
+   "rho": 1000,
+   "sha256": "7d47fb2b309fe3bce656e14eb024daf2e9e170fc5335f2f165b3634e40760f76",
+   "tokens": 5562
+  },
+  {
+   "bytes": 217446,
+   "path": "Lib/test/test_capi/test_opt.py",
+   "rho": 1000,
+   "sha256": "8ad483c3e097103f56a42c71fe09f7b221d6e50f9e364eb36c67c0a635383aa3",
+   "tokens": 139624
+  },
+  {
+   "bytes": 52044,
+   "path": "Lib/test/test_compileall.py",
+   "rho": 1000,
+   "sha256": "5f5fb46bfe09c434c123e62db0b29236868b3b95a0eef45e423abf85f0f1b8e1",
+   "tokens": 33563
+  },
+  {
+   "bytes": 12482,
+   "path": "Lib/graphlib.py",
+   "rho": 1000,
+   "sha256": "905c5e625e19dd472d4e960518f51e640b7ee44788cab81cad5bc4a9baaa011b",
+   "tokens": 8195
+  },
+  {
+   "bytes": 32676,
+   "path": "Lib/test/test_tcl.py",
+   "rho": 1000,
+   "sha256": "14c6e14dd8df1b0d9bbfdf6cd98ffa6dfc97b5f69a9c8d3761230e6b870a7ff5",
+   "tokens": 21144
+  },
+  {
+   "bytes": 11046,
+   "path": "Lib/test/test_dbm_sqlite3.py",
+   "rho": 1000,
+   "sha256": "44a941608f0329d00413ac24cfb828e7d918b39308eb4d1c1bda1265fe4070b9",
+   "tokens": 7280
+  },
+  {
+   "bytes": 202,
+   "path": "Lib/test/test_multiprocessing_fork/test_threads.py",
+   "rho": 1000,
+   "sha256": "8e39a7fb6e5b315ed4d82ed28622418120cfba48a16d2315e0d892ed74565a6a",
+   "tokens": 320
+  },
+  {
+   "bytes": 5691,
+   "path": "Lib/idlelib/idle_test/test_searchbase.py",
+   "rho": 1000,
+   "sha256": "2b8550dd411b75c6152c4da90843e1221094400080f9a1752e383d0b776f775b",
+   "tokens": 3840
+  },
+  {
+   "bytes": 17428,
+   "path": "Lib/multiprocessing/util.py",
+   "rho": 1000,
+   "sha256": "ee7a9443afd690972ca3f4076ac828c7ccafbb5fd43a5c04f1a628a04744c530",
+   "tokens": 11366
+  },
+  {
+   "bytes": 132,
+   "path": "Lib/test/test_future_stmt/__init__.py",
+   "rho": 1000,
+   "sha256": "9b2cce72fa8c7a7e688a79d55e15ea4914078c81058b0289ceb80cd5b69821c9",
+   "tokens": 275
+  },
+  {
+   "bytes": 75512,
+   "path": "Lib/html/entities.py",
+   "rho": 1000,
+   "sha256": "d9c65fb2828dbc1f3e399058a341d51e9375ec5bca95a8e92599c41bd5b78bde",
+   "tokens": 48612
+  },
+  {
+   "bytes": 110,
+   "path": "Lib/test/test_zipfile/_path/write-alpharep.py",
+   "rho": 1000,
+   "sha256": "6a24dd5846a4245281effc977b513b717e8c1190e82f4f3dcaf5a308ccfe42cc",
+   "tokens": 261
+  },
+  {
+   "bytes": 1051,
+   "path": "Lib/encodings/euc_jis_2004.py",
+   "rho": 1000,
+   "sha256": "9fa426cd9f17629f6320700ed18baa94839304cf1bcabbee7edb501747dc055d",
+   "tokens": 865
+  },
+  {
+   "bytes": 110,
+   "path": "Lib/test/test_unittest/namespace_test_pkg/bar/test_bar.py",
+   "rho": 1000,
+   "sha256": "ca0d1af9a86e0385990873c970af3f3729b44b9721fdd75a14de686475e7e52d",
+   "tokens": 261
+  },
+  {
+   "bytes": 301,
+   "path": "Lib/test/test_lazy_import/data/global_filter_from.py",
+   "rho": 1000,
+   "sha256": "dd46b4f497962ce2eb60d8e22c4469192fecbf5d937234985456e2436b968518",
+   "tokens": 384
+  },
+  {
+   "bytes": 1512,
+   "path": "Lib/test/test_free_threading/test_cprofile.py",
+   "rho": 1000,
+   "sha256": "30ae024209eac557082c744f1d9ab4db2de62bc81d9dd35110e7ceb283327cca",
+   "tokens": 1160
+  },
+  {
+   "bytes": 1107,
+   "path": "Lib/test/test_io/__init__.py",
+   "rho": 1000,
+   "sha256": "040a53fba5844fd9e1d49d0b12c57a2d40c91187c293cc19fa43c8e97fe0b6cc",
+   "tokens": 901
+  },
+  {
+   "bytes": 11553,
+   "path": "Lib/test/test_capi/test_file.py",
+   "rho": 1000,
+   "sha256": "c68782328ac418acb5a9ed2a7561f1333f8f147dc31d4004680cbd8fcd6ba1b6",
+   "tokens": 7599
+  },
+  {
+   "bytes": 9078,
+   "path": "Lib/test/test_pyrepl/test_fancycompleter.py",
+   "rho": 1000,
+   "sha256": "bdf4184f81f10795293419d3683b375ceb62e18fbff6eda4a98e5998e34c72dd",
+   "tokens": 6012
+  },
+  {
+   "bytes": 8968,
+   "path": "Lib/test/test_graphlib.py",
+   "rho": 1000,
+   "sha256": "b66a698ec242e23001ab98660d0ad1f261d16c210858e25fde8d933a8fe62631",
+   "tokens": 5941
+  },
+  {
+   "bytes": 8044,
+   "path": "Tools/patchcheck/patchcheck.py",
+   "rho": 1000,
+   "sha256": "43166747f46c30ece94ca932ca2f0b31d938889801db038cd5901a673bb01d8c",
+   "tokens": 5349
+  },
+  {
+   "bytes": 917,
+   "path": "Lib/zoneinfo/__init__.py",
+   "rho": 1000,
+   "sha256": "9091c902b8d0385f835e9d393017f03b68f92fae7cbe1e31833b2911d65947e6",
+   "tokens": 779
+  },
+  {
+   "bytes": 289,
+   "path": "Lib/test/test_capi/__init__.py",
+   "rho": 1000,
+   "sha256": "b8a5bc58b9cca29a5b32ea7b08833952df207d119da46af00b79dd164b35fb39",
+   "tokens": 376
+  },
+  {
+   "bytes": 49,
+   "path": "Lib/test/test_capi/__main__.py",
+   "rho": 1000,
+   "sha256": "420207000451d6a09e4413bec306bcad1aaf9d91e8ee30fc1bcf47687f9ac9a6",
+   "tokens": 222
+  },
+  {
+   "bytes": 6698,
+   "path": "Lib/test/test_dictcomps.py",
+   "rho": 1000,
+   "sha256": "e3fec823d73e490480c8681ba8e86a3593f13cf6244e71ded112f69575f5a0d2",
+   "tokens": 4486
+  },
+  {
+   "bytes": 7417,
+   "path": "Lib/_android_support.py",
+   "rho": 1000,
+   "sha256": "3f675b2372563c54098b8d6e2487d9dc9667b43ca06e2723725b9d9a4c9905ee",
+   "tokens": 4947
+  },
+  {
+   "bytes": 1245,
+   "path": "Lib/xml/utils.py",
+   "rho": 1000,
+   "sha256": "952f92abc95dbfe329d6353676985d166333c8a6357fc8c50b3dffc3a13e1471",
+   "tokens": 989
+  },
+  {
+   "bytes": 144,
+   "path": "Tools/wasm/wasi.py",
+   "rho": 1000,
+   "sha256": "607eb8182b981c0c75d0057f7617f71fd87758c044f8663687bb720a0cadc0d3",
+   "tokens": 283
+  },
+  {
+   "bytes": 393,
+   "path": "Lib/ctypes/macholib/__init__.py",
+   "rho": 1000,
+   "sha256": "876f4486d08d3eac3581a8681d7fb3cec2fe5b823d1bef27cca15e755510365c",
+   "tokens": 443
+  },
+  {
+   "bytes": 3022,
+   "path": "Lib/test/test_ctypes/test_keeprefs.py",
+   "rho": 1000,
+   "sha256": "95c0e68f284d8b2a35bd88f5a7819049120a0529741ac2e3c7a1db75f744c7c9",
+   "tokens": 2128
+  },
+  {
+   "bytes": 3310,
+   "path": "Tools/build/verify_ensurepip_wheels.py",
+   "rho": 1000,
+   "sha256": "fa687d286a6fb4314b42e6c3a29d14e1ef30b2d10ae2bdbf66da9b4e16be984d",
+   "tokens": 2313
+  },
+  {
+   "bytes": 146713,
+   "path": "Lib/turtle.py",
+   "rho": 1000,
+   "sha256": "e445c4581e3ea203e2fd5025b588363cb237f0461a27d4addfe0b6b756d89f93",
+   "tokens": 94268
+  },
+  {
+   "bytes": 59693,
+   "path": "Lib/test/test_asyncgen.py",
+   "rho": 1000,
+   "sha256": "3a349867a03e787ca81d34a45ad046cce4e2f8d67c359b6b2230345453ca6552",
+   "tokens": 38468
+  },
+  {
+   "bytes": 41,
+   "path": "Lib/test/test_lazy_import/data/pkg/bar.py",
+   "rho": 1000,
+   "sha256": "0256bde4f269e7f30740c4fc0cc85c04426edee9d869f8c86b3af933eedc2117",
+   "tokens": 217
+  },
+  {
+   "bytes": 88529,
+   "path": "Lib/test/test_sys_settrace.py",
+   "rho": 1000,
+   "sha256": "5ffac10899228dbf9caa1e767f8160e6109315c93c05a9999753a8d82da63753",
+   "tokens": 56958
+  },
+  {
+   "bytes": 1023,
+   "path": "Lib/encodings/cp949.py",
+   "rho": 1000,
+   "sha256": "950a7d29467ce0590b4a1137830d43d88d8f20e4035dcaaa8b2a5c3c3f1de962",
+   "tokens": 847
+  },
+  {
+   "bytes": 85788,
+   "path": "Lib/test/test_minidom.py",
+   "rho": 1000,
+   "sha256": "25c27f4bc0babee1ffd15b8aba2b080331687fd1f3fc9ebff3ca5cb6d12d3494",
+   "tokens": 55201
+  },
+  {
+   "bytes": 1086,
+   "path": "Lib/test/test_ctypes/test_sizes.py",
+   "rho": 1000,
+   "sha256": "b25290d84d1434ef7ec0f10b0bc27ce04a3b6ba8034acf342dd021dd6a12569f",
+   "tokens": 887
+  },
+  {
+   "bytes": 5024,
+   "path": "Lib/ctypes/macholib/dyld.py",
+   "rho": 1000,
+   "sha256": "eb8e7b17f1533bc3e86e23e8695f7a5e4b7a99ef1b1575d10af54f389161b655",
+   "tokens": 3412
+  },
+  {
+   "bytes": 143,
+   "path": "Lib/profiling/sampling/_format_utils.py",
+   "rho": 1000,
+   "sha256": "e59b72d651ae78ca93541c0c99e2e9bb743b0f9675c73170d2e52797609a05a0",
+   "tokens": 282
+  },
+  {
+   "bytes": 5064,
+   "path": "Tools/c-analyzer/c_parser/preprocessor/common.py",
+   "rho": 1000,
+   "sha256": "984647eed2ded076f691b1706516d4bd445503ca3165ddd53d7ef0a13de2027e",
+   "tokens": 3438
+  },
+  {
+   "bytes": 910,
+   "path": "Tools/c-analyzer/distutils/dep_util.py",
+   "rho": 1000,
+   "sha256": "123c2b0088158c47401b42761baa62e2988db3524e0c8929c9fd81601880d492",
+   "tokens": 774
+  },
+  {
+   "bytes": 48883,
+   "path": "Lib/profiling/sampling/cli.py",
+   "rho": 1000,
+   "sha256": "d81114ac5cfca7e78f0b84904eed2a09f478385350a1e84d1a85cc6ad359c676",
+   "tokens": 31536
+  },
+  {
+   "bytes": 147009,
+   "path": "Lib/test/test_email/test__header_value_parser.py",
+   "rho": 1000,
+   "sha256": "6f5e1c12134ed005cf89a9048bc7864aca814c92c995b5e7fe11dc698e638f77",
+   "tokens": 94458
+  },
+  {
+   "bytes": 2898,
+   "path": "Lib/test/test_ctypes/test_stringptr.py",
+   "rho": 1000,
+   "sha256": "d106c55b19a813a35722df5b8a60001b29dbf0c0513bbea1a2e4f54fc11be310",
+   "tokens": 2049
+  },
+  {
+   "bytes": 61247,
+   "path": "Lib/test/test_posixpath.py",
+   "rho": 1000,
+   "sha256": "e9f55c55508ae6c845fe7cb43d0195601de9999205e0dc0244708f173bb4a559",
+   "tokens": 39461
+  },
+  {
+   "bytes": 283,
+   "path": "Lib/test/test_dataclasses/_types_proxy.py",
+   "rho": 1000,
+   "sha256": "96f1f3225b222ec304d1d707864e1cc668b9a319a1bd7e6edf2e1e70b30c405c",
+   "tokens": 372
+  },
+  {
+   "bytes": 379,
+   "path": "Lib/importlib/metadata/diagnose.py",
+   "rho": 1000,
+   "sha256": "9e4491322a309669212d884a86f0a0f60966b7fd750a8c7e1262f311ba984daf",
+   "tokens": 434
+  },
+  {
+   "bytes": 20,
+   "path": "Tools/c-analyzer/c_common/__init__.py",
+   "rho": 1000,
+   "sha256": "9a6be977d3585fabd7f916e88f4f68c1f718d70fb6923b0cadc14491192c345b",
+   "tokens": 203
+  },
+  {
+   "bytes": 25607,
+   "path": "Lib/test/test_email/test_generator.py",
+   "rho": 1000,
+   "sha256": "60bd3e242592a3f90ac23f59523810dea8678ad10b672387b0d09ac05851755e",
+   "tokens": 16611
+  },
+  {
+   "bytes": 111560,
+   "path": "Lib/test/support/__init__.py",
+   "rho": 1000,
+   "sha256": "12bc892a8f844b29c6a593c840e4b7af1a64a04ac024741f7c262f1e32122175",
+   "tokens": 71725
+  },
+  {
+   "bytes": 99,
+   "path": "Lib/test/test_lazy_import/data/lazy_with.py",
+   "rho": 1000,
+   "sha256": "75d93a47cb625a40a9029a564b652e47b2a69f2d9661c3dcd20b53637ab968f3",
+   "tokens": 254
+  },
+  {
+   "bytes": 31157,
+   "path": "Lib/venv/__init__.py",
+   "rho": 1000,
+   "sha256": "42424f4daa1dcac6a6505487944a415704f26de3388fda2f3f8a39714bf04fdb",
+   "tokens": 20170
+  },
+  {
+   "bytes": 3532,
+   "path": "Lib/xml/sax/__init__.py",
+   "rho": 1000,
+   "sha256": "b097eb749917fd49dd6cc710a44492cbfd12dd994637afb34b8445a60c222884",
+   "tokens": 2456
+  },
+  {
+   "bytes": 1062,
+   "path": "Lib/test/typinganndata/ann_module.py",
+   "rho": 1000,
+   "sha256": "ce3994bf11c28dca9311a9dd573a4f26ef6be57f2f27eebfc62389d0c75a3131",
+   "tokens": 872
+  },
+  {
+   "bytes": 82192,
+   "path": "Lib/test/test_tempfile.py",
+   "rho": 1000,
+   "sha256": "8f23ba433dae4e7b885244655a5900744fab5404871ca23afb2503e4318f140c",
+   "tokens": 52880
+  },
+  {
+   "bytes": 219,
+   "path": "Lib/test/test_zipfile/_path/_support.py",
+   "rho": 1000,
+   "sha256": "fe5cae525d4d045b73dda7ce79c30492327e79813a5bee797f3f74e6005ac4c4",
+   "tokens": 331
+  },
+  {
+   "bytes": 2031,
+   "path": "Lib/test/support/i18n_helper.py",
+   "rho": 1000,
+   "sha256": "5fccf59bc41fedb87440402332bce7ff64a6d2d13a6918216103ea91b4712679",
+   "tokens": 1493
+  },
+  {
+   "bytes": 20997,
+   "path": "Lib/idlelib/debugger.py",
+   "rho": 1000,
+   "sha256": "26c5db9b7e831c88b4d22d7f623eaf9e91e8db708c77cbbc942e4957fd25246c",
+   "tokens": 13655
+  },
+  {
+   "bytes": 15203,
+   "path": "Lib/test/test_urllib2net.py",
+   "rho": 1000,
+   "sha256": "a41c14911ba138178da0e2a22d02742164d0c243d0d6c97b58489ecd2ac4f17e",
+   "tokens": 9939
+  },
+  {
+   "bytes": 1517,
+   "path": "Lib/tkinter/constants.py",
+   "rho": 1000,
+   "sha256": "e5d3391bbca06082d1e9372457daad305da402689ca5db5a8b4f13e962274d1d",
+   "tokens": 1148
+  },
+  {
+   "bytes": 84147,
+   "path": "Lib/traceback.py",
+   "rho": 1000,
+   "sha256": "79f13d923dadb67b33df257613ef3b298a70da8ad17aa8d8ee42f32e2bc29401",
+   "tokens": 54133
+  },
+  {
+   "bytes": 7971,
+   "path": "Lib/test/test_peg_generator/test_first_sets.py",
+   "rho": 1000,
+   "sha256": "7bd6d9b038cb1d73f7552c9defba1ad2266cebdf93f823f9136b754865b944c2",
+   "tokens": 5302
+  },
+  {
+   "bytes": 29298,
+   "path": "Lib/contextlib.py",
+   "rho": 1000,
+   "sha256": "5338a9678ac868e56b08fb55200788521ff437e69d7e1ca3f712fc52972ede5a",
+   "tokens": 18978
+  },
+  {
+   "bytes": 198,
+   "path": "Lib/test/test_module/good_getattr.py",
+   "rho": 1000,
+   "sha256": "5bcf1fbf4606c5ea0ab13bd0a95271ebc6bb30e8dcdd44592c575efff7ab819b",
+   "tokens": 318
+  },
+  {
+   "bytes": 38355,
+   "path": "Lib/uuid.py",
+   "rho": 1000,
+   "sha256": "d8c8dbfaed0297e0a1aace22e19d298a8c86740725a1d598f128d333e91b84a4",
+   "tokens": 24785
+  },
+  {
+   "bytes": 2549,
+   "path": "Lib/test/test_email/test_pickleable.py",
+   "rho": 1000,
+   "sha256": "0295d103086b772634a1767922659693ae08f5b593802d4566ee075e82e138f9",
+   "tokens": 1825
+  },
+  {
+   "bytes": 7271,
+   "path": "Lib/asyncio/staggered.py",
+   "rho": 1000,
+   "sha256": "43f4094830e6cfcf43e7aee410676f2aca6a4fd8e88e5b5355f7f07b291d1d35",
+   "tokens": 4853
+  },
+  {
+   "bytes": 43515,
+   "path": "Lib/profiling/sampling/live_collector/collector.py",
+   "rho": 1000,
+   "sha256": "f23714421a51f20c4d71fe265b83afce8759c817643495a3912d5d3d8115fb7d",
+   "tokens": 28094
+  },
+  {
+   "bytes": 95082,
+   "path": "Lib/pickletools.py",
+   "rho": 1000,
+   "sha256": "1c2370ffc1cb2cb2cb83365d8b7c7a9e244c394fd42c27f3bd424dc2e475f62e",
+   "tokens": 61160
+  },
+  {
+   "bytes": 6289,
+   "path": "PCbuild/get_external.py",
+   "rho": 1000,
+   "sha256": "5d7be31bb6d340cf4ebd8571cfdc0b4caa7353884ae910cf0f3a801d624c0baa",
+   "tokens": 4223
+  },
+  {
+   "bytes": 293,
+   "path": "Lib/test/leakers/test_selftype.py",
+   "rho": 1000,
+   "sha256": "5ef958040d0ac84460c591ff4875965aeb2cb27ebcc6257499c4ad81a5b816c1",
+   "tokens": 379
+  },
+  {
+   "bytes": 3213,
+   "path": "Lib/test/test_interpreters/test_stress.py",
+   "rho": 1000,
+   "sha256": "e95d0762a790655f749fe156ae58456875bbae9ee2baf2f5d21b3cc59608b8de",
+   "tokens": 2251
+  },
+  {
+   "bytes": 575,
+   "path": "Lib/zipfile/_path/_functools.py",
+   "rho": 1000,
+   "sha256": "7fa2adf4bc59e1313e718d6525575748877799e9925e61fd21d80c6d4fbfc769",
+   "tokens": 559
+  },
+  {
+   "bytes": 11177,
+   "path": "Lib/test/test_io/test_largefile.py",
+   "rho": 1000,
+   "sha256": "e21e034e5641fa68b0401387a482bb658dc32273fda84f32a8e2e841d832e38c",
+   "tokens": 7358
+  },
+  {
+   "bytes": 3197,
+   "path": "Lib/test/signalinterproctester.py",
+   "rho": 1000,
+   "sha256": "20d6fcba7f7dd598f68caba1558cef0b02e62c886e556da34e0c50ed07938bae",
+   "tokens": 2241
+  },
+  {
+   "bytes": 681,
+   "path": "Lib/test/test_codecencodings_tw.py",
+   "rho": 1000,
+   "sha256": "e7a96c8c9347ca539ba06a38f1f6b8ad9011ba4f7da13bed82f22b8bff1ae6f0",
+   "tokens": 627
+  },
+  {
+   "bytes": 6341,
+   "path": "Lib/test/test_email/__init__.py",
+   "rho": 1000,
+   "sha256": "2663cf0e8aa927f968275690aa4fcc7d1d535d33a3d92b8dc6276a7dc9093f91",
+   "tokens": 4257
+  },
+  {
+   "bytes": 19929,
+   "path": "Lib/test/test_importlib/test_api.py",
+   "rho": 1000,
+   "sha256": "8f4934542b686cfb9f9b5c8daa0bade4062fc949a2662c4161a21fadbaefec96",
+   "tokens": 12970
+  },
+  {
+   "bytes": 2693,
+   "path": "Lib/test/test_sqlite3/util.py",
+   "rho": 1000,
+   "sha256": "a58fdebaac0b8329b3aec7f0a9a883e9bd7ff2641026cd0451281c80ed605e61",
+   "tokens": 1914
+  },
+  {
+   "bytes": 11158,
+   "path": "Lib/operator.py",
+   "rho": 1000,
+   "sha256": "e9cf4fb47636c9678e854d247ecf619ce72a46895e22d0136048c33880acbd46",
+   "tokens": 7346
+  },
+  {
+   "bytes": 12022,
+   "path": "Lib/test/test_richcmp.py",
+   "rho": 1000,
+   "sha256": "ac3dee5f3e2fa43f728c9dc57188b00eee304bf80e9e3572548961b90d500d38",
+   "tokens": 7900
+  },
+  {
+   "bytes": 542,
+   "path": "Lib/test/test_multiprocessing_fork/__init__.py",
+   "rho": 1000,
+   "sha256": "ec37cde0d2234efc776f99b71d35df7b187e3ee7bbc45e96cdd8b67aecdf70a5",
+   "tokens": 538
+  },
+  {
+   "bytes": 1598,
+   "path": "Lib/multiprocessing/dummy/connection.py",
+   "rho": 1000,
+   "sha256": "04bfc1a4cd0c927800bccad4a8cf204237fe9ffd8cbe8b7c24a79574bee024f2",
+   "tokens": 1215
+  },
+  {
+   "bytes": 8540,
+   "path": "Lib/test/support/channels.py",
+   "rho": 1000,
+   "sha256": "75eb6d8f8dc71fac6f7c2f00f231f6dd7a1b09a11b7824ad0b3d317da94aa438",
+   "tokens": 5667
+  },
+  {
+   "bytes": 14,
+   "path": "Lib/test/test_lazy_import/data/metasyntactic/waldo/fred/__init__.py",
+   "rho": 1000,
+   "sha256": "0824aaf9d111d5360659a58ee61db24af4f344767de75a2afad53f40b84d99db",
+   "tokens": 200
+  },
+  {
+   "bytes": 545,
+   "path": "Lib/test/test_json/test_pass3.py",
+   "rho": 1000,
+   "sha256": "1e813e2e1546526f216de8e547e99cb4f3e3830d061c440b371a676cab0359a2",
+   "tokens": 540
+  },
+  {
+   "bytes": 1441,
+   "path": "Lib/profiling/sampling/string_table.py",
+   "rho": 1000,
+   "sha256": "e328fe030e61fac36dd1ee195e05c982f0a08d92d913441424bb03ec87503c76",
+   "tokens": 1115
+  },
+  {
+   "bytes": 24100,
+   "path": "Lib/test/test_string/test_string.py",
+   "rho": 1000,
+   "sha256": "76bdab752f1649a94a14c6d4bcb41e35e57b411f87711505739ca1beebb6eeb3",
+   "tokens": 15644
+  },
+  {
+   "bytes": 36899,
+   "path": "Lib/_strptime.py",
+   "rho": 1000,
+   "sha256": "9cf720de4fa335b6002c145592898dd8df76b636d61149c636a055bdd753c7b0",
+   "tokens": 23842
+  },
+  {
+   "bytes": 106759,
+   "path": "Lib/idlelib/configdialog.py",
+   "rho": 1000,
+   "sha256": "3f2123831c521106473b8daac3adef125e982aa7b58f4f260bca3a96408428dc",
+   "tokens": 68647
+  },
+  {
+   "bytes": 422,
+   "path": "Lib/_pyrepl/__main__.py",
+   "rho": 1000,
+   "sha256": "3b207710ddae4728028d57c550d4315f88a626f06265cb719dd29f7b04977685",
+   "tokens": 461
+  },
+  {
+   "bytes": 179802,
+   "path": "Lib/test/test_dataclasses/__init__.py",
+   "rho": 1000,
+   "sha256": "2a7a0b561da76d58d5e107941e51989342a896b5e714f23f73639b9a4236af76",
+   "tokens": 115486
+  },
+  {
+   "bytes": 6342,
+   "path": "Lib/test/test_profiling/test_sampling_profiler/helpers.py",
+   "rho": 1000,
+   "sha256": "73593363cc5bf5abf39e83c955a908e49529d810d25ac4536ba98922c31a4862",
+   "tokens": 4257
+  },
+  {
+   "bytes": 20967,
+   "path": "Tools/build/deepfreeze.py",
+   "rho": 1000,
+   "sha256": "6fb3e01add69fde2944e6d929fb9d9746884dabc3dc569055e62a65c40e760aa",
+   "tokens": 13634
+  },
+  {
+   "bytes": 97,
+   "path": "Modules/_xxtestfuzz/fuzz_pycompile_corpus/input3.py",
+   "rho": 1000,
+   "sha256": "13bdfa68cc615388cb8889fb0c7ed1d823ea149436eb86e27307df9b93cdaf5e",
+   "tokens": 253
+  },
+  {
+   "bytes": 1015,
+   "path": "Lib/encodings/gbk.py",
+   "rho": 1000,
+   "sha256": "eff9b8cbc9ad2ef2e10e96afa83d3db1f775ea044aed275b7a35574ae0d8645b",
+   "tokens": 842
+  },
+  {
+   "bytes": 500,
+   "path": "Lib/antigravity.py",
+   "rho": 1000,
+   "sha256": "8a5ee63e1b79ba2733e7ff4290b6eefea60e7f3a1ccb6bb519535aaf92b44967",
+   "tokens": 511
+  },
+  {
+   "bytes": 1605,
+   "path": "Lib/xml/etree/__init__.py",
+   "rho": 1000,
+   "sha256": "91950edfb196c105d93886f8af7ea3c0a79e06a6b63be3e5a4ea09804e8672a6",
+   "tokens": 1220
+  },
+  {
+   "bytes": 1005,
+   "path": "Lib/encodings/utf_8.py",
+   "rho": 1000,
+   "sha256": "f949abef927f41fe06b45968fa28bf0fbce4bc686f132e57b688ec19d80b43e0",
+   "tokens": 835
+  },
+  {
+   "bytes": 7053,
+   "path": "Lib/test/test_int_literal.py",
+   "rho": 1000,
+   "sha256": "2dd1dd8ca1e049abef5e5548179aba2532952f9f5362bc7c6d09bd73f80c5974",
+   "tokens": 4713
+  },
+  {
+   "bytes": 151161,
+   "path": "Lib/test/test_shutil.py",
+   "rho": 1000,
+   "sha256": "072cd7feb3ed6226b8ababcd2c17ff32102acb41ec55bc93044dde98982bb725",
+   "tokens": 97115
+  },
+  {
+   "bytes": 1077,
+   "path": "Lib/test/test_asyncio/test_context.py",
+   "rho": 1000,
+   "sha256": "4697d8cbfe87a516144ab2103ddef983688c5029cd13713722e01c0d093d8794",
+   "tokens": 881
+  },
+  {
+   "bytes": 466,
+   "path": "Lib/test/test_unittest/testmock/support.py",
+   "rho": 1000,
+   "sha256": "0fe59e2c3196a746973f3fba7b65ef434f94b7f9632ba0f13a9693abcaeba140",
+   "tokens": 489
+  },
+  {
+   "bytes": 7678,
+   "path": "Lib/test/libregrtest/runtests.py",
+   "rho": 1000,
+   "sha256": "19d08b684e1bd07eedfe7545068a1716aac2b7ccdae46c654c72a9fde42c4f85",
+   "tokens": 5113
+  },
+  {
+   "bytes": 17893,
+   "path": "Lib/weakref.py",
+   "rho": 1000,
+   "sha256": "2526b21ff722b7ad6defd5df81bf32889e3f08c52cdc11cc24d6cdae9e5417b3",
+   "tokens": 11664
+  },
+  {
+   "bytes": 32730,
+   "path": "Lib/test/test_platform.py",
+   "rho": 1000,
+   "sha256": "e50e66bd8bb574d843c583cd6265486561138a04f69daaf922a11440e572e187",
+   "tokens": 21178
+  },
+  {
+   "bytes": 64,
+   "path": "Lib/compression/zlib.py",
+   "rho": 1000,
+   "sha256": "421ce16560784b698eeda5052235308e80807889847393845eeec9ffc4f4f7d7",
+   "tokens": 232
+  },
+  {
+   "bytes": 44739,
+   "path": "Lib/functools.py",
+   "rho": 1000,
+   "sha256": "21be7ed1f57001b0d4f5acff2025d05cb6a6e19ac72fedb754fa4d1b358d3675",
+   "tokens": 28879
+  },
+  {
+   "bytes": 620,
+   "path": "Lib/test/test_ast/utils.py",
+   "rho": 1000,
+   "sha256": "09954af7c72fb805ce01bd4df288f49e8ab19ea2c8b65a02c168500b9587d40d",
+   "tokens": 588
+  },
+  {
+   "bytes": 13361,
+   "path": "Lib/encodings/cp1251.py",
+   "rho": 1000,
+   "sha256": "924bd365b904d9aa8b46f8a9f8602a4bb45e046b4a6a609128054f8100cf4c85",
+   "tokens": 8758
+  },
+  {
+   "bytes": 20221,
+   "path": "Lib/test/test_interpreters/test_channels.py",
+   "rho": 1000,
+   "sha256": "2d8223d8592efeebffc0b3b761e1a45595cd2dc2c82568924324afbd46e2fbde",
+   "tokens": 13157
+  },
+  {
+   "bytes": 37551,
+   "path": "Lib/random.py",
+   "rho": 1000,
+   "sha256": "a94907aff65b054d63313de2dfa5d46bf226984fb53d04d7587047994b4a698f",
+   "tokens": 24270
+  },
+  {
+   "bytes": 909,
+   "path": "Lib/email/mime/base.py",
+   "rho": 1000,
+   "sha256": "883ea9430679ff2738bf72619b7ebfefcfe1eed561eef354e6b41e9300bcc981",
+   "tokens": 774
+  },
+  {
+   "bytes": 114321,
+   "path": "Lib/argparse.py",
+   "rho": 1000,
+   "sha256": "39993a86b937857356a130216feb4522bce349c02a7a8d515e8914c9051fc1d7",
+   "tokens": 73488
+  },
+  {
+   "bytes": 0,
+   "path": "Lib/test/test_unittest/namespace_test_pkg/bar/__init__.py",
+   "rho": 1000,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "tokens": 0
+  },
+  {
+   "bytes": 13265,
+   "path": "Lib/_pyrepl/historical_reader.py",
+   "rho": 1000,
+   "sha256": "05b354f3b7749eee9acfe4ed1a6baa297a6f1ccb4c4130cc39c99fe5417f1095",
+   "tokens": 8692
+  },
+  {
+   "bytes": 11040,
+   "path": "Lib/idlelib/idle_test/test_autocomplete.py",
+   "rho": 1000,
+   "sha256": "9ebec17ecd3e80c368275a14346de9ccfd4cee6d2b8a98100df9db25b7529798",
+   "tokens": 7270
+  },
+  {
+   "bytes": 19967,
+   "path": "Lib/test/test_sqlite3/test_transactions.py",
+   "rho": 1000,
+   "sha256": "9b258179670518e67219521821550bb0b73cc12c5fbe03389130990a82836887",
+   "tokens": 12994
+  },
+  {
+   "bytes": 19864,
+   "path": "Lib/idlelib/pyparse.py",
+   "rho": 1000,
+   "sha256": "21c6bf43370998d5a5a6670f7b13409335e9a2c1a350ed586bbe63be5f226648",
+   "tokens": 12928
+  },
+  {
+   "bytes": 273947,
+   "path": "Lib/test/test_logging.py",
+   "rho": 1000,
+   "sha256": "c96f4b9ee1ef15064bebac7cf613496481d9ea587935c7075d50bebc4be971bd",
+   "tokens": 175852
+  },
+  {
+   "bytes": 0,
+   "path": "Tools/c-analyzer/distutils/__init__.py",
+   "rho": 1000,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "tokens": 0
+  },
+  {
+   "bytes": 15581,
+   "path": "Lib/test/test_string_literals.py",
+   "rho": 1000,
+   "sha256": "155724b81ce80c69a7a1323d4a42c6a60cde340748d697b6a6d2f6cf1d2bb6ad",
+   "tokens": 10180
+  },
+  {
+   "bytes": 8371,
+   "path": "Lib/test/test_free_threading/test_races.py",
+   "rho": 1000,
+   "sha256": "6699f70c1b3534fdfb876181e8c3cf8b71f923fc8661d3fd8c1b5a975a8e8d99",
+   "tokens": 5558
+  },
+  {
+   "bytes": 107,
+   "path": "Lib/test/test_lazy_import/data/dunder_lazy_import_used.py",
+   "rho": 1000,
+   "sha256": "2cefe08d3bb726cf8fe2872e40ca24776ef047627513ff1d1e694f913542c334",
+   "tokens": 259
+  },
+  {
+   "bytes": 16411,
+   "path": "Lib/test/test_asyncio/test_windows_events.py",
+   "rho": 1000,
+   "sha256": "60ec5cea51d379384b7c204a7a610cdc77e3c69a1f7f8a3a57e0b4192ae79d2e",
+   "tokens": 10714
+  },
+  {
+   "bytes": 15871,
+   "path": "Tools/peg_generator/pegen/build.py",
+   "rho": 1000,
+   "sha256": "46a9de281fa0a57a1c9d50f749aee68532e4e4a58d34b58814ed74ab44e8a938",
+   "tokens": 10368
+  },
+  {
+   "bytes": 13654,
+   "path": "Lib/test/test_isinstance.py",
+   "rho": 1000,
+   "sha256": "c26517c734557bed00c47321f9c3b83797bb1db697b0c2529eeadd6ebe680263",
+   "tokens": 8946
+  },
+  {
+   "bytes": 30099,
+   "path": "Lib/test/test_operator.py",
+   "rho": 1000,
+   "sha256": "28ca0be050e45ce034dd42a93077c06855b83bb1300a27cf297b48b3d54af19d",
+   "tokens": 19491
+  },
+  {
+   "bytes": 15519,
+   "path": "Tools/c-analyzer/cpython/__main__.py",
+   "rho": 1000,
+   "sha256": "2fac521c688a27cab379b18e18389dc19597f0b342a353263ac343f53e834c25",
+   "tokens": 10142
+  },
+  {
+   "bytes": 5401,
+   "path": "Lib/test/test_email/test_asian_codecs.py",
+   "rho": 1000,
+   "sha256": "e46c9638851d1682f2db780bdc52a238699a7ae421261e1379dd509a87da9fb4",
+   "tokens": 3654
+  },
+  {
+   "bytes": 12423,
+   "path": "Lib/encodings/cp856.py",
+   "rho": 1000,
+   "sha256": "8c739db4101826fa54402b7622afaa6bd773738dc9cde0d2741bc6645c8dde81",
+   "tokens": 8157
+  },
+  {
+   "bytes": 50,
+   "path": "Lib/test/test_lazy_import/data/lazy_on_init_fails.py",
+   "rho": 1000,
+   "sha256": "f5c494c01b730f8f2da3e189b598e5abcdf59962e0058654c6c5bb0e191cb446",
+   "tokens": 223
+  },
+  {
+   "bytes": 18396,
+   "path": "Lib/encodings/aliases.py",
+   "rho": 1000,
+   "sha256": "b831396bf208ed70dd74498c582f2313d6a43f7e8e6cf01c163673a90ebdd310",
+   "tokens": 11987
+  },
+  {
+   "bytes": 131,
+   "path": "Lib/test/test_lazy_import/data/relative_lazy_from.py",
+   "rho": 1000,
+   "sha256": "fcc0b1bd851e51623c8651100caf74047eb6c0132bf3bcb9b5e79c9175c4dade",
+   "tokens": 275
+  },
+  {
+   "bytes": 9654,
+   "path": "Lib/test/test_multiprocessing_forkserver/test_preload.py",
+   "rho": 1000,
+   "sha256": "b22059f30e7733de594d5988b43725ceb7dd2a08b891473f4d43484c1ff012b8",
+   "tokens": 6381
+  },
+  {
+   "bytes": 95,
+   "path": "Lib/test/test_future_stmt/badsyntax_future.py",
+   "rho": 1000,
+   "sha256": "a2bda6762d72412b721f1a4fb6d82f22a9e7dd0f206743ec6a2e8294eb745c41",
+   "tokens": 252
+  },
+  {
+   "bytes": 128896,
+   "path": "Lib/test/test_asyncio/test_tasks.py",
+   "rho": 1000,
+   "sha256": "9a999e820b89bd24f7b53b0a1d172cbdec668047b9094512122dbdf24ac2b42a",
+   "tokens": 82843
+  },
+  {
+   "bytes": 761,
+   "path": "Lib/turtledemo/yinyang.py",
+   "rho": 1000,
+   "sha256": "7ed2d74aeacd701f8721c1a62200bef1dafffc1d88b82a43fe0b4454de4abda1",
+   "tokens": 679
+  },
+  {
+   "bytes": 172762,
+   "path": "Lib/test/test_clinic.py",
+   "rho": 1000,
+   "sha256": "10bf63624b0db82e6f24f8ee236388481a87b8bf3d78563a07675a7b17cf11ee",
+   "tokens": 110972
+  },
+  {
+   "bytes": 148,
+   "path": "Lib/test/test_asyncio/echo.py",
+   "rho": 1000,
+   "sha256": "a516b1584bde0c31e5ec82c5fe9aaa6fcfd9f6551964e3f87f0d92e04ec7692b",
+   "tokens": 286
+  },
+  {
+   "bytes": 99832,
+   "path": "Lib/test/test_zstd.py",
+   "rho": 1000,
+   "sha256": "8dfbb90f571787373f72cd66b5a235487681ada4733c4d3d7eef828749f6558d",
+   "tokens": 64206
+  },
+  {
+   "bytes": 15439,
+   "path": "Lib/idlelib/idle_test/test_query.py",
+   "rho": 1000,
+   "sha256": "c001a385ed87993e2ad8b0b1784c4bd975005425daf95576b80d04d1027d3a90",
+   "tokens": 10091
+  },
+  {
+   "bytes": 14976,
+   "path": "Lib/test/test_dbm_dumb.py",
+   "rho": 1000,
+   "sha256": "02a2bf21dd2b577643ebec8f9f087af2340227e303613ab4829a6a8bc44a6775",
+   "tokens": 9789
+  },
+  {
+   "bytes": 0,
+   "path": "Lib/test/tokenizedata/__init__.py",
+   "rho": 1000,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "tokens": 0
+  },
+  {
+   "bytes": 6211,
+   "path": "Lib/idlelib/idle_test/test_outwin.py",
+   "rho": 1000,
+   "sha256": "ef9c85503cdef6dbda495a0e7d58808e83e2e50c826802f0336598bbd38401d6",
+   "tokens": 4173
+  },
+  {
+   "bytes": 195,
+   "path": "Tools/c-analyzer/c-analyzer.py",
+   "rho": 1000,
+   "sha256": "f6b65bddd386894e8f742da1914edd1448adaf3c21ad09c6eebfbb0ead28bda3",
+   "tokens": 316
+  },
+  {
+   "bytes": 15530,
+   "path": "Lib/test/test_ctypes/test_functions.py",
+   "rho": 1000,
+   "sha256": "62b2c6c247480d21b09fb6983680a4cee13adc2e56ff5720a6a6677b0f147872",
+   "tokens": 10149
+  },
+  {
+   "bytes": 23006,
+   "path": "Tools/cases_generator/parsing.py",
+   "rho": 1000,
+   "sha256": "dd7b0bf70fe9451a9093b829087a87f5ceaf7f606342ca39dd562779aaaac4c1",
+   "tokens": 14943
+  },
+  {
+   "bytes": 14073,
+   "path": "Platforms/WASI/_build.py",
+   "rho": 1000,
+   "sha256": "e34bd28f98bd5bb92fa7b77fda97568f38393c2993c7172e76b8d8dee380debe",
+   "tokens": 9215
+  },
+  {
+   "bytes": 18916,
+   "path": "Lib/multiprocessing/shared_memory.py",
+   "rho": 1000,
+   "sha256": "81c03a1cc09323faa0a212a837e5bbdd0c60c2be47ef13b20531ddd2c86d27d3",
+   "tokens": 12320
+  },
+  {
+   "bytes": 21,
+   "path": "Lib/test/test_import/data/circular_imports/subpkg/util.py",
+   "rho": 1000,
+   "sha256": "60f11f6f1c53b1e906df7819fd26fee3ee1e169741435ef6dddf9ad6dee31e48",
+   "tokens": 204
+  },
+  {
+   "bytes": 22763,
+   "path": "Lib/test/mapping_tests.py",
+   "rho": 1000,
+   "sha256": "518d02beac698e748af9b709d50c2e4f7b56132abf51e52865f6cdce0b51986c",
+   "tokens": 14787
+  },
+  {
+   "bytes": 11795,
+   "path": "Lib/test/support/isolation.py",
+   "rho": 1000,
+   "sha256": "e2179c07520101ae2742ad30cb9d64075c32f7443588ee54b6725cac780f1474",
+   "tokens": 7754
+  },
+  {
+   "bytes": 13480,
+   "path": "Lib/test/test_ctypes/test_c_simple_type_meta.py",
+   "rho": 1000,
+   "sha256": "146dfdaca959fef108e6fea7fb881ee6ef5daddf9253b99ed060898f4e7388c1",
+   "tokens": 8835
+  },
+  {
+   "bytes": 44066,
+   "path": "Lib/test/test_call.py",
+   "rho": 1000,
+   "sha256": "8b41bed61ef6690451f390dcf214cb330282d914f516239cee61e06aa08df9c2",
+   "tokens": 28447
+  },
+  {
+   "bytes": 1021,
+   "path": "Tools/unicode/listcodecs.py",
+   "rho": 1000,
+   "sha256": "3231a1eb55ee749d3c362993729cbf2f05a94b02da63609e82a46b5b1c3b820b",
+   "tokens": 845
+  },
+  {
+   "bytes": 34105,
+   "path": "Lib/test/test_tkinter/test_text.py",
+   "rho": 1000,
+   "sha256": "e64c1d261138807bdd6a4a7cc2d1ce11a27a4763011e07e34e9a754b7a226ac5",
+   "tokens": 22060
+  },
+  {
+   "bytes": 592,
+   "path": "Tools/c-analyzer/c_parser/preprocessor/pure.py",
+   "rho": 1000,
+   "sha256": "ff39bce31a93ba673b95809f319989fcd9b9a06df095b821857a7549670e60d9",
+   "tokens": 570
+  },
+  {
+   "bytes": 15854,
+   "path": "Lib/xml/sax/handler.py",
+   "rho": 1000,
+   "sha256": "5d8b2355eae4e519f3938851878a5587b2ab884deebc0cf960a66a2923eb8f6a",
+   "tokens": 10357
+  },
+  {
+   "bytes": 8482,
+   "path": "Lib/test/test_ctypes/test_cfuncs.py",
+   "rho": 1000,
+   "sha256": "95a07f7b5b6d773b11499e03d16e7185483b5b9c89a0de4b0d021b8af7271f86",
+   "tokens": 5630
+  },
+  {
+   "bytes": 49781,
+   "path": "Lib/multiprocessing/managers.py",
+   "rho": 1000,
+   "sha256": "dd8a8332fc8227c14c8fa85410f2fd04f58d1b00e757a16e38e4165d69f883bd",
+   "tokens": 32112
+  },
+  {
+   "bytes": 5715,
+   "path": "Tools/c-analyzer/c_parser/parser/_info.py",
+   "rho": 1000,
+   "sha256": "289ef70411c2674389684a44ee83a6006fd9849fab8bbabaac51d6277ce29189",
+   "tokens": 3855
+  },
+  {
+   "bytes": 3666,
+   "path": "Tools/jit/_schema.py",
+   "rho": 1000,
+   "sha256": "6eca7fc95d6d3c73896e3bb54af79895340ac1da56bff31140eedc730da70e86",
+   "tokens": 2541
+  },
+  {
+   "bytes": 26861,
+   "path": "Lib/re/_compiler.py",
+   "rho": 1000,
+   "sha256": "202ea092b3758399b250aad09f2f4ee8e4111bcc7075ea0fbff95f6855835851",
+   "tokens": 17415
+  },
+  {
+   "bytes": 884,
+   "path": "Lib/test/test_free_threading/test_pwd.py",
+   "rho": 1000,
+   "sha256": "644dcb117c1928be42632a08a7b0289666a3f66b92d15901274d8509bb01f923",
+   "tokens": 758
+  },
+  {
+   "bytes": 7147,
+   "path": "Lib/test/support/strace_helper.py",
+   "rho": 1000,
+   "sha256": "7793ebc83c7922b98846cd6bc4379d129939d0213145f5f3f9ace2c00341e7a0",
+   "tokens": 4771
+  },
+  {
+   "bytes": 53,
+   "path": "Lib/test/test_zoneinfo/__main__.py",
+   "rho": 1000,
+   "sha256": "fd70e4af57ca201a4775fd1df0bc2dcde1242c8fa3d7e7c72ff2927d73aec2d0",
+   "tokens": 225
+  },
+  {
+   "bytes": 10833,
+   "path": "Lib/encodings/iso8859_6.py",
+   "rho": 1000,
+   "sha256": "8af2124f4afed9677a9e6dec7ab1d23f7565c1faa464263f8ee34354cd87af2d",
+   "tokens": 7137
+  },
+  {
+   "bytes": 2622,
+   "path": "Lib/test/test_capi/check_config.py",
+   "rho": 1000,
+   "sha256": "a0006070248dd17dbe32d16d3b6ac980eb636a8f07e1a6d2b124362bb289106f",
+   "tokens": 1872
+  },
+  {
+   "bytes": 2886,
+   "path": "Lib/test/test_ctypes/test_random_things.py",
+   "rho": 1000,
+   "sha256": "84ff15b7f5b3e38eb16815fa8fae1d99f133f13ebafafb8218ffa0e366b351d0",
+   "tokens": 2041
+  },
+  {
+   "bytes": 8218,
+   "path": "Lib/test/test_importlib/source/test_finder.py",
+   "rho": 1000,
+   "sha256": "018eb07fa1d9d6cce9e3a12fa8b68d89a23d4a5b0c6fd1c698b0c9d763cdbecc",
+   "tokens": 5460
+  },
+  {
+   "bytes": 38305,
+   "path": "Lib/test/test_faulthandler.py",
+   "rho": 1000,
+   "sha256": "9764c9739d6c7a8a2e623a3d68fdc9adeee3184698823d32ee46a152ac201f1c",
+   "tokens": 24753
+  },
+  {
+   "bytes": 16773,
+   "path": "Lib/idlelib/tree.py",
+   "rho": 1000,
+   "sha256": "2fe30df751bbfaa8583058ebb5f77b18b136ef7e6d40d442d8367434282b2497",
+   "tokens": 10946
+  },
+  {
+   "bytes": 63764,
+   "path": "Lib/test/test_smtplib.py",
+   "rho": 1000,
+   "sha256": "3bc747f6adfe4cbcd8cede13b6e62221dfddcaa593cffe01f7579e372ca5ce3e",
+   "tokens": 41078
+  },
+  {
+   "bytes": 64,
+   "path": "Lib/compression/gzip.py",
+   "rho": 1000,
+   "sha256": "20c9914eeadab67976d460979f111c0679f6c515ad2430df605a592bac71f7e8",
+   "tokens": 232
+  },
+  {
+   "bytes": 9665,
+   "path": "Lib/test/test_pkg.py",
+   "rho": 1000,
+   "sha256": "de65a67faf63804cc76d813f17e703319001fcee13eeb7c0ee3c1a4c1a395192",
+   "tokens": 6388
+  },
+  {
+   "bytes": 1023,
+   "path": "Lib/encodings/johab.py",
+   "rho": 1000,
+   "sha256": "9586615917afd3d848c1c4328656603b2834af6115f2aec932fccc935e1a60fb",
+   "tokens": 847
+  },
+  {
+   "bytes": 34396,
+   "path": "Lib/encodings/cp866.py",
+   "rho": 1000,
+   "sha256": "dfc22ef8c23ed4ab958997f3716c5047ea76f333a4776607d5d40170ecf27462",
+   "tokens": 22247
+  },
+  {
+   "bytes": 4065,
+   "path": "Lib/idlelib/history.py",
+   "rho": 1000,
+   "sha256": "f91f1568d083bdbc856d38ef48493bcb138c6a492d523385b300a5bac30133e6",
+   "tokens": 2797
+  },
+  {
+   "bytes": 65244,
+   "path": "Lib/test/test_unittest/testmock/testpatch.py",
+   "rho": 1000,
+   "sha256": "0574c1f258aab505b67ed8dcb7e7c337980ab47cb2c96fd3117b205a946503f1",
+   "tokens": 42027
+  },
+  {
+   "bytes": 5566,
+   "path": "Lib/test/test_compiler_codegen.py",
+   "rho": 1000,
+   "sha256": "cdfb49f3b9af877d78a43df653554d2ee9f09c8d14fcee68191fae3dc327e870",
+   "tokens": 3760
+  },
+  {
+   "bytes": 8540,
+   "path": "Lib/_pyrepl/layout.py",
+   "rho": 1000,
+   "sha256": "1e0dcb38edc6430810a1d3908760987149c00b0cbcbbdcb91e8d3c3ea695d1fb",
+   "tokens": 5667
+  },
+  {
+   "bytes": 8937,
+   "path": "Tools/clinic/libclinic/app.py",
+   "rho": 1000,
+   "sha256": "4c8612c1e8b99f4b4eeb2abaf0b7a86deb4b83041a3beabb7121327016d586a3",
+   "tokens": 5921
+  },
+  {
+   "bytes": 28356,
+   "path": "Lib/_pylong.py",
+   "rho": 1000,
+   "sha256": "30468689a30edf5c5a630b581242981cca4febd478273933696cc39ba9b2052c",
+   "tokens": 18373
+  },
+  {
+   "bytes": 1806,
+   "path": "Lib/test/test_free_threading/test_context.py",
+   "rho": 1000,
+   "sha256": "ef407ac65b3fd1ce65d8a35136412b84d045899444a6e70ac05386a992e4b607",
+   "tokens": 1349
+  },
+  {
+   "bytes": 13779,
+   "path": "Lib/encodings/koi8_r.py",
+   "rho": 1000,
+   "sha256": "7c282d799686d18e8dd494d685f05b530e8b52ca887505ec6814876f94bc2f9c",
+   "tokens": 9026
+  },
+  {
+   "bytes": 81128,
+   "path": "Lib/test/test_weakref.py",
+   "rho": 1000,
+   "sha256": "ce4a260028617c24e02f47397fba78e72d5a3ec1f53ef5fcde7aa2eb639be60f",
+   "tokens": 52213
+  },
+  {
+   "bytes": 8179,
+   "path": "Lib/rlcompleter.py",
+   "rho": 1000,
+   "sha256": "e611fa1cb5378df52e42439000baa85b5ecc67ba77e9dbae147a1f3a9a302050",
+   "tokens": 5435
+  },
+  {
+   "bytes": 6101,
+   "path": "Tools/c-analyzer/distutils/util.py",
+   "rho": 1000,
+   "sha256": "a73c45cce2a225f0c837cb07b2be644a7d8a971f77546d87c2d86eeb89e952cb",
+   "tokens": 4103
+  },
+  {
+   "bytes": 3894,
+   "path": "Lib/email/errors.py",
+   "rho": 1000,
+   "sha256": "3982311f9f0d3e0057196df9ad104b7fabd92c565cf826cc3f22629a1775cc3f",
+   "tokens": 2688
+  },
+  {
+   "bytes": 657,
+   "path": "Lib/wsgiref/__init__.py",
+   "rho": 1000,
+   "sha256": "c30e144025a63d267778d92f2f066fa592b476e789d888f79b96c059bf0bef60",
+   "tokens": 612
+  },
+  {
+   "bytes": 16661,
+   "path": "Lib/test/test_weakset.py",
+   "rho": 1000,
+   "sha256": "bdfd40cf871433bb71a52a0e64cf59f32697dc216a764fad1bcdbdca5c655756",
+   "tokens": 10874
+  },
+  {
+   "bytes": 54400,
+   "path": "Lib/pathlib/__init__.py",
+   "rho": 1000,
+   "sha256": "4b451a77d9ea0f7b6a50d121dd0c0d9ec163cce2ef3660baa75a308ded0ba589",
+   "tokens": 35077
+  },
+  {
+   "bytes": 12484,
+   "path": "Lib/test/test_capi/test_tuple.py",
+   "rho": 1000,
+   "sha256": "c90c6ed443ca42f8af55cc80485b2758ed886e4db17a33b118adcc8b925e95ec",
+   "tokens": 8196
+  },
+  {
+   "bytes": 123,
+   "path": "Lib/test/test_asyncio/echo2.py",
+   "rho": 1000,
+   "sha256": "bc211a1779ea6ab4bb80e14296b0365c6c9bbac9c040366a8c8754ace2232b03",
+   "tokens": 270
+  },
+  {
+   "bytes": 8302,
+   "path": "Lib/test/test_ioctl.py",
+   "rho": 1000,
+   "sha256": "f3cd60120455077f224150f2cadd33c3f214acb593340787e547604082206f11",
+   "tokens": 5514
+  },
+  {
+   "bytes": 4201,
+   "path": "Mac/Tools/plistlib_generate_testdata.py",
+   "rho": 1000,
+   "sha256": "b6c5ef45a87d2f1621ece4e42ceba2cd381805e522743627356ec9b693f849da",
+   "tokens": 2884
+  },
+  {
+   "bytes": 58,
+   "path": "Lib/test/test_importlib/builtin/__main__.py",
+   "rho": 1000,
+   "sha256": "cb9a3ce8f18e7d0a0cadb73cc9264772462de953499534736998d3c54f8c7c3c",
+   "tokens": 228
+  },
+  {
+   "bytes": 5275,
+   "path": "Tools/c-analyzer/c_analyzer/match.py",
+   "rho": 1000,
+   "sha256": "ed988ab08c966d85b2d6819fe5f96e8e53c236f30602e2a83460d317d306f655",
+   "tokens": 3573
+  },
+  {
+   "bytes": 3845,
+   "path": "Lib/test/test_importlib/import_/test_caching.py",
+   "rho": 1000,
+   "sha256": "01c8d18f59e8f32e7177d41351e4cc889ee9624aeecc18b1cd199c77bf095b71",
+   "tokens": 2656
+  },
+  {
+   "bytes": 1167,
+   "path": "Lib/test/test_wait4.py",
+   "rho": 1000,
+   "sha256": "362c3b009c1e0ae75ddb27807c8349edecfd64ea6428404276d51a758c4e796a",
+   "tokens": 939
+  },
+  {
+   "bytes": 930,
+   "path": "Lib/encodings/utf_32_be.py",
+   "rho": 1000,
+   "sha256": "cc4d1024939db204dd98cf615d013302f6e3c8e9d184671e8916f305b33437b3",
+   "tokens": 787
+  },
+  {
+   "bytes": 585,
+   "path": "Doc/includes/email-simple.py",
+   "rho": 1000,
+   "sha256": "277c1418aed64b6c19eac30a8347147ceff49a76e4eeac88827b3af8a366e039",
+   "tokens": 566
+  },
+  {
+   "bytes": 1586,
+   "path": "Doc/includes/email-unpack.py",
+   "rho": 1000,
+   "sha256": "456413857f8d18f7d341b9c588e104d1c86e8d984961bf96c21c72ba06790583",
+   "tokens": 1208
+  },
+  {
+   "bytes": 8724,
+   "path": "Tools/unicode/genmap_tchinese.py",
+   "rho": 1000,
+   "sha256": "b8289edc37f5a1a5b4c20d757b1d3a60eb91bb0ab39c030832a785f79fcd4f3c",
+   "tokens": 5785
+  },
+  {
+   "bytes": 796,
+   "path": "Lib/test/_test_venv_multiprocessing.py",
+   "rho": 1000,
+   "sha256": "48eeb163e7202c3c092c45b16a615b0e96b5d51aa049af788481b2e076914f2d",
+   "tokens": 701
+  },
+  {
+   "bytes": 73753,
+   "path": "Lib/test/test_binascii.py",
+   "rho": 1000,
+   "sha256": "f89ea8e6ee8c5863e87c0b0a709b08181e100d1864529e92d1e899c51059b9b4",
+   "tokens": 47484
+  },
+  {
+   "bytes": 35002,
+   "path": "Lib/encodings/cp852.py",
+   "rho": 1000,
+   "sha256": "bc60de665cae28e301146affa6c3fb6c2b07d068883daee849b4a2418e32b642",
+   "tokens": 22635
+  },
+  {
+   "bytes": 18511,
+   "path": "Lib/re/__init__.py",
+   "rho": 1000,
+   "sha256": "c6ceab8dbc7c299dbd51bf96861dcc25bccb1f35bb0a40649f4aaa14ea586b52",
+   "tokens": 12061
+  },
+  {
+   "bytes": 8376,
+   "path": "Lib/test/test_ctypes/test_loading.py",
+   "rho": 1000,
+   "sha256": "27b8956e0548f2038838937ad9e33e40a05d2a7fb25140d7b42650a1b08e7c74",
+   "tokens": 5562
+  },
+  {
+   "bytes": 9269,
+   "path": "Lib/unittest/result.py",
+   "rho": 1000,
+   "sha256": "813415b331a53acc1bd88ffebadfcb46886dba1ff2bbda2908533e24548db50c",
+   "tokens": 6134
+  },
+  {
+   "bytes": 7227,
+   "path": "Lib/test/archiver_tests.py",
+   "rho": 1000,
+   "sha256": "e8fe8d3cd9b455b6b368c0bffcdfe9f1b32518592fc7b79b671861ddfbc5d6d2",
+   "tokens": 4825
+  },
+  {
+   "bytes": 5738,
+   "path": "Lib/test/test_concurrent_futures/util.py",
+   "rho": 1000,
+   "sha256": "4469acb0b8fcf363b97fc2c7b36eea6b01e262b9397e87b909b6027fd8fc7031",
+   "tokens": 3871
+  },
+  {
+   "bytes": 3851,
+   "path": "Lib/test/test_ctypes/test_strings.py",
+   "rho": 1000,
+   "sha256": "c1f7e4af7b0a5ddc416e0188c4beb8308dca44d68103b550a87a39d38b8353b8",
+   "tokens": 2660
+  },
+  {
+   "bytes": 3777,
+   "path": "Lib/test/mock_socket.py",
+   "rho": 1000,
+   "sha256": "a114fc3226b778143f7bf41ab938a20cce0859814ea5c391fb98fd71e0e066a7",
+   "tokens": 2611
+  },
+  {
+   "bytes": 2907,
+   "path": "Lib/concurrent/interpreters/_crossinterp.py",
+   "rho": 1000,
+   "sha256": "6663b5e041c3082d3aa2c6c598284467a81eb5679abde9a2aabcea5b5b3d48ab",
+   "tokens": 2055
+  },
+  {
+   "bytes": 11695,
+   "path": "Lib/test/test_resource.py",
+   "rho": 1000,
+   "sha256": "47e6da6600aad13db5edf3c935a581ff5eb31d05589c0d591bdbd6b9f9850917",
+   "tokens": 7690
+  },
+  {
+   "bytes": 5444,
+   "path": "Lib/re/_casefix.py",
+   "rho": 1000,
+   "sha256": "1b12d9136f23db6c3f6f26053fefc15ca964b886838c7b9c1fabf8d2efc1e5c8",
+   "tokens": 3682
+  },
+  {
+   "bytes": 1085,
+   "path": "Lib/keyword.py",
+   "rho": 1000,
+   "sha256": "c19283cfc26952b350c9dfb75c51bd7d2670c08587dd19b8c63f71179e836ea2",
+   "tokens": 886
+  },
+  {
+   "bytes": 34681,
+   "path": "Lib/encodings/cp860.py",
+   "rho": 1000,
+   "sha256": "00db4b553a93afd70c2b95cdc1d38cd252586d0fc645d21774a482adea60ff20",
+   "tokens": 22429
+  },
+  {
+   "bytes": 116,
+   "path": "Lib/test/test_lazy_import/data/compatibility_mode_func.py",
+   "rho": 1000,
+   "sha256": "60f5291caef31723e9d68b0f7c2062b9fa0b31f90893a2dcd01ec2c4240d559e",
+   "tokens": 265
+  },
+  {
+   "bytes": 10738,
+   "path": "Lib/test/picklecommon.py",
+   "rho": 1000,
+   "sha256": "21822537f5fb6b2bf405b686d5acb29b5e6bb9be99d93bb11c11c5b9fbf7c112",
+   "tokens": 7076
+  },
+  {
+   "bytes": 8306,
+   "path": "Lib/test/test_importlib/test_windows.py",
+   "rho": 1000,
+   "sha256": "7d24ca762f1dfc95e969103d3012b1392531f09a339ac98a126643c9bfb98dda",
+   "tokens": 5517
+  },
+  {
+   "bytes": 5173,
+   "path": "Lib/test/test_pyrepl/test_keymap.py",
+   "rho": 1000,
+   "sha256": "c2b70194894cb6b2b88f3544d1f3cfbc5267b545cb0f088824c118b178180a8d",
+   "tokens": 3508
+  },
+  {
+   "bytes": 22470,
+   "path": "Lib/test/test_trace.py",
+   "rho": 1000,
+   "sha256": "f61f03fa618678d5fc3af3d96f88dc85ca0371772fd66dae94dba2d7610e8c02",
+   "tokens": 14599
+  },
+  {
+   "bytes": 16193,
+   "path": "Lib/test/test_linecache.py",
+   "rho": 1000,
+   "sha256": "8d60310e8f6ee9820fd54d69532ecbcd85e747eaf5dde52228ae23cf8f571c0b",
+   "tokens": 10572
+  },
+  {
+   "bytes": 2815,
+   "path": "Lib/test/support/subprocess_runner.py",
+   "rho": 1000,
+   "sha256": "8f183f73f217188db14533e699a406bd932ce43d4faba4c4227d42fabb962a33",
+   "tokens": 1996
+  },
+  {
+   "bytes": 142,
+   "path": "Lib/test/test_string/__init__.py",
+   "rho": 1000,
+   "sha256": "8962a375442bddd8d49865f3bf601c2c7a741fe947d8ec667358bb640cd0d19b",
+   "tokens": 282
+  },
+  {
+   "bytes": 13870,
+   "path": "Lib/test/test__osx_support.py",
+   "rho": 1000,
+   "sha256": "9d76a1b5d3687b2c3b4b52896d04b7e1f6f6eb2362a5f3582754ffcf3be0a433",
+   "tokens": 9085
+  },
+  {
+   "bytes": 7169,
+   "path": "Modules/_decimal/libmpdec/literature/fnt.py",
+   "rho": 1000,
+   "sha256": "122de20eebf87274af2d02072251a94500e7df2d5ef29e81aeabeda991c079e3",
+   "tokens": 4788
+  },
+  {
+   "bytes": 613,
+   "path": "Lib/test/test_tools/i18n_data/custom_keywords.py",
+   "rho": 1000,
+   "sha256": "fb18d7bf223cb0698e48367d480201f44e4907c532e8024d1c22c613bf96e18a",
+   "tokens": 584
+  },
+  {
+   "bytes": 8610,
+   "path": "Lib/test/test_gdb/test_jit.py",
+   "rho": 1000,
+   "sha256": "771b212a9c3f04390f8ac541ef1f1e8b42529a63bffa8dcb6218462afb5fba08",
+   "tokens": 5712
+  },
+  {
+   "bytes": 20537,
+   "path": "Lib/test/test_strtod.py",
+   "rho": 1000,
+   "sha256": "018ded557bfa3ce0bf67eaaf21b91d19cefd091ae26daa45da29ad994e49c203",
+   "tokens": 13360
+  },
+  {
+   "bytes": 66571,
+   "path": "Lib/test/test_io/test_textio.py",
+   "rho": 1000,
+   "sha256": "317ed2a15b02c59b0df1e3a6fd3439ade05d5b586dc4bcb6a335ca16201f1829",
+   "tokens": 42878
+  },
+  {
+   "bytes": 19485,
+   "path": "Lib/test/test_ttk/test_style.py",
+   "rho": 1000,
+   "sha256": "20893ccc62257410bcdb5042f572824f294444d9c6b3c14a2bdd725ee1a60a60",
+   "tokens": 12685
+  },
+  {
+   "bytes": 107,
+   "path": "Lib/idlelib/__main__.py",
+   "rho": 1000,
+   "sha256": "26699e80e7e8ba278a649881b80e8c7301c729d04d2f8fb2268365b10a48a91e",
+   "tokens": 259
+  },
+  {
+   "bytes": 18442,
+   "path": "Modules/_decimal/tests/randdec.py",
+   "rho": 1000,
+   "sha256": "3c809ab6a766b5c30f4c6a655b2143e98b41ac9e9dc97ff63e2e81e2f164e485",
+   "tokens": 12016
+  },
+  {
+   "bytes": 795,
+   "path": "Lib/test/test_dataclasses/dataclass_module_3_str.py",
+   "rho": 1000,
+   "sha256": "66b38373c20f07054906771160d3edc4db7d58e817f395870be4ba886fd012da",
+   "tokens": 700
+  },
+  {
+   "bytes": 17869,
+   "path": "Lib/test/test_ttk_textonly.py",
+   "rho": 1000,
+   "sha256": "49674ddaac0f4444b47fbd420412e2529e5b66f14ce7cc54ec050b0c1486b94d",
+   "tokens": 11649
+  },
+  {
+   "bytes": 54441,
+   "path": "Lib/test/test_unittest/test_runner.py",
+   "rho": 1000,
+   "sha256": "996a160425fb5ca2a53aaa8b06a83d2d3fc981009b632beb052bbe51567c9750",
+   "tokens": 35100
+  },
+  {
+   "bytes": 490,
+   "path": "Lib/test/test_future_stmt/test_future_single_import.py",
+   "rho": 1000,
+   "sha256": "e466dfb8acead4756b3790e903fa7b432727ea9cb34d93d679443003563a14a2",
+   "tokens": 505
+  },
+  {
+   "bytes": 0,
+   "path": "Lib/test/audit_test_data/__init__.py",
+   "rho": 1000,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "tokens": 0
+  },
+  {
+   "bytes": 60279,
+   "path": "Lib/test/test_hmac.py",
+   "rho": 1000,
+   "sha256": "a5cf0bee91bf1258228e010e28465dee14c09098ffc833dc103e34dc524ad9ca",
+   "tokens": 38844
+  },
+  {
+   "bytes": 12080,
+   "path": "Lib/test/test_ctypes/test_parameters.py",
+   "rho": 1000,
+   "sha256": "277d1d9088781ae24aff55cfd9301e007dccaaf97bbff66a3fd7be9a26790923",
+   "tokens": 7937
+  },
+  {
+   "bytes": 876,
+   "path": "Lib/test/test_idle.py",
+   "rho": 1000,
+   "sha256": "7258a0a4d0ed9e8c4985d3e900975de67e1438352f4783de890d95f94bf21e0d",
+   "tokens": 752
+  },
+  {
+   "bytes": 975,
+   "path": "Doc/includes/email-headers.py",
+   "rho": 1000,
+   "sha256": "45bc80f9e358b0c92a44229cdc2abeeed72e4a237e547448b68acad3b15f7bee",
+   "tokens": 816
+  },
+  {
+   "bytes": 1736,
+   "path": "Lib/test/test_startfile.py",
+   "rho": 1000,
+   "sha256": "a10786fb4e6f05f8d06bf76a467bed150d17f6031b45f8e8f22e8b9f79dc17cc",
+   "tokens": 1304
+  },
+  {
+   "bytes": 10703,
+   "path": "Lib/email/policy.py",
+   "rho": 1000,
+   "sha256": "9959d89c9951daa32b8a8533c52986bdccab0d624b1bfe7627a9959742d5c259",
+   "tokens": 7051
+  },
+  {
+   "bytes": 34252,
+   "path": "Lib/encodings/cp863.py",
+   "rho": 1000,
+   "sha256": "61eec7891697aec6385be3132a9684592e73458671c3692f2ee51e39fdfcb63d",
+   "tokens": 22154
+  },
+  {
+   "bytes": 101643,
+   "path": "Lib/test/test_unittest/test_case.py",
+   "rho": 1000,
+   "sha256": "2db371f818e05de05328caea4701dbfe6438f0dd842a2e177ca5ee5a1f0d5852",
+   "tokens": 65368
+  },
+  {
+   "bytes": 98051,
+   "path": "Lib/test/test_sys.py",
+   "rho": 1000,
+   "sha256": "6bbfcd9e302657b2ff56ad662cb981caf27d361aebd64f65007cdf5b235007a8",
+   "tokens": 63063
+  },
+  {
+   "bytes": 40697,
+   "path": "Lib/test/test_except_star.py",
+   "rho": 1000,
+   "sha256": "2474036baa6595d37476e388f0383bee01cf5859f71c93f13c58f2c9874b9c1e",
+   "tokens": 26287
+  },
+  {
+   "bytes": 35248,
+   "path": "Lib/ftplib.py",
+   "rho": 1000,
+   "sha256": "3f34db81b978bc43bd85c3919a2e212cbd3aca6039fc5f2c11596f8fe5616ba8",
+   "tokens": 22770
+  },
+  {
+   "bytes": 60,
+   "path": "Lib/test/test_tomllib/__main__.py",
+   "rho": 1000,
+   "sha256": "412548c819aeb6fe944d66cc231d9984d627c75e3278731ccadf1e13688db6e4",
+   "tokens": 229
+  },
+  {
+   "bytes": 1525,
+   "path": "Lib/encodings/quopri_codec.py",
+   "rho": 1000,
+   "sha256": "33dfff085296ecba4e5b206cf93e61a4160b48f7e43f8f6528ce05a3b99e457c",
+   "tokens": 1169
+  },
+  {
+   "bytes": 41264,
+   "path": "Tools/picklebench/memory_dos_impact.py",
+   "rho": 1000,
+   "sha256": "d12855349b4ae6213696c1f646943ee700141ac0412d0dc9060656530b62137e",
+   "tokens": 26651
+  },
+  {
+   "bytes": 19918,
+   "path": "Lib/test/test_ctypes/test_bitfields.py",
+   "rho": 1000,
+   "sha256": "64702ac3fa208eef75ddf554143e420a62cf0fcb00ca89731c5d1a0629e73c22",
+   "tokens": 12963
+  },
+  {
+   "bytes": 3824,
+   "path": "Lib/test/test_asyncio/test_transports.py",
+   "rho": 1000,
+   "sha256": "efed019a7966bbaeb46f0f2481ec6922d0ebb621985f3f51c752f818fbab5dcf",
+   "tokens": 2643
+  },
+  {
+   "bytes": 8236,
+   "path": "Lib/test/test_subclassinit.py",
+   "rho": 1000,
+   "sha256": "13d49486c94f3c828e6662281af596e7690326dd57af650007594e2f72c9bb1c",
+   "tokens": 5472
+  },
+  {
+   "bytes": 98,
+   "path": "Lib/test/test_lazy_import/data/basic_compatibility_mode.py",
+   "rho": 1000,
+   "sha256": "8e12ee9b8696e9b2f562fe559d3f4c44a359b2546766b4f930a250ff23c0d997",
+   "tokens": 254
+  },
+  {
+   "bytes": 36846,
+   "path": "Lib/xmlrpc/server.py",
+   "rho": 1000,
+   "sha256": "fb7d0f2212c5f2592e3df2fb81fc2274e0ece5d603e5cd79785a39787d337df0",
+   "tokens": 23815
+  },
+  {
+   "bytes": 4635,
+   "path": "Lib/multiprocessing/popen_spawn_win32.py",
+   "rho": 1000,
+   "sha256": "3979bc7608b62f19bc849b9c1e39c530146644e91a06e14a6cabdd1fb6e2eead",
+   "tokens": 3163
+  },
+  {
+   "bytes": 13595,
+   "path": "Lib/test/test_stat.py",
+   "rho": 1000,
+   "sha256": "a312595376b451959d5a2f819b34248019177ad2b1746ce9b78eb50fa1467ae0",
+   "tokens": 8883
+  },
+  {
+   "bytes": 13686,
+   "path": "Lib/encodings/cp1250.py",
+   "rho": 1000,
+   "sha256": "227cea8a9265bd678ae11c5590bb7c1ef077e3c6c0fd8ef0e98a50d0d037e0cf",
+   "tokens": 8967
+  },
+  {
+   "bytes": 1881,
+   "path": "Programs/_freeze_module.py",
+   "rho": 1000,
+   "sha256": "af4c1d1c32bce6a0badd4ffb976ce632bfdfcc1f895131058347531272c9a20f",
+   "tokens": 1397
+  },
+  {
+   "bytes": 14718,
+   "path": "Lib/test/test_bool.py",
+   "rho": 1000,
+   "sha256": "c70d2bb3a55038370dc7292d99ac52f8024ca12bb6235fe71c37a8bef28fc502",
+   "tokens": 9605
+  },
+  {
+   "bytes": 7982,
+   "path": "Lib/test/test_pep646_syntax.py",
+   "rho": 1000,
+   "sha256": "fd3995c1d5740955412abd791e4589a65f5308cb11d1468c5764cb8d55182efb",
+   "tokens": 5309
+  },
+  {
+   "bytes": 1751,
+   "path": "Tools/clinic/libclinic/errors.py",
+   "rho": 1000,
+   "sha256": "60274867bdf2f4a77409076bb0b079b9e8cf45f34ab72fe41554189a25611de3",
+   "tokens": 1313
+  },
+  {
+   "bytes": 19075,
+   "path": "Lib/test/test_positional_only_arg.py",
+   "rho": 1000,
+   "sha256": "835d4d333cdcbdc2c78097233c8678ec4a41fdaf786d1d1492362f87ff6b3953",
+   "tokens": 12422
+  },
+  {
+   "bytes": 910,
+   "path": "Lib/test/test_tools/test_sundry.py",
+   "rho": 1000,
+   "sha256": "d9f5f9185b141c2522ab6a9d3bad6ce3fdd2e38c435396a017894a2f988a186c",
+   "tokens": 774
+  },
+  {
+   "bytes": 2165,
+   "path": "Lib/test/_test_embed_structseq.py",
+   "rho": 1000,
+   "sha256": "f06f6c791f1cc905ec68caaed5e4f7542b3dcc1284e64664a62a172a64676da8",
+   "tokens": 1579
+  },
+  {
+   "bytes": 11647,
+   "path": "Tools/patchcheck/reindent.py",
+   "rho": 1000,
+   "sha256": "79afa4e2ef0cfca510d852a2a0e22ff15c0e5a0455a9d4f416f9761cd548c6d9",
+   "tokens": 7659
+  },
+  {
+   "bytes": 2718,
+   "path": "Lib/tkinter/colorchooser.py",
+   "rho": 1000,
+   "sha256": "19b9e933cd0123c7511f150ad7c52c1016a3128ca1ae485b917bfda6560c50be",
+   "tokens": 1934
+  },
+  {
+   "bytes": 24791,
+   "path": "Lib/test/test_perf_profiler.py",
+   "rho": 1000,
+   "sha256": "37249e0fa5f7663921b287f608e403cf2f20d767f2e418d79ac33064e8bbb716",
+   "tokens": 16087
+  },
+  {
+   "bytes": 105664,
+   "path": "Lib/test/test_peepholer.py",
+   "rho": 1000,
+   "sha256": "a25594ff40d1f031afbc17c06b7b73bcb735681f1a2e977cfeccad095045e858",
+   "tokens": 67946
+  },
+  {
+   "bytes": 5876,
+   "path": "Lib/test/test_ctypes/_support.py",
+   "rho": 1000,
+   "sha256": "8d978b401ed9ce3c27e8ed1a1ebf22450422980b167b60a383547c55516ed415",
+   "tokens": 3959
+  },
+  {
+   "bytes": 36467,
+   "path": "Lib/encodings/mac_arabic.py",
+   "rho": 1000,
+   "sha256": "3f9b3051780c69ded0924b90c58cc08bac14ac6939cbfad72e7a2b257b8387f7",
+   "tokens": 23575
+  },
+  {
+   "bytes": 50,
+   "path": "Lib/test/test_import/data/circular_imports/subpkg/subpackage2.py",
+   "rho": 1000,
+   "sha256": "5ade742365f520e981b5eb707817d68bd050128c12ff617ee5e1b2d6148aff45",
+   "tokens": 223
+  },
+  {
+   "bytes": 303,
+   "path": "Lib/test/test_lazy_import/data/global_filter_true.py",
+   "rho": 1000,
+   "sha256": "29ab776ceb325b6ac28b961dc440b9d6443af52a0e9dfaa0444b7aac860c260f",
+   "tokens": 385
+  },
+  {
+   "bytes": 52040,
+   "path": "Lib/test/test_yield_from.py",
+   "rho": 1000,
+   "sha256": "e4c20f378610b8f5d8818f0b31132b5c64cf7e8bf6c485c70ea8a8f8dbd68e94",
+   "tokens": 33560
+  },
+  {
+   "bytes": 32543,
+   "path": "Lib/_collections_abc.py",
+   "rho": 1000,
+   "sha256": "9035d181cb73887f98c553a43a34d25f05f1da402f7a1c7ee538af67fe464892",
+   "tokens": 21058
+  },
+  {
+   "bytes": 26,
+   "path": "Lib/test/test_importlib/namespace_pkgs/portion2/foo/two.py",
+   "rho": 1000,
+   "sha256": "91f81ce5bf9c88cc70dc978eb50fc314583f9e1e42c4fd5e4bdab5f8f551bfbe",
+   "tokens": 207
+  },
+  {
+   "bytes": 6742,
+   "path": "Lib/idlelib/idle_test/test_pyshell.py",
+   "rho": 1000,
+   "sha256": "71c237275e5475bcc39ff0fc127e281f6849b10c51219d1cf0bb779633a7436c",
+   "tokens": 4514
+  },
+  {
+   "bytes": 11343,
+   "path": "Lib/test/test_capi/test_set.py",
+   "rho": 1000,
+   "sha256": "fdcf5d89e78d291c5a8a136fb18dda8c43c708fe782e617a9e94133539c6877d",
+   "tokens": 7464
+  },
+  {
+   "bytes": 701,
+   "path": "Lib/test/test_codecencodings_hk.py",
+   "rho": 1000,
+   "sha256": "66bf4b4208edcfdae2d17512adff3a37ae43b033ba903a2fd4acc2affd05d9a0",
+   "tokens": 640
+  },
+  {
+   "bytes": 0,
+   "path": "Lib/test/libregrtest/__init__.py",
+   "rho": 1000,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "tokens": 0
+  },
+  {
+   "bytes": 8435,
+   "path": "Tools/c-analyzer/c_parser/parser/__init__.py",
+   "rho": 1000,
+   "sha256": "819659396a55fe8996ab7d1ae62077a14acd40d4876dbb17c62cda06de9e22b1",
+   "tokens": 5599
+  },
+  {
+   "bytes": 2308,
+   "path": "Lib/test/test_free_threading/test_json.py",
+   "rho": 1000,
+   "sha256": "6a8f369616bf89ee9182c7650206a3a572886112c01f63f7e0ef8e1b8d1b8f2d",
+   "tokens": 1671
+  },
+  {
+   "bytes": 9652,
+   "path": "Lib/shelve.py",
+   "rho": 1000,
+   "sha256": "712faf47738cd6f13e7b6528b55cdcb6fd7965e3ea72cc49f987218144ed4227",
+   "tokens": 6377
+  },
+  {
+   "bytes": 81,
+   "path": "Lib/test/typinganndata/ann_module4.py",
+   "rho": 1000,
+   "sha256": "084149ce7f90a847acf09ab5d6295f770f5078d0c696a06c0019842583ebc6f0",
+   "tokens": 243
+  },
+  {
+   "bytes": 13566,
+   "path": "Tools/c-analyzer/cpython/_analyzer.py",
+   "rho": 1000,
+   "sha256": "72b82ff2e5da18c4212c6dbabffcb9b512fd417521fd30f0567158f934ef4a5e",
+   "tokens": 8890
+  },
+  {
+   "bytes": 38,
+   "path": "Lib/test/test_lazy_import/data/module_same_name_var_order2/__init__.py",
+   "rho": 1000,
+   "sha256": "c5e0df931db7fc62a74d55237f571221ada3eed075667373991fe0ed51d75331",
+   "tokens": 215
+  },
+  {
+   "bytes": 58,
+   "path": "Lib/test/test_importlib/import_/__main__.py",
+   "rho": 1000,
+   "sha256": "cb9a3ce8f18e7d0a0cadb73cc9264772462de953499534736998d3c54f8c7c3c",
+   "tokens": 228
+  },
+  {
+   "bytes": 600,
+   "path": "Lib/test/test_openpty.py",
+   "rho": 1000,
+   "sha256": "2980b9de10d97782a8a04783ed5b232ae0f55cc36480c4d1782fc843fbce49d5",
+   "tokens": 575
+  },
+  {
+   "bytes": 28367,
+   "path": "Lib/test/test_http_cookies.py",
+   "rho": 1000,
+   "sha256": "8d4ef1c8be0edc52cd3d63a38413f9fc11743e77790cd84964b9f0ee510fc8ea",
+   "tokens": 18381
+  },
+  {
+   "bytes": 10129,
+   "path": "Lib/test/test_importlib/import_/test_path.py",
+   "rho": 1000,
+   "sha256": "4947f38daf2de0acdb6e8a0cc2eeccebf76512d0044eca233a139b7f0044155e",
+   "tokens": 6686
+  },
+  {
+   "bytes": 2756,
+   "path": "Tools/cases_generator/uop_id_generator.py",
+   "rho": 1000,
+   "sha256": "3aec741aed85baa041a9f40e1bb6019dd4cc35ae4d4de0b0c5dd092011fa439f",
+   "tokens": 1958
+  },
+  {
+   "bytes": 5199,
+   "path": "Tools/unicode/genmap_schinese.py",
+   "rho": 1000,
+   "sha256": "5aece1ecd3df67517db9f465d93e1b2ceb1f863807594d0e112baa83a460ffa5",
+   "tokens": 3524
+  },
+  {
+   "bytes": 1310,
+   "path": "Lib/email/mime/message.py",
+   "rho": 1000,
+   "sha256": "a8e9dadb2bc479e481c1f9f1d6720862144476a8f98bedc639a6d7e4a486751d",
+   "tokens": 1031
+  },
+  {
+   "bytes": 23365,
+   "path": "Lib/tokenize.py",
+   "rho": 1000,
+   "sha256": "3253bdce27b31649cc31c04e9bae6a74f5a59abd89077153f405aa77c792dfcb",
+   "tokens": 15173
+  },
+  {
+   "bytes": 20863,
+   "path": "Lib/idlelib/autocomplete_w.py",
+   "rho": 1000,
+   "sha256": "7624cd9b8fdedb63bba7b1bf130769d31f28ed2db884c0fc0b758bea835b6ed5",
+   "tokens": 13569
+  },
+  {
+   "bytes": 18277,
+   "path": "Lib/email/charset.py",
+   "rho": 1000,
+   "sha256": "ccb568c3ac2de6a1c7b323403aea06554dc5f428d0e2f2eafffd4ca017fee47c",
+   "tokens": 11909
+  },
+  {
+   "bytes": 17037,
+   "path": "Lib/test/test_bisect.py",
+   "rho": 1000,
+   "sha256": "e7d4caacb23563ea943851863cbf64ac75ebbc5f3a89255e1385db8553159474",
+   "tokens": 11081
+  },
+  {
+   "bytes": 2603,
+   "path": "Lib/test/test_free_threading/test_func_annotations.py",
+   "rho": 1000,
+   "sha256": "d8b634cb4fb50aac82a3399bd964643e43e4f1223cd072198d872263d9fecedf",
+   "tokens": 1860
+  },
+  {
+   "bytes": 6126,
+   "path": "Lib/test/test_userlist.py",
+   "rho": 1000,
+   "sha256": "d196664ae4d499568fbdf45f30456290bdcba4f20b02829db700b8e37d40a0ce",
+   "tokens": 4119
+  },
+  {
+   "bytes": 107714,
+   "path": "Lib/test/test_tkinter/test_widgets.py",
+   "rho": 1000,
+   "sha256": "291348a210056eb3a1a9a5f4115ddf3fdac6eea9cc81e976ad08df8d8065eab7",
+   "tokens": 69259
+  },
+  {
+   "bytes": 2764,
+   "path": "Lib/test/support/_hypothesis_stubs/__init__.py",
+   "rho": 1000,
+   "sha256": "0c6ac30093dcbbe626c24ba5d89d158f6f3cd935bfb3065d0b3ecc4db2e37f7e",
+   "tokens": 1963
+  },
+  {
+   "bytes": 11761,
+   "path": "Lib/tabnanny.py",
+   "rho": 1000,
+   "sha256": "e3c2709ad9673217a16dd63f38494037faed614711b718cec2079c1885bd674c",
+   "tokens": 7732
+  },
+  {
+   "bytes": 8239,
+   "path": "Lib/test/test_winconsoleio.py",
+   "rho": 1000,
+   "sha256": "b30154faaba6c86fb5be7f788c9dc687b30c591bc8300684ca7c092e2f37943b",
+   "tokens": 5474
+  },
+  {
+   "bytes": 448,
+   "path": "Lib/test/mp_fork_bomb.py",
+   "rho": 1000,
+   "sha256": "e800ce1338756971d9db568e1a804f84a720079b23d791bdb5056049ce86ae56",
+   "tokens": 478
+  },
+  {
+   "bytes": 13959,
+   "path": "Lib/test/test_capi/test_slots.py",
+   "rho": 1000,
+   "sha256": "9340dff2f4e22ca6a49fdc4c7eb196137d43e181f447620befb30e8d7b3d8c06",
+   "tokens": 9142
+  },
+  {
+   "bytes": 8588,
+   "path": "Lib/idlelib/browser.py",
+   "rho": 1000,
+   "sha256": "b607102a6e2ff7de241744008144a5480e2925098694be2a46003d8f60da0f52",
+   "tokens": 5698
+  },
+  {
+   "bytes": 1708,
+   "path": "Lib/idlelib/idle_test/test_mainmenu.py",
+   "rho": 1000,
+   "sha256": "b994e9c306d1cd97206a9c50c12e40c382dc5021db66d5941adb5c5922ba42e0",
+   "tokens": 1286
+  },
+  {
+   "bytes": 3892,
+   "path": "Doc/includes/mp_pool.py",
+   "rho": 1000,
+   "sha256": "23d6ec5e99afc1adee261d4bc2928018ec76acdbad7a69ebb53c010a2a5f7c1e",
+   "tokens": 2686
+  },
+  {
+   "bytes": 2070,
+   "path": "Lib/test/test_free_threading/test_readline.py",
+   "rho": 1000,
+   "sha256": "3ed5d302b2badb2cceea602150b3fd7c3d172f53be556c69b0eb1ad8b43685f6",
+   "tokens": 1518
+  },
+  {
+   "bytes": 142634,
+   "path": "Lib/pdb.py",
+   "rho": 1000,
+   "sha256": "9cbcc87e8a6610f06fcd220b09ab7fe93a5f834fe82a6c6394489c38538dd68d",
+   "tokens": 91652
+  },
+  {
+   "bytes": 9016,
+   "path": "Lib/test/test_importlib/resources/test_functional.py",
+   "rho": 1000,
+   "sha256": "ba1c03851abe2863bfe01ad48de729630df97f5d2a80b7142bc1dbe9214b7000",
+   "tokens": 5955
+  },
+  {
+   "bytes": 2496,
+   "path": "Lib/test/test_ctypes/test_pickling.py",
+   "rho": 1000,
+   "sha256": "f73685490d6d7d5aeb9c07c37c953250b779608d14b78b14424b1c2e5d0a78c3",
+   "tokens": 1791
+  },
+  {
+   "bytes": 18043,
+   "path": "Tools/inspection/benchmark_external_inspection.py",
+   "rho": 1000,
+   "sha256": "3b340bea98b551fbf5fb09ac233750d498985c834d86f09c49edeed84b0a5c3f",
+   "tokens": 11760
+  },
+  {
+   "bytes": 23939,
+   "path": "Lib/test/test_concurrent_futures/test_process_pool.py",
+   "rho": 1000,
+   "sha256": "07e5bb8a13eb90d42c38837deaa93114fe24a33ab59589dc05474adfda0b6574",
+   "tokens": 15541
+  },
+  {
+   "bytes": 11420,
+   "path": "Lib/idlelib/codecontext.py",
+   "rho": 1000,
+   "sha256": "1c4526dbe6ed2856899e716ff78eaa035ba1cf0e99078c684e54cb2f9d6d54ff",
+   "tokens": 7514
+  },
+  {
+   "bytes": 52133,
+   "path": "Tools/clinic/libclinic/converters.py",
+   "rho": 1000,
+   "sha256": "a92f473062d29663f166881483e450503345801e5eec010707c38bdbae681a51",
+   "tokens": 33620
+  },
+  {
+   "bytes": 34564,
+   "path": "Lib/encodings/cp437.py",
+   "rho": 1000,
+   "sha256": "4e07e4f26df5e09750fc85d6e5bb3b39e3157092df08e28eeef45fbbdc632da1",
+   "tokens": 22354
+  },
+  {
+   "bytes": 167,
+   "path": "Lib/xml/parsers/__init__.py",
+   "rho": 1000,
+   "sha256": "b88497adc30d5d5eda7789c25a2206ee9270c932d584d7ac42680325651da45c",
+   "tokens": 298
+  },
+  {
+   "bytes": 7966,
+   "path": "Lib/test/test_importlib/test_lazy.py",
+   "rho": 1000,
+   "sha256": "01cf0147afeca753930599ace82ff570e453f6962c845953c1eaba6ed15af717",
+   "tokens": 5299
+  },
+  {
+   "bytes": 9071,
+   "path": "Lib/test/test_cmd.py",
+   "rho": 1000,
+   "sha256": "1fc072291803c340b3200764c54c964df0392e93a9b9dba90c7f1364cd28a6a8",
+   "tokens": 6007
+  },
+  {
+   "bytes": 11173,
+   "path": "Lib/test/test_gdb/util.py",
+   "rho": 1000,
+   "sha256": "fe96ff34ad3d5bf9866ab9ebe13cb51abe10d5ab60c60d5cb9baeee18ebf9bc1",
+   "tokens": 7355
+  },
+  {
+   "bytes": 13105,
+   "path": "Lib/encodings/cp1140.py",
+   "rho": 1000,
+   "sha256": "29e3f82311e5f79753c1a26456554413135a887e4273dae23cf4f1c97913416e",
+   "tokens": 8594
+  },
+  {
+   "bytes": 294,
+   "path": "Lib/test/test_peg_generator/__init__.py",
+   "rho": 1000,
+   "sha256": "7a3a46bb74f7ca5ea6b7ff78bbd6b76d738247455719c6c74b861696bb3d51d2",
+   "tokens": 379
+  },
+  {
+   "bytes": 11550,
+   "path": "Lib/test/test_codeop.py",
+   "rho": 1000,
+   "sha256": "a384123513e77267569b1d474ae9ef97a42c38385e77612785f0e16c277311cf",
+   "tokens": 7597
+  },
+  {
+   "bytes": 419,
+   "path": "Lib/test/test_lazy_import/data/pkg/__init__.py",
+   "rho": 1000,
+   "sha256": "0fe55e059f5d6ed07e31180c4a1971d248614a0fe599a28b80976f056c587ef0",
+   "tokens": 459
+  },
+  {
+   "bytes": 925,
+   "path": "Lib/_pyrepl/__init__.py",
+   "rho": 1000,
+   "sha256": "f2de534027869b0b5cf0f9a62d3d0b53e62688b483ef0d8b351257e07f255165",
+   "tokens": 784
+  },
+  {
+   "bytes": 2604,
+   "path": "Lib/test/test_free_threading/test_zlib.py",
+   "rho": 1000,
+   "sha256": "fb1fa5a315ecddc0d13d056f6bb185160bd3ee5ca33a448149aa3fb601cf22ad",
+   "tokens": 1860
+  },
+  {
+   "bytes": 11464,
+   "path": "Tools/build/compute-changes.py",
+   "rho": 1000,
+   "sha256": "9dc411cd0fffb4c27b903d22498db3098cd56402363f2f7a76e711f2c2e680ca",
+   "tokens": 7542
+  },
+  {
+   "bytes": 4370,
+   "path": "Lib/sqlite3/dump.py",
+   "rho": 1000,
+   "sha256": "ebbe93df602f6bde103d48835df31a099924d1564e2b393556189f22c2d27bc2",
+   "tokens": 2993
+  },
+  {
+   "bytes": 6351,
+   "path": "Lib/test/libregrtest/testresult.py",
+   "rho": 1000,
+   "sha256": "e0b666b5778c9a36e288b955942ad00c6adee818e7db2050bdca4cdfd67c31ed",
+   "tokens": 4263
+  },
+  {
+   "bytes": 3853,
+   "path": "PC/layout/support/props.py",
+   "rho": 1000,
+   "sha256": "787110c0745a12c6627e663e1339bd6831a125250c1d26d878ef4c7393f48e38",
+   "tokens": 2661
+  },
+  {
+   "bytes": 2362,
+   "path": "Lib/test/test_json/test_encode_basestring_ascii.py",
+   "rho": 1000,
+   "sha256": "8ac32d79fadf5ed86735777c191510a3e01dbab6c6c356793defe6375b508bd5",
+   "tokens": 1705
+  },
+  {
+   "bytes": 2164,
+   "path": "Tools/c-analyzer/cpython/_files.py",
+   "rho": 1000,
+   "sha256": "1e90fed09ab60bcf47fe6c6b53514fbc92f7b1a5d93fbc68b92d9cd6f567bbeb",
+   "tokens": 1578
+  },
+  {
+   "bytes": 4961,
+   "path": "Lib/test/test_unpack.py",
+   "rho": 1000,
+   "sha256": "0f0a7ef9ab75d88d2daeeef79cdff1e471d0738ce7134ff45442946702e4cad2",
+   "tokens": 3372
+  },
+  {
+   "bytes": 19388,
+   "path": "Lib/textwrap.py",
+   "rho": 1000,
+   "sha256": "a07ec0126f02394e6387c991f6efe5dfe9dc8c1eb6d01f90e353e2f456e36fbf",
+   "tokens": 12619
+  },
+  {
+   "bytes": 58,
+   "path": "Lib/test/test_asyncio/__main__.py",
+   "rho": 1000,
+   "sha256": "cb9a3ce8f18e7d0a0cadb73cc9264772462de953499534736998d3c54f8c7c3c",
+   "tokens": 228
+  },
+  {
+   "bytes": 4817,
+   "path": "Lib/test/test_syslog.py",
+   "rho": 1000,
+   "sha256": "001e3531b6bf80e891dfee8f243539676104b9427f240429a9cdf404aeffb900",
+   "tokens": 3279
+  },
+  {
+   "bytes": 5391,
+   "path": "Lib/test/test_smtpnet.py",
+   "rho": 1000,
+   "sha256": "d95c0bb47f235868a553e5bd230fbf211bd21791dd8dfffb220eb754caa68a93",
+   "tokens": 3648
+  },
+  {
+   "bytes": 825,
+   "path": "Lib/test/test_importlib/partial/cfimport.py",
+   "rho": 1000,
+   "sha256": "baee4000bb4739a273aef42706abd85c7f01232346fc5efb196702e55e5e46e7",
+   "tokens": 720
+  },
+  {
+   "bytes": 7972,
+   "path": "Lib/py_compile.py",
+   "rho": 1000,
+   "sha256": "14b0cc10383bba5e3b9b6efc3997c6863d7f7062566c68080d57eab2f830301d",
+   "tokens": 5301
+  },
+  {
+   "bytes": 105,
+   "path": "Lib/test/test_lazy_import/data/relative_lazy.py",
+   "rho": 1000,
+   "sha256": "1da357cd41db34f6cc538663adaad72fc583242f2f19215399a31501209b3f3b",
+   "tokens": 258
+  },
+  {
+   "bytes": 8697,
+   "path": "Tools/c-analyzer/c_parser/preprocessor/gcc.py",
+   "rho": 1000,
+   "sha256": "94aed85fa4271d0c7572c7a364788810817741d60d93d03d508d9a4fcf74bf03",
+   "tokens": 5767
+  },
+  {
+   "bytes": 57320,
+   "path": "Lib/importlib/_bootstrap.py",
+   "rho": 1000,
+   "sha256": "24ccfbedec3c4cb3ef99afb7fa0ceb13f57e7dd06f35e9a6dd090710f7add780",
+   "tokens": 36946
+  },
+  {
+   "bytes": 1188,
+   "path": "Lib/test/test_codecmaps_kr.py",
+   "rho": 1000,
+   "sha256": "52638d763f723194668330573087be350b89f14f67c926b131b62bb68ccc3a37",
+   "tokens": 952
+  },
+  {
+   "bytes": 1037,
+   "path": "Lib/encodings/utf_16_le.py",
+   "rho": 1000,
+   "sha256": "c1be8f7f8e0cd523c513baea91117875dffe2fdfa8d1df577ff0fd5cba9f6308",
+   "tokens": 856
+  },
+  {
+   "bytes": 12291,
+   "path": "Lib/multiprocessing/synchronize.py",
+   "rho": 1000,
+   "sha256": "6db5af004c7b705594a02d6e24eabb2257da69b7dfc4e4ad4afc941570b04527",
+   "tokens": 8077
+  },
+  {
+   "bytes": 2566,
+   "path": "Lib/_pyrepl/fancy_termios.py",
+   "rho": 1000,
+   "sha256": "15d7dcaf699c68a459dca4d8d1bcfbd23fd8b291fcfdbc90d1aa405a1e1c0192",
+   "tokens": 1836
+  },
+  {
+   "bytes": 53263,
+   "path": "Lib/test/test_struct.py",
+   "rho": 1000,
+   "sha256": "9ca9ebee5ac351c2f3aa8c8575d9610c6700e6ea08a2ff787d1c12d7dd24b670",
+   "tokens": 34345
+  },
+  {
+   "bytes": 15230,
+   "path": "Lib/idlelib/config_key.py",
+   "rho": 1000,
+   "sha256": "856bd4b2c1fd7275856d3869cad8975f7770edbf021a93c64816a41c2322c2fa",
+   "tokens": 9957
+  },
+  {
+   "bytes": 10257,
+   "path": "Lib/test/libregrtest/refleak.py",
+   "rho": 1000,
+   "sha256": "cbb79d64fdb427c20e229fa7d9f92802c7b4fe91fa0506df7c98973d74f8a809",
+   "tokens": 6768
+  },
+  {
+   "bytes": 13015,
+   "path": "Lib/encodings/iso8859_5.py",
+   "rho": 1000,
+   "sha256": "4d700eb0f87939b20426414a388f410e331c9dc7fa5231918ee30f8aa9c10c74",
+   "tokens": 8536
+  },
+  {
+   "bytes": 7491,
+   "path": "Lib/asyncio/runners.py",
+   "rho": 1000,
+   "sha256": "d3b0765c4bd022dac4d101a034ba8c16b6e9c598e44d7b9d82b3239f3106fe65",
+   "tokens": 4994
+  },
+  {
+   "bytes": 5573,
+   "path": "Lib/test/test_userstring.py",
+   "rho": 1000,
+   "sha256": "44007a212bf0e262c6a64033e1144928208259f2a041e8318975cea78f2f5b7c",
+   "tokens": 3764
+  },
+  {
+   "bytes": 7248,
+   "path": "Lib/test/test_capi/test_bytearray.py",
+   "rho": 1000,
+   "sha256": "3ce85e5e9a351e33e3107eb25d1ab4610a30a18d8cc5feb8cd562d05635652a2",
+   "tokens": 4838
+  },
+  {
+   "bytes": 36427,
+   "path": "Lib/test/test_importlib/test_util.py",
+   "rho": 1000,
+   "sha256": "7a64f1d49118084725fa7e137145124094a946ad256fcb504f52e0c08ffbaaa7",
+   "tokens": 23549
+  },
+  {
+   "bytes": 210,
+   "path": "Lib/test/test_multiprocessing_forkserver/test_processes.py",
+   "rho": 1000,
+   "sha256": "b13b016e99af2960e4d70a244592118f542cb542c50daa6b8e37229c7b7ea88c",
+   "tokens": 325
+  },
+  {
+   "bytes": 8540,
+   "path": "Doc/tools/extensions/audit_events.py",
+   "rho": 1000,
+   "sha256": "0f3cc73e96a60079bd8afd6e16313473bf859b43d23946682e56356a938b022a",
+   "tokens": 5667
+  },
+  {
+   "bytes": 10108,
+   "path": "Lib/test/test_threadsignals.py",
+   "rho": 1000,
+   "sha256": "203d0eeb1cc7c114a4e11fd4d175923b7fc9db867860904bc46d779f6a38c68c",
+   "tokens": 6672
+  },
+  {
+   "bytes": 41729,
+   "path": "Tools/clinic/libclinic/parse_args.py",
+   "rho": 1000,
+   "sha256": "cd3fcc1d0c4e22ddeea0ccfdd193f6327a5aca8042241e40e5fb42657b492e2c",
+   "tokens": 26947
+  },
+  {
+   "bytes": 2999,
+   "path": "Lib/email/mime/audio.py",
+   "rho": 1000,
+   "sha256": "5dcd137f6fa1548648c0a4120eebee5a5d0aee5329d3e33f5d7ae917574e1e7b",
+   "tokens": 2114
+  },
+  {
+   "bytes": 3504,
+   "path": "Lib/test/test_select.py",
+   "rho": 1000,
+   "sha256": "74199f34bac4e209bf2785603be056e549b8089956fdc73165fcb491d5b5887c",
+   "tokens": 2438
+  },
+  {
+   "bytes": 4940,
+   "path": "Lib/test/test_ctypes/test_macholib.py",
+   "rho": 1000,
+   "sha256": "c801988cbbab0460875a6f8d66f02c50b412d7e32e52b879b8b0f8e544db836f",
+   "tokens": 3358
+  },
+  {
+   "bytes": 28730,
+   "path": "Lib/test/test_sqlite3/test_userfunctions.py",
+   "rho": 1000,
+   "sha256": "8d14b67d82fc48f76f08ab629720a8bd0b5efcfbde1643929003e47c10742823",
+   "tokens": 18613
+  },
+  {
+   "bytes": 12451,
+   "path": "Lib/test/test_io/test_file.py",
+   "rho": 1000,
+   "sha256": "d06f70907858deff6ecf762574b6ca02f3e5a3afa8396455e288edd65091671a",
+   "tokens": 8175
+  },
+  {
+   "bytes": 35493,
+   "path": "Lib/test/test_profiling/test_sampling_profiler/test_integration.py",
+   "rho": 1000,
+   "sha256": "78ed9837bc7f1c09d6667c5b48865776979e500f16d96ea0772dc6a6b3bedfab",
+   "tokens": 22950
+  },
+  {
+   "bytes": 131399,
+   "path": "Lib/inspect.py",
+   "rho": 1000,
+   "sha256": "c1cc93adcbd1f93b817d7886c0d25c9a88706af9eebabd439df580548742f0b4",
+   "tokens": 84448
+  },
+  {
+   "bytes": 15446,
+   "path": "Lib/json/__init__.py",
+   "rho": 1000,
+   "sha256": "4cc35eb04b789ce4890cffa944829c946e4c5dd032aaa6dc01f53449b250985a",
+   "tokens": 10095
+  },
+  {
+   "bytes": 201925,
+   "path": "Lib/test/test_enum.py",
+   "rho": 1000,
+   "sha256": "14d7c17d255873f4d2400496fd7fc85fcb1e1a8124fded811098f90fdb6fbe18",
+   "tokens": 129669
+  },
+  {
+   "bytes": 940,
+   "path": "Lib/test/test_errno.py",
+   "rho": 1000,
+   "sha256": "d5b49da0745abd6e45034f65c8204591e0f808cf4dc4f7b1cbd6c55453e55539",
+   "tokens": 790
+  },
+  {
+   "bytes": 2976,
+   "path": "Lib/test/test_importlib/metadata/test_zip.py",
+   "rho": 1000,
+   "sha256": "21db5fcd22bdb0dfd8bfab92cbf34114c8d4560bc4f58d09fb7a55268654234e",
+   "tokens": 2100
+  },
+  {
+   "bytes": 3817,
+   "path": "Tools/jit/example_trace_dump.py",
+   "rho": 1000,
+   "sha256": "cfe624593fa70215357f14ff5c934652bfb099f7c0387e60f0eabbd0d7d5d67e",
+   "tokens": 2638
+  },
+  {
+   "bytes": 12595,
+   "path": "Lib/encodings/cp874.py",
+   "rho": 1000,
+   "sha256": "7563da9a57e963ec597306cfb27eeb728e555d09b50a3998ac3b24db8aba01f3",
+   "tokens": 8267
+  },
+  {
+   "bytes": 82,
+   "path": "Lib/test/test_import/data/circular_imports/import_cycle.py",
+   "rho": 1000,
+   "sha256": "d3afc39e99fe9662d8b0ea43aafca8e7df3df449390fe736a0829acc58df4d32",
+   "tokens": 243
+  },
+  {
+   "bytes": 1943,
+   "path": "Lib/idlelib/idle_test/mock_idle.py",
+   "rho": 1000,
+   "sha256": "637d74d26089c582fb784c2920f5bcb41e5b1fc8b9e0931ddc1cc8d92becbff4",
+   "tokens": 1437
+  },
+  {
+   "bytes": 21709,
+   "path": "Lib/test/test_source_encoding.py",
+   "rho": 1000,
+   "sha256": "4a2b8e3d467d775ecd23d37b8e478edc3eefffb7bd3f82dda7e48c214daac799",
+   "tokens": 14111
+  },
+  {
+   "bytes": 376,
+   "path": "Lib/test/crashers/trace_at_recursion_limit.py",
+   "rho": 1000,
+   "sha256": "86cd6025164a14d4000fa7e2d8b04eaae7da077510d94b64a199c02ee7dfd6df",
+   "tokens": 432
+  },
+  {
+   "bytes": 1971,
+   "path": "Tools/cases_generator/parser.py",
+   "rho": 1000,
+   "sha256": "e4d8db0ea55186dcbb692c1004c3a33bd91adfa4fca50d1fd42c9dbf622dfa0e",
+   "tokens": 1455
+  },
+  {
+   "bytes": 33908,
+   "path": "Lib/encodings/cp857.py",
+   "rho": 1000,
+   "sha256": "21cd1a4de5ee63225739bddd75c153bfb16bd61a8d159f411ca90928609414ae",
+   "tokens": 21934
+  },
+  {
+   "bytes": 8346,
+   "path": "Tools/c-analyzer/c_parser/preprocessor/__init__.py",
+   "rho": 1000,
+   "sha256": "4a4458bd2333152f385e6beaf23643453573d27c5d21a8fad882b3860204302e",
+   "tokens": 5542
+  },
+  {
+   "bytes": 5340,
+   "path": "Lib/test/test_importlib/import_/test___package__.py",
+   "rho": 1000,
+   "sha256": "b7cad4268cc71063d2e7f9dbfcfb87fad887c793922177fe3752f2f2b45740b4",
+   "tokens": 3615
+  },
+  {
+   "bytes": 2305,
+   "path": "Lib/test/test_ctypes/test_errno.py",
+   "rho": 1000,
+   "sha256": "a283fe01a38dfcd4bcd24e7a968294e0f68caf3fc87f229eba0831566fb67bff",
+   "tokens": 1669
+  },
+  {
+   "bytes": 24431,
+   "path": "Lib/email/header.py",
+   "rho": 1000,
+   "sha256": "347d310c0d50061b73afd108b37645a8e5e64b5ad5869f4b17dfbfa8a1808846",
+   "tokens": 15852
+  },
+  {
+   "bytes": 13072,
+   "path": "Lib/test/test_ensurepip.py",
+   "rho": 1000,
+   "sha256": "84d723910f6af2b3846acb5bef056283517a191a4e968972920acdf2f2fe7354",
+   "tokens": 8598
+  },
+  {
+   "bytes": 7396,
+   "path": "Lib/test/test_string/test_templatelib.py",
+   "rho": 1000,
+   "sha256": "3647bd50a55bfb26f83781c4c453ad5107c6fc963ccb4b3df385cbe7525002c2",
+   "tokens": 4933
+  },
+  {
+   "bytes": 4679,
+   "path": "Lib/json/tool.py",
+   "rho": 1000,
+   "sha256": "b8eea9965a36526f582bb7f3e6e2a36a7a30221d5efa3ccdb389507f1f3f7fac",
+   "tokens": 3191
+  },
+  {
+   "bytes": 34476,
+   "path": "Lib/encodings/cp775.py",
+   "rho": 1000,
+   "sha256": "93b8b021da9aa1f15f1d0dbc26427632972651a446c80b697a49782983090942",
+   "tokens": 22298
+  },
+  {
+   "bytes": 33562,
+   "path": "Lib/test/test_profiling/test_heatmap.py",
+   "rho": 1000,
+   "sha256": "502daf409b4fc83ee6f3886f0d8370d08bc1b16c754f6d9932f6a01cb60f1231",
+   "tokens": 21712
+  },
+  {
+   "bytes": 1759,
+   "path": "Lib/email/__init__.py",
+   "rho": 1000,
+   "sha256": "dafca994154b9a6eb2b69d0e6e69e7596f397c2aec9bc62702259f4b39bd111a",
+   "tokens": 1319
+  },
+  {
+   "bytes": 11032,
+   "path": "Lib/test/test_pyclbr.py",
+   "rho": 1000,
+   "sha256": "1678523adf881efb0d5ddfba1c5a1f3cccbcb3d6cf2cfe0ae09c8013340d5db7",
+   "tokens": 7265
+  },
+  {
+   "bytes": 28377,
+   "path": "Lib/asyncio/streams.py",
+   "rho": 1000,
+   "sha256": "c5ea3511b67249a3bf5ad97819b7b3732e43732464e15717911d064a4163920d",
+   "tokens": 18365
+  },
+  {
+   "bytes": 248,
+   "path": "Lib/xml/parsers/expat.py",
+   "rho": 1000,
+   "sha256": "64e1947747c2874117a7458bba1f07c86620cc0ed9a4a4116d262878e4a2aa09",
+   "tokens": 350
+  },
+  {
+   "bytes": 38185,
+   "path": "Lib/asyncio/unix_events.py",
+   "rho": 1000,
+   "sha256": "9df3ae3227f88f14ff5c990e38ad4c0a7e6cbb6037f19c4063f6f91857f67e34",
+   "tokens": 24676
+  },
+  {
+   "bytes": 92938,
+   "path": "Lib/test/test_warnings/__init__.py",
+   "rho": 1000,
+   "sha256": "13e7f7afbdba562fc5e9914482247b521b7c232d5c53cb135c07d4d001422296",
+   "tokens": 59786
+  },
+  {
+   "bytes": 2089,
+   "path": "Lib/test/test_urllib_response.py",
+   "rho": 1000,
+   "sha256": "eaa5419475ad101cc1ca1cf7a479820471b6f7c67fdc7e3e3958313b73b28fa4",
+   "tokens": 1530
+  },
+  {
+   "bytes": 21047,
+   "path": "Lib/test/test_profiling/test_sampling_profiler/test_modes.py",
+   "rho": 1000,
+   "sha256": "13aa555e66ad71531c5dee770b36f62e83186d8c8908505891453371bea3aa96",
+   "tokens": 13687
+  },
+  {
+   "bytes": 27122,
+   "path": "Tools/cases_generator/stack.py",
+   "rho": 1000,
+   "sha256": "2e192c11d7264d322cf691a3f66ce687459869c9b132710868a69d225103a4a1",
+   "tokens": 17582
+  },
+  {
+   "bytes": 6400,
+   "path": "Lib/test/libregrtest/setup.py",
+   "rho": 1000,
+   "sha256": "8985087f02c410ea42d5101ef6f0271a7745bbac7dfdd292c8809887693236f2",
+   "tokens": 4295
+  },
+  {
+   "bytes": 13271,
+   "path": "Lib/encodings/iso8859_13.py",
+   "rho": 1000,
+   "sha256": "6d2094576d9f8db479055fcf45ba7acb028045fe122b7fe2ccaf04eeea022a2e",
+   "tokens": 8700
+  },
+  {
+   "bytes": 11414,
+   "path": "Lib/importlib/util.py",
+   "rho": 1000,
+   "sha256": "7bdfadad42664ba169ffac8160765673cd79937f74324f4664de8d820c35b863",
+   "tokens": 7510
+  },
+  {
+   "bytes": 7179,
+   "path": "Lib/test/test_threading_local.py",
+   "rho": 1000,
+   "sha256": "7b8cb8b1dc7bb7e17b48bb5958fe6df45f3628970c3b2e5ac82776c0c1e1f55c",
+   "tokens": 4794
+  },
+  {
+   "bytes": 196005,
+   "path": "Lib/tkinter/__init__.py",
+   "rho": 1000,
+   "sha256": "cde2b284ac6c0ecec7c3afdf65a56b99d26848c0f0535f67c4c80f9a2c495098",
+   "tokens": 125865
+  },
+  {
+   "bytes": 8201,
+   "path": "Lib/test/test_eof.py",
+   "rho": 1000,
+   "sha256": "8b007aff9d3dafab2104a38c9854c25b4a3f6b559704c7cff9734619243b2181",
+   "tokens": 5449
+  },
+  {
+   "bytes": 16903,
+   "path": "Lib/test/test_asyncio/test_eager_task_factory.py",
+   "rho": 1000,
+   "sha256": "8e26491e1a929a4643bb1c7ca40947506d46b6b75604a1cde1571219bd30056a",
+   "tokens": 11029
+  },
+  {
+   "bytes": 612,
+   "path": "Lib/xml/__init__.py",
+   "rho": 1000,
+   "sha256": "2bc39585f90699558cbc6f4123d52980faaedb227f676628ee5c4299e94e5b98",
+   "tokens": 583
+  },
+  {
+   "bytes": 26,
+   "path": "Lib/test/test_importlib/namespace_pkgs/not_a_namespace_pkg/foo/one.py",
+   "rho": 1000,
+   "sha256": "de46da9948a760db50b2abcc66b858f5b0bcc48f364f483f60721c75c13df51c",
+   "tokens": 207
+  },
+  {
+   "bytes": 142,
+   "path": "Lib/test/test_importlib/extension/__init__.py",
+   "rho": 1000,
+   "sha256": "8962a375442bddd8d49865f3bf601c2c7a741fe947d8ec667358bb640cd0d19b",
+   "tokens": 282
+  },
+  {
+   "bytes": 82,
+   "path": "Lib/xml/etree/cElementTree.py",
+   "rho": 1000,
+   "sha256": "d0f57acab07fe4f9c116c3392d85946bac8e78608f409cea70005f16ea019b57",
+   "tokens": 243
+  },
+  {
+   "bytes": 17404,
+   "path": "Lib/test/test_type_aliases.py",
+   "rho": 1000,
+   "sha256": "5457781cda54f20100958d8f8be4a7e9ecc4d2ed21655a12e75f77343b393b4e",
+   "tokens": 11351
+  },
+  {
+   "bytes": 5758,
+   "path": "Lib/zoneinfo/_common.py",
+   "rho": 1000,
+   "sha256": "0da0f341817363ada0437a53d41611aeb85ac3a9f58229f3b34d4acc49576465",
+   "tokens": 3883
+  },
+  {
+   "bytes": 30988,
+   "path": "Lib/test/test_with.py",
+   "rho": 1000,
+   "sha256": "588fada38b8cad68c13e0b4157e184199b1f2e70147c3c6f8edaa96c7fd25c5a",
+   "tokens": 20061
+  },
+  {
+   "bytes": 4930,
+   "path": "Lib/test/test_pyrepl/test_utils.py",
+   "rho": 1000,
+   "sha256": "0dcfda0773f6ee524812ddfb2fe2e0f56cd64470ef4a0848661d631215477e24",
+   "tokens": 3339
+  },
+  {
+   "bytes": 11975,
+   "path": "Lib/test/test_tkinter/test_variables.py",
+   "rho": 1000,
+   "sha256": "30464197d862f77489bb3ac34ec0bb7b64b7a7506d4f56c80afd379a115e8682",
+   "tokens": 7869
+  },
+  {
+   "bytes": 14244,
+   "path": "Lib/test/test_c_stack_unwind.py",
+   "rho": 1000,
+   "sha256": "9128ab0280e9285407590ea7ce1fbf0af3d8337725404f9945f6f1ca922da8b4",
+   "tokens": 9324
+  },
+  {
+   "bytes": 1334,
+   "path": "Tools/patchcheck/untabify.py",
+   "rho": 1000,
+   "sha256": "b8a72caa23656635db39744be8f6891ae831b87110252a6cf09cf05b14a6b648",
+   "tokens": 1046
+  },
+  {
+   "bytes": 334,
+   "path": "Lib/test/leakers/test_ctypes.py",
+   "rho": 1000,
+   "sha256": "0462d208441ecf19f50d04ca23e7c3f1d73b1402bfa5a9fd88840b53199b25fa",
+   "tokens": 405
+  },
+  {
+   "bytes": 11959,
+   "path": "Lib/test/test_pyrepl/test_layout.py",
+   "rho": 1000,
+   "sha256": "2fefb47a3316f2561043f3b88346a1b88276e7f10172a3af90be7d4f03f30f01",
+   "tokens": 7858
+  },
+  {
+   "bytes": 1304,
+   "path": "Lib/encodings/unicode_escape.py",
+   "rho": 1000,
+   "sha256": "d0e2247331425d96f99782b0f339907e9f150197fadd8ced8fc9bc44fbb0a594",
+   "tokens": 1027
+  },
+  {
+   "bytes": 3749,
+   "path": "Tools/peg_generator/pegen/tokenizer.py",
+   "rho": 1000,
+   "sha256": "15528d35d54b34f22b03801c28eb819f112ca7bbff6252f6ac93234f9996014b",
+   "tokens": 2593
+  },
+  {
+   "bytes": 10993,
+   "path": "Lib/test/test_unittest/test_break.py",
+   "rho": 1000,
+   "sha256": "505c046d1a4449fbe1ee5e1023a395f77ab84afb8ff9c97c65caca87cf42ae54",
+   "tokens": 7240
+  },
+  {
+   "bytes": 1875,
+   "path": "Tools/scripts/long_conv_tables.py",
+   "rho": 1000,
+   "sha256": "d07ccc34ac2403c98f51b85743806901f6de0770bc986168ad449857ba8291b2",
+   "tokens": 1393
+  },
+  {
+   "bytes": 148,
+   "path": "Lib/test/test_unittest/testmock/__init__.py",
+   "rho": 1000,
+   "sha256": "4759fb797c51d00cedef8d26c1f2ccb952f6785fd9161b1e3ad8eb538b37b4c4",
+   "tokens": 286
+  },
+  {
+   "bytes": 1083,
+   "path": "Lib/idlelib/idle_test/test_stackviewer.py",
+   "rho": 1000,
+   "sha256": "a9ae40f0b34c9c32c07f5e8eed359476a7405157d1fc686a0f92027f1cd52153",
+   "tokens": 885
+  },
+  {
+   "bytes": 3272,
+   "path": "Lib/test/test_zoneinfo/data/update_test_data.py",
+   "rho": 1000,
+   "sha256": "1be23a57750eef20d55ec29a5a63e85cd91b3218f81e4579ee5a4229e4607fb9",
+   "tokens": 2289
+  },
+  {
+   "bytes": 21050,
+   "path": "Lib/compileall.py",
+   "rho": 1000,
+   "sha256": "c535f16e5baf46583dce85fa8ecde5e5192b26d416742690d95ebad2b1e1782a",
+   "tokens": 13689
+  },
+  {
+   "bytes": 222,
+   "path": "Lib/test/test_future_stmt/test_future_multiple_imports.py",
+   "rho": 1000,
+   "sha256": "14878f1d10cd8aea701903401a823c863e13abf11c64d8ad146b5a2ce40c69a6",
+   "tokens": 333
+  },
+  {
+   "bytes": 7087,
+   "path": "Lib/test/test_email/test__encoded_words.py",
+   "rho": 1000,
+   "sha256": "dc635e310a102b97917cc6d823d0656117700a6cb29f77edfe4caaeb31ce72a6",
+   "tokens": 4734
+  },
+  {
+   "bytes": 30,
+   "path": "Lib/test/test_inspect/inspect_deferred_annotations.py",
+   "rho": 1000,
+   "sha256": "e5a5fbf9ecd990cfa51812a5a4aaa23b1313af3189bfb892febd307068c8d750",
+   "tokens": 210
+  },
+  {
+   "bytes": 1325,
+   "path": "Lib/test/test_unittest/testmock/testsentinel.py",
+   "rho": 1000,
+   "sha256": "34f10ee69edee4a879ff88e15b00b09466e1df3a1bb6080673c215e17e305bb1",
+   "tokens": 1040
+  },
+  {
+   "bytes": 116140,
+   "path": "Lib/test/test_bytes.py",
+   "rho": 1000,
+   "sha256": "0af4077bc35acdffd3191694eda1fc34b6e79de11742721f3a0bfad4edf0f801",
+   "tokens": 74664
+  },
+  {
+   "bytes": 699,
+   "path": "Lib/idlelib/idle_test/template.py",
+   "rho": 1000,
+   "sha256": "584d4ccce5142ae3a19e96476c0c9d025a50dab1ce6f03e9ebb3cd2d3585e9f0",
+   "tokens": 639
+  },
+  {
+   "bytes": 1298,
+   "path": "Lib/test/test_json/test_float.py",
+   "rho": 1000,
+   "sha256": "86031dc23e0e69c8d5c7d82dd62c8db74dade2821aad66edf3f36e3fe3e7bb7e",
+   "tokens": 1023
+  },
+  {
+   "bytes": 936,
+   "path": "Lib/xml/dom/NodeFilter.py",
+   "rho": 1000,
+   "sha256": "9bfacbbb64e239a75591a7260b3ed86748eeb4366e6c40f3542753e79bace9a7",
+   "tokens": 791
+  },
+  {
+   "bytes": 1338,
+   "path": "Lib/test/test_osx_env.py",
+   "rho": 1000,
+   "sha256": "45a8b0a4d8901f970f70a34beb99766e1f449b07d003f53f32464c7c507caa3c",
+   "tokens": 1049
+  },
+  {
+   "bytes": 4400,
+   "path": "Lib/test/test_asyncio/test_staggered.py",
+   "rho": 1000,
+   "sha256": "5de6f97b0f018edb122d1256cad8e9305d021cc662e040dccb8fd3ef9c5231bb",
+   "tokens": 3012
+  },
+  {
+   "bytes": 3150,
+   "path": "Tools/build/update_file.py",
+   "rho": 1000,
+   "sha256": "a814503675283928aaae873082a58af28fef33273202bc447960781007168f92",
+   "tokens": 2211
+  },
+  {
+   "bytes": 8293,
+   "path": "Lib/test/libregrtest/result.py",
+   "rho": 1000,
+   "sha256": "052f6bee869aa02b646c6f48e37ffdf14d4827b8bdfa23bb08f12ad556757d61",
+   "tokens": 5508
+  },
+  {
+   "bytes": 8926,
+   "path": "PC/layout/support/pymanager.py",
+   "rho": 1000,
+   "sha256": "b55d2fe6fb7f7f8751e5191822b9bcf5bc7ddf5c14df76d67868cf66e1e70ffa",
+   "tokens": 5914
+  },
+  {
+   "bytes": 7716,
+   "path": "Lib/copyreg.py",
+   "rho": 1000,
+   "sha256": "6376eb5722806396f5842997ac18add369ea9ac3ff4fcfe1460c41a088cac425",
+   "tokens": 5138
+  },
+  {
+   "bytes": 13156,
+   "path": "Lib/encodings/iso8859_9.py",
+   "rho": 1000,
+   "sha256": "186787658bd4bafa4c178d102c5748433ba5cd2342643871fcc6fa2df43b51ba",
+   "tokens": 8627
+  },
+  {
+   "bytes": 81616,
+   "path": "Lib/mailbox.py",
+   "rho": 1000,
+   "sha256": "70beaa93a30e07a9fe6efea2396ca35693d7b58ba65580e8f433cffbaf57bc49",
+   "tokens": 52526
+  },
+  {
+   "bytes": 14027,
+   "path": "Lib/test/test_capi/test_number.py",
+   "rho": 1000,
+   "sha256": "4eb03ca4f5ea256d1feb2dedcf355b4facb4ea7a625e88adfdad5b9c2478cde7",
+   "tokens": 9185
+  },
+  {
+   "bytes": 1031,
+   "path": "Lib/encodings/gb18030.py",
+   "rho": 1000,
+   "sha256": "6c10b4dc49bc63724e539137ede6936304fcca1c97c28d16d89f381e10849521",
+   "tokens": 852
+  },
+  {
+   "bytes": 2988,
+   "path": "PC/layout/support/constants.py",
+   "rho": 1000,
+   "sha256": "63f620bbef6b6a40554da867f36735fab35611975c3f9f0377910bbe1b569ed1",
+   "tokens": 2107
+  },
+  {
+   "bytes": 140,
+   "path": "Lib/test/test_import/data/package4/__init__.py",
+   "rho": 1000,
+   "sha256": "c322017a3ff86ba94c22e89bf2765a6396bf196185f0ce5e509b5539be52ec7e",
+   "tokens": 280
+  },
+  {
+   "bytes": 1248,
+   "path": "Lib/encodings/ascii.py",
+   "rho": 1000,
+   "sha256": "578aa1173f7cc60dad2895071287fe6182bd14787b3fbf47a6c7983dfe3675e3",
+   "tokens": 991
+  },
+  {
+   "bytes": 133,
+   "path": "Lib/test/test_ast/__init__.py",
+   "rho": 1000,
+   "sha256": "90b5cf9c1b53bb3ff98437b85ef11674697d994cf3573b0fd44712c114df2bdc",
+   "tokens": 276
+  },
+  {
+   "bytes": 14228,
+   "path": "Lib/xml/etree/ElementPath.py",
+   "rho": 1000,
+   "sha256": "f9c2102cf56cf9859d34e69877ad4e8a04a0cdabb6390cf2189f04aa8101759f",
+   "tokens": 9314
+  },
+  {
+   "bytes": 90769,
+   "path": "Lib/test/test_asyncio/test_base_events.py",
+   "rho": 1000,
+   "sha256": "4fde73d7c7bf828d13166b45f12aa1d7307e90e49bbb8f27c85b64af26532bba",
+   "tokens": 58395
+  },
+  {
+   "bytes": 42899,
+   "path": "Lib/os.py",
+   "rho": 1000,
+   "sha256": "9862b47002607dec13af121fa21775e8b18ee110844ee526e28dc16f137ff140",
+   "tokens": 27695
+  },
+  {
+   "bytes": 7261,
+   "path": "Lib/idlelib/calltip.py",
+   "rho": 1000,
+   "sha256": "4f19c6683bc9cbe7270ac99500b96586a6172a93039f3f46b9593ff71ff6ec8d",
+   "tokens": 4851
+  },
+  {
+   "bytes": 28,
+   "path": "Lib/test/test_import/data/circular_imports/indirect.py",
+   "rho": 1000,
+   "sha256": "2f228bfcaf42f18f38f34c65d7b204fd061b5ca6048f47008214a5e69255ae60",
+   "tokens": 209
+  },
+  {
+   "bytes": 1023,
+   "path": "Lib/encodings/cp932.py",
+   "rho": 1000,
+   "sha256": "99748e28113d2d49f5d666b49b78accd2c6e10a7852f7dd6dece9b5b71aa83c4",
+   "tokens": 847
+  },
+  {
+   "bytes": 45027,
+   "path": "Lib/test/test_strptime.py",
+   "rho": 1000,
+   "sha256": "5acc655d23f71ecd6040689bc7a5340d9222d249bc96ab3ac4f2783637d0930a",
+   "tokens": 29064
+  },
+  {
+   "bytes": 396,
+   "path": "Lib/idlelib/__init__.py",
+   "rho": 1000,
+   "sha256": "3f8058df4fec56eb20ff67ff84c86fd3d9697e2384c5a290ed696f6d3187aa45",
+   "tokens": 445
+  },
+  {
+   "bytes": 7723,
+   "path": "Lib/profiling/sampling/_sync_coordinator.py",
+   "rho": 1000,
+   "sha256": "c88a117ada0c2c9700fff30b9a4016170bd478a7d90e8fc138874852e0d8da56",
+   "tokens": 5143
+  },
+  {
+   "bytes": 4401,
+   "path": "Tools/build/parse_html5_entities.py",
+   "rho": 1000,
+   "sha256": "d0294479fa8676ca1759ef8063199a9c4226eb9b987f515b386166ed02fd1d60",
+   "tokens": 3013
+  },
+  {
+   "bytes": 12,
+   "path": "Lib/test/test_lazy_import/data/metasyntactic/foo/bar/baz/qux/__init__.py",
+   "rho": 1000,
+   "sha256": "bfd52985216442ad13fca2fab5bed1499e4a805bf10a90e5aeeee00e5280eb3f",
+   "tokens": 198
+  },
+  {
+   "bytes": 4466,
+   "path": "Tools/c-analyzer/distutils/unixccompiler.py",
+   "rho": 1000,
+   "sha256": "2f3b78e8052baa31504001114a71bd42133c0ec738e2d597d5092febb1686e8c",
+   "tokens": 3054
+  },
+  {
+   "bytes": 5985,
+   "path": "Lib/asyncio/timeouts.py",
+   "rho": 1000,
+   "sha256": "dc1544c3c27ace84e2abc10f8fd13e340709a8579ff008ebc64c0d0fae6c0837",
+   "tokens": 4028
+  },
+  {
+   "bytes": 27004,
+   "path": "Lib/stringprep.py",
+   "rho": 1000,
+   "sha256": "8af662ca53f21d5f29f4ddaf8866d62472f1368b3ca6d422aff7b8c10b460a9e",
+   "tokens": 17507
+  },
+  {
+   "bytes": 3775,
+   "path": "Tools/jit/_writer.py",
+   "rho": 1000,
+   "sha256": "ad9e3b7926af6f59813aef3ea8247ade933f1da5e2d027afb0afdb3e2206cfb5",
+   "tokens": 2611
+  },
+  {
+   "bytes": 404,
+   "path": "Lib/test/test_capi/test_pyatomic.py",
+   "rho": 1000,
+   "sha256": "ca2b637fe687dd64ebc9dfb8bf2cc973d9d122e8cf58a7e9fb2ab81ec494921b",
+   "tokens": 450
+  },
+  {
+   "bytes": 2420,
+   "path": "Lib/test/test_popen.py",
+   "rho": 1000,
+   "sha256": "c32d2426a4a6e349ae730752930f1cc2d973b89765514aaa3f4965861f579e56",
+   "tokens": 1742
+  },
+  {
+   "bytes": 2604,
+   "path": "Lib/test/test_free_threading/test_pickle.py",
+   "rho": 1000,
+   "sha256": "d4457e9295f5d042a4e3dda04e9c917e9125ffce40ec79fce15654b9578e9161",
+   "tokens": 1860
+  },
+  {
+   "bytes": 5495,
+   "path": "Lib/profiling/sampling/binary_reader.py",
+   "rho": 1000,
+   "sha256": "68fa665a6e1f7f9f4cce189136181a6ba9236eb20a082f08f33acc7b102dbe52",
+   "tokens": 3656
+  },
+  {
+   "bytes": 9637,
+   "path": "Lib/test/test_ctypes/test_arrays.py",
+   "rho": 1000,
+   "sha256": "a471045e9ad6929b95aacd41977a64b84e8c90607b992bc66fc85be8206ef833",
+   "tokens": 6370
+  },
+  {
+   "bytes": 58,
+   "path": "Lib/test/test_unittest/__main__.py",
+   "rho": 1000,
+   "sha256": "cb9a3ce8f18e7d0a0cadb73cc9264772462de953499534736998d3c54f8c7c3c",
+   "tokens": 228
+  },
+  {
+   "bytes": 38204,
+   "path": "Lib/importlib/metadata/__init__.py",
+   "rho": 1000,
+   "sha256": "55a0aacadc26c8f2871fb0813c9a9eb3c8d6b74b7c6da57c2092a5811c4ca188",
+   "tokens": 24688
+  },
+  {
+   "bytes": 3618,
+   "path": "Tools/jit/build.py",
+   "rho": 1000,
+   "sha256": "5e927cf5cb528b2af95392e7e03e938e6ca00acc61d8d371d2f7e3caaaec113c",
+   "tokens": 2511
+  },
+  {
+   "bytes": 8221,
+   "path": "Lib/test/test_dbm_gnu.py",
+   "rho": 1000,
+   "sha256": "be7bedbe8f7cd3d55dc9bc6a6df480674e26b39852366490303547a2533581e4",
+   "tokens": 5462
+  },
+  {
+   "bytes": 10667,
+   "path": "Lib/filecmp.py",
+   "rho": 1000,
+   "sha256": "9f7679a751b22167b071d815ddcd7380bfc9bf46cb1fecd97f4311e740e7b4f4",
+   "tokens": 7021
+  },
+  {
+   "bytes": 12257,
+   "path": "Lib/xml/sax/saxutils.py",
+   "rho": 1000,
+   "sha256": "c60fcea17908c607288291504a1841a614ca30099ff729343f507aa100026ebd",
+   "tokens": 8049
+  },
+  {
+   "bytes": 30333,
+   "path": "Lib/test/test_named_expressions.py",
+   "rho": 1000,
+   "sha256": "c32da01ce566fdd3691e007e988c287b2dde6fb05738d88be1dc02d69093d80c",
+   "tokens": 19641
+  },
+  {
+   "bytes": 27460,
+   "path": "Lib/test/test_importlib/test_abc.py",
+   "rho": 1000,
+   "sha256": "b9f35db24e721b18eabc18ec4ff34c63a325cdbb806447c752d34fb9cd061ecd",
+   "tokens": 17799
+  },
+  {
+   "bytes": 2126,
+   "path": "Lib/test/test_tools/i18n_data/messages.py",
+   "rho": 1000,
+   "sha256": "45218871c98f786bee8b249a8a7272089b6205763bedd81831993d4fb0892a7d",
+   "tokens": 1554
+  },
+  {
+   "bytes": 49057,
+   "path": "Lib/test/test_type_params.py",
+   "rho": 1000,
+   "sha256": "73f2314ecb5dfd47e75573047825a886a30bc3726088eaf84a4af01c017d8e88",
+   "tokens": 31645
+  },
+  {
+   "bytes": 11383,
+   "path": "Lib/pyclbr.py",
+   "rho": 1000,
+   "sha256": "19217afe6c6410c848af98ada1333dfdece3db09854a3bbc1dc36b10c5af2717",
+   "tokens": 7490
+  },
+  {
+   "bytes": 19922,
+   "path": "Tools/c-analyzer/c_parser/parser/_regexes.py",
+   "rho": 1000,
+   "sha256": "8fecf77832190802203723c45a82d2463fbb85e8bdcf485f5b8ed0b8d64cc491",
+   "tokens": 12965
+  },
+  {
+   "bytes": 11461,
+   "path": "Tools/unicode/mkstringprep.py",
+   "rho": 1000,
+   "sha256": "ab3a1baca265ddcd0b0a839648877280e4d9c32c129b2debba889599b667aa15",
+   "tokens": 7540
+  },
+  {
+   "bytes": 567,
+   "path": "Lib/test/mp_preload_sysargv.py",
+   "rho": 1000,
+   "sha256": "1e0fe798afa7caa2b79676289d60d8fa4f5f4129817e9d2581a9b29f2310899e",
+   "tokens": 554
+  },
+  {
+   "bytes": 13723,
+   "path": "Lib/encodings/kz1048.py",
+   "rho": 1000,
+   "sha256": "7d6e22a8f6fec726ff754ea13dc07c6304c3e98dea77632a84b93b4d42488303",
+   "tokens": 8990
+  },
+  {
+   "bytes": 90,
+   "path": "Lib/test/test_lazy_import/data/versioned/__version__.py",
+   "rho": 1000,
+   "sha256": "681ea0efaf690bf989d0a8059133b0038a3de79e223a6b7b51950684ce6e8db2",
+   "tokens": 248
+  },
+  {
+   "bytes": 421,
+   "path": "Lib/profiling/__init__.py",
+   "rho": 1000,
+   "sha256": "dd57fc9b639982930126e257bd859f2d0d8e946415f742acf8b855e076963382",
+   "tokens": 461
+  },
+  {
+   "bytes": 3837,
+   "path": "Lib/test/test_xxlimited.py",
+   "rho": 1000,
+   "sha256": "77882856dabd2793953867f73c413ad18b5f8c7babc151cabc958f5a461081ab",
+   "tokens": 2651
+  },
+  {
+   "bytes": 18602,
+   "path": "Lib/test/test_wave.py",
+   "rho": 1000,
+   "sha256": "15186108b0399bc5759f12fff29c2cdd37067bbc99a4634c2a2bee598176bf3c",
+   "tokens": 12119
+  },
+  {
+   "bytes": 134099,
+   "path": "Lib/test/test_statistics.py",
+   "rho": 1000,
+   "sha256": "e62b521b6a2011ce6a60bf760c516e78c05143b34d4451e503279255e2e124c2",
+   "tokens": 86178
+  },
+  {
+   "bytes": 21238,
+   "path": "Lib/idlelib/rpc.py",
+   "rho": 1000,
+   "sha256": "a36b1954be6e4bde79f7b0f21a83620cbfbf8d0a1371ef96a2a2df934f051285",
+   "tokens": 13809
+  },
+  {
+   "bytes": 14889,
+   "path": "Lib/symtable.py",
+   "rho": 1000,
+   "sha256": "b03a58c4e3c58719b777a21d9312efe374dfc51f94370b39184574b9085213f8",
+   "tokens": 9738
+  },
+  {
+   "bytes": 156,
+   "path": "Lib/test/test_gdb/gdb_sample.py",
+   "rho": 1000,
+   "sha256": "5bdfc26e6b171d56947f10418be487e2f062c6dcbd52d4e6ed20d2c6266bfb2b",
+   "tokens": 291
+  },
+  {
+   "bytes": 10092,
+   "path": "Tools/clinic/libclinic/function.py",
+   "rho": 1000,
+   "sha256": "dfb3b37b16ba2460c16601856b19afd08b639f08976cb514c46732b750f4a836",
+   "tokens": 6662
+  },
+  {
+   "bytes": 13193,
+   "path": "Lib/encodings/koi8_t.py",
+   "rho": 1000,
+   "sha256": "cdd5fba060808a726bb61d2b715ac793ce2ea4f675dcb6939e147c9b42b85fb6",
+   "tokens": 8650
+  },
+  {
+   "bytes": 37339,
+   "path": "Modules/getpath.py",
+   "rho": 1000,
+   "sha256": "6a1166ca447c2b57b4ea2516be2375e33c411f5aa8c1f95e5f034e95f5cf8ee9",
+   "tokens": 24134
+  },
+  {
+   "bytes": 13374,
+   "path": "Lib/encodings/cp1257.py",
+   "rho": 1000,
+   "sha256": "18d204f8f305b20a85d2a1c714b227e1050e0e2927421b585fd5329e0255a35d",
+   "tokens": 8767
+  },
+  {
+   "bytes": 47485,
+   "path": "Lib/test/test_bz2.py",
+   "rho": 1000,
+   "sha256": "99a3ea864999fd5cb6a27bf739664b2475021cbeaaef7d6abd47096645e95419",
+   "tokens": 30640
+  },
+  {
+   "bytes": 34597,
+   "path": "Lib/encodings/cp1125.py",
+   "rho": 1000,
+   "sha256": "6483d9b8deac3922fdc57fcfe3676fd239969b18e6faa11a7c14b2d4ac7f326e",
+   "tokens": 22375
+  },
+  {
+   "bytes": 134,
+   "path": "Modules/_xxtestfuzz/fuzz_pycompile_corpus/input6.py",
+   "rho": 1000,
+   "sha256": "bcf2e2366659726ffa733536e7d220299d3ae75c5819397abefdcef9080e4c9e",
+   "tokens": 277
+  },
+  {
+   "bytes": 17268,
+   "path": "Lib/test/test_readline.py",
+   "rho": 1000,
+   "sha256": "03e4903345a373d2af77b48a62b35b843c97468658637b7d941df11a122f620c",
+   "tokens": 11263
+  },
+  {
+   "bytes": 89,
+   "path": "Lib/test/test_warnings/data/import_warning.py",
+   "rho": 1000,
+   "sha256": "be20886ce826d17c9fa00b35247b2336c866d1c7312911350463a42a77d1bf02",
+   "tokens": 248
+  },
+  {
+   "bytes": 10022,
+   "path": "Lib/test/test_importlib/import_/test_relative_imports.py",
+   "rho": 1000,
+   "sha256": "a1c66cd3233f27132156164f6bdd55179513142f26e46ec8a28f95e7c6c3e79c",
+   "tokens": 6617
+  },
+  {
+   "bytes": 123799,
+   "path": "Lib/test/test_math.py",
+   "rho": 1000,
+   "sha256": "4682a60082192f2b5590ebb0506d77b34ee963c7ac2a2c758dcb8a97f46d9cdd",
+   "tokens": 79575
+  },
+  {
+   "bytes": 122,
+   "path": "Lib/test/test_lazy_import/data/lazy_get_value.py",
+   "rho": 1000,
+   "sha256": "1313aced85121f0605472af9224f5639fdd8881e8cc4de166570d33eea24eaa4",
+   "tokens": 269
+  },
+  {
+   "bytes": 416,
+   "path": "Lib/test/regrtestdata/import_from_tests/test_regrtest_c.py",
+   "rho": 1000,
+   "sha256": "a4173973dd00be34307faa6088e34f7b2a0cd32925ac7d4b882a2fa2a84f5225",
+   "tokens": 457
+  },
+  {
+   "bytes": 6142,
+   "path": "Lib/test/test__opcode.py",
+   "rho": 1000,
+   "sha256": "5762194fb0408de1858047502c6120133ee5c16758244e7a5705d929c90cd1a0",
+   "tokens": 4129
+  },
+  {
+   "bytes": 12453,
+   "path": "Tools/peg_generator/pegen/parser_generator.py",
+   "rho": 1000,
+   "sha256": "2f505a3b41a09e7d2eafcd7fe519edb9aef0d6f3acc13643cacf37ba953e3687",
+   "tokens": 8176
+  },
+  {
+   "bytes": 56,
+   "path": "Lib/test/test_lazy_import/data/basic_dir.py",
+   "rho": 1000,
+   "sha256": "ebb7f0cadb41cf88f8229ab30b3fc7fd3e1eb4d90e08b83f322e98790e6bed7a",
+   "tokens": 227
+  },
+  {
+   "bytes": 1264,
+   "path": "Lib/encodings/latin_1.py",
+   "rho": 1000,
+   "sha256": "b75503e532a27c636477396c855209ff5f3036536d2a4bede0a576c89382b60c",
+   "tokens": 1001
+  },
+  {
+   "bytes": 3446,
+   "path": "Doc/includes/newtypes/test.py",
+   "rho": 1000,
+   "sha256": "a28cc9bdea99afffd4dd981687c1d0d34beaa4da3571c7471a5d41f3271933ba",
+   "tokens": 2400
+  },
+  {
+   "bytes": 9023,
+   "path": "Lib/idlelib/help_about.py",
+   "rho": 1000,
+   "sha256": "2f89f495a3ed95143ce74ba380fe34f779daf4598fec4c775c46cb43745a4fef",
+   "tokens": 5977
+  },
+  {
+   "bytes": 1304,
+   "path": "Tools/c-analyzer/c_common/strutil.py",
+   "rho": 1000,
+   "sha256": "52ea4ca97acf29a9459a92dedbff6545d9b17a0b500f98d18916d34735b27ddf",
+   "tokens": 1027
+  },
+  {
+   "bytes": 2211,
+   "path": "Lib/test/test_free_threading/test_bz2.py",
+   "rho": 1000,
+   "sha256": "699b26c899bdc1aec858a3d03e22ba861b1e49633f1e2b3e3f116c807aff4235",
+   "tokens": 1608
+  },
+  {
+   "bytes": 9951,
+   "path": "Lib/test/test_pyrepl/test_interact.py",
+   "rho": 1000,
+   "sha256": "3e38a89f9903b3f882babdc45cb3cb4e70737d012df798ae78297b662af3139f",
+   "tokens": 6572
+  },
+  {
+   "bytes": 36809,
+   "path": "Lib/_pyrepl/reader.py",
+   "rho": 1000,
+   "sha256": "d3d3cc6f423ca63ba0ae970a0ee5c03b9635b8492215febdf32d5ebb86c8b62c",
+   "tokens": 23775
+  },
+  {
+   "bytes": 85449,
+   "path": "Lib/logging/__init__.py",
+   "rho": 1000,
+   "sha256": "de35d6d64cd2f07cf906ac4218a40339ad2b7af273f2afd9c50a6e441a630731",
+   "tokens": 54980
+  },
+  {
+   "bytes": 46382,
+   "path": "Lib/test/test_capi/test_abstract.py",
+   "rho": 1000,
+   "sha256": "d965e9d2f844a7c49a3cc8083f3092a05f5701748138f2b764925b1174fbd947",
+   "tokens": 29932
+  },
+  {
+   "bytes": 53838,
+   "path": "Lib/test/test_signal.py",
+   "rho": 1000,
+   "sha256": "d052cdb5dd1c4ea71f563ef5d2b4f20243b92bf8fbdc79663eebe57f97461ed5",
+   "tokens": 34710
+  },
+  {
+   "bytes": 20393,
+   "path": "Tools/build/check_extension_modules.py",
+   "rho": 1000,
+   "sha256": "cd2a2c95e02b7c13b9bda66959de1a7fa8a2e95e18f86d854007c1c090ae8785",
+   "tokens": 13267
+  },
+  {
+   "bytes": 10475,
+   "path": "Tools/build/check_warnings.py",
+   "rho": 1000,
+   "sha256": "627bf777b8ca326f546ad3fc98a13158ece4e0a0baba7bb3e9903faf7cf20a90",
+   "tokens": 6906
+  },
+  {
+   "bytes": 481,
+   "path": "Lib/asyncio/mixins.py",
+   "rho": 1000,
+   "sha256": "8f4a3e16eca845ebfba422550cbcee7340ec8166d2bff6b750a8ed0de6b9ae3c",
+   "tokens": 499
+  },
+  {
+   "bytes": 5904,
+   "path": "Lib/idlelib/idle_test/test_help_about.py",
+   "rho": 1000,
+   "sha256": "47663dfbcddced35ad97631cebb690a30ab3aa724bde0a7174d11290ac79eb02",
+   "tokens": 3977
+  },
+  {
+   "bytes": 627,
+   "path": "Lib/test/test_eintr.py",
+   "rho": 1000,
+   "sha256": "4874cb28a11f6bf5d88ed65a99601a1876f5421a850ac29747004afdff6619b1",
+   "tokens": 593
+  },
+  {
+   "bytes": 2459,
+   "path": "Lib/idlelib/idle_test/test_search.py",
+   "rho": 1000,
+   "sha256": "c0550b241c99a566f61929515ca97aedf99f73568df3dfe93078ed22cb54892b",
+   "tokens": 1767
+  },
+  {
+   "bytes": 0,
+   "path": "PC/layout/support/__init__.py",
+   "rho": 1000,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "tokens": 0
+  },
+  {
+   "bytes": 2900,
+   "path": "Lib/test/test_free_threading/test_dict_watcher.py",
+   "rho": 1000,
+   "sha256": "88b0324ea40fb9dc3f39d8c4c53fe0d277ac4517fb38c8ada568633659d611fc",
+   "tokens": 2050
+  },
+  {
+   "bytes": 1431,
+   "path": "Lib/test/test_free_threading/test_itertools_combinatoric.py",
+   "rho": 1000,
+   "sha256": "efe8ef07a6eee6962b13a83584584896a645236d4c5461ce99ca2e01780d6cff",
+   "tokens": 1108
+  },
+  {
+   "bytes": 67464,
+   "path": "Lib/test/test_base64.py",
+   "rho": 1000,
+   "sha256": "67c86eb5b3d9553656f5a0a54c2ebeb33e6044e75cfb94ec98e178e7daf1513d",
+   "tokens": 43451
+  },
+  {
+   "bytes": 1356,
+   "path": "Lib/turtledemo/colormixer.py",
+   "rho": 1000,
+   "sha256": "d3c471b192c769f24a658a29f3f78646d2267d674f477fce3f883aef57fa69d3",
+   "tokens": 1060
+  },
+  {
+   "bytes": 12843,
+   "path": "Lib/test/test_modulefinder.py",
+   "rho": 1000,
+   "sha256": "1e14174f29298cc3313b50843887a2a3324ef802a6198ead608f94b4946f2473",
+   "tokens": 8426
+  },
+  {
+   "bytes": 36149,
+   "path": "Lib/tempfile.py",
+   "rho": 1000,
+   "sha256": "8f6fc3bfcac8379f23c454b3b4c9cbb451c7fffd62a77cedc4075a7a4aa093c0",
+   "tokens": 23366
+  },
+  {
+   "bytes": 5823,
+   "path": "Lib/test/test_free_threading/test_gc.py",
+   "rho": 1000,
+   "sha256": "999a13db5ff5a4232cd426147ffb56007317738afe478928301fb3fc2ce767f0",
+   "tokens": 3925
+  },
+  {
+   "bytes": 59,
+   "path": "Modules/_xxtestfuzz/fuzz_pycompile_corpus/input4.py",
+   "rho": 1000,
+   "sha256": "98171d27cff8145ff0db2c28d041826e215d6d7383d10077e4520df8a8458187",
+   "tokens": 228
+  },
+  {
+   "bytes": 48554,
+   "path": "Lib/profiling/sampling/heatmap_collector.py",
+   "rho": 1000,
+   "sha256": "1e9c47656b2920d04f3fe6d2930512367d941f943016347d48da3630d9b1ec59",
+   "tokens": 31324
+  },
+  {
+   "bytes": 1720,
+   "path": "Tools/c-analyzer/c_parser/source.py",
+   "rho": 1000,
+   "sha256": "aa9f47b174da4fa0f51b81c7265ff4278bf6734c436119ca7eb45cd90b4825db",
+   "tokens": 1294
+  },
+  {
+   "bytes": 8533,
+   "path": "Tools/jit/_dwarf.py",
+   "rho": 1000,
+   "sha256": "bbc97cad25868f524255a4fd1fe5512b358aec4cb5b3ff1f580999ed6abfcd7c",
+   "tokens": 5662
+  },
+  {
+   "bytes": 753,
+   "path": "Lib/test/crashers/mutation_inside_cyclegc.py",
+   "rho": 1000,
+   "sha256": "4c03c12970db8205943764e2df1dad49c6928b5a86ab04a499e79651f74183c2",
+   "tokens": 674
+  },
+  {
+   "bytes": 2378,
+   "path": "Lib/test/test_tkinter/test_scrolledtext.py",
+   "rho": 1000,
+   "sha256": "9fb402e406d9ba07e5c2c75f7208cb6c9616cb23c6bee9bc99ce6925045daaf1",
+   "tokens": 1716
+  },
+  {
+   "bytes": 705,
+   "path": "Lib/test/test_codecmaps_tw.py",
+   "rho": 1000,
+   "sha256": "b44e54fee90b81610b73d778ff1c5f498cef74389c1b7419132575c4485dea4c",
+   "tokens": 643
+  },
+  {
+   "bytes": 760,
+   "path": "Lib/test/test_importlib/import_/test___loader__.py",
+   "rho": 1000,
+   "sha256": "9e922ac3433a3a80109e98cdc2bdd732737ec00131c476773ac93a2f026b087a",
+   "tokens": 678
+  },
+  {
+   "bytes": 125690,
+   "path": "Lib/test/test_asyncio/test_events.py",
+   "rho": 1000,
+   "sha256": "6430875c191bbed806887538ce1bdd02e520f66715f9c07cb4167256bd767d8d",
+   "tokens": 80787
+  },
+  {
+   "bytes": 3919,
+   "path": "Lib/_pyrepl/content.py",
+   "rho": 1000,
+   "sha256": "63a78ebdf568d23eea7949711ef950f40c5adfc8443c7b7086e52754dda6a6a2",
+   "tokens": 2699
+  },
+  {
+   "bytes": 9909,
+   "path": "Tools/build/umarshal.py",
+   "rho": 1000,
+   "sha256": "3d3625ee60bc7655f6e44d13d31dd096793f5faaf0d8a24ce83898c58b59da6b",
+   "tokens": 6545
+  },
+  {
+   "bytes": 1685,
+   "path": "Lib/test/test_xml.py",
+   "rho": 1000,
+   "sha256": "c9f60d233882a9863e3a8eb1fe8031882672bc497a42ebb400f4be616758ac5d",
+   "tokens": 1271
+  },
+  {
+   "bytes": 499,
+   "path": "Lib/test/xmltests.py",
+   "rho": 1000,
+   "sha256": "e4fd1bdd72a5dec30063b092aa8eb243eda3b95eb4b47ff95a50897ccbacc4c3",
+   "tokens": 511
+  },
+  {
+   "bytes": 2971,
+   "path": "Lib/test/test_tools/test_makefile.py",
+   "rho": 1000,
+   "sha256": "1fd2a7b13188f2b2d254c309139f01a5958c11da4d64debdc34c0f3bbc1f703e",
+   "tokens": 2096
+  },
+  {
+   "bytes": 66,
+   "path": "Lib/test/test_import/data/circular_imports/rebinding2.py",
+   "rho": 1000,
+   "sha256": "c897428ab038eeb3a29a974162c13288c9faf175f519679bccfb78a3540b78eb",
+   "tokens": 233
+  },
+  {
+   "bytes": 18092,
+   "path": "Lib/test/test_gdb/test_pretty_print.py",
+   "rho": 1000,
+   "sha256": "29e80f9f4da87562ddf7118833e561a3c33e0e20fb8505bfdc6c227ba411f6da",
+   "tokens": 11792
+  },
+  {
+   "bytes": 33644,
+   "path": "Lib/zipimport.py",
+   "rho": 1000,
+   "sha256": "ef95f04c772942da82118d4414b2a668f3a3ac1e4d0775f0b0169b30e58198fa",
+   "tokens": 21764
+  },
+  {
+   "bytes": 77645,
+   "path": "Lib/http/cookiejar.py",
+   "rho": 1000,
+   "sha256": "d448fd98dee410c6b7a3bc355cd153a56be60151fdff069ab19de679507b9011",
+   "tokens": 49978
+  },
+  {
+   "bytes": 43909,
+   "path": "Lib/smtplib.py",
+   "rho": 1000,
+   "sha256": "52779249ecafab31f3f58872d2831948c5ce79f318b5b9a6bba73aee9c8432db",
+   "tokens": 28336
+  },
+  {
+   "bytes": 10093,
+   "path": "Lib/test/test_free_threading/test_dict.py",
+   "rho": 1000,
+   "sha256": "5cfc479a05faa6a3cac6b2bc31298dd32765238b6d10023587a4cddbf79641d3",
+   "tokens": 6663
+  },
+  {
+   "bytes": 1463,
+   "path": "Lib/test/test_ttk/__init__.py",
+   "rho": 1000,
+   "sha256": "edd85af363ca5180b0f203290c1297e3331157118ccf37746d11bc6626896702",
+   "tokens": 1129
+  },
+  {
+   "bytes": 57935,
+   "path": "Lib/tkinter/ttk.py",
+   "rho": 1000,
+   "sha256": "6bc16559fb4e0005dbb22687cd5a40f3384354ec5c1142aaed4283941143b381",
+   "tokens": 37341
+  },
+  {
+   "bytes": 4063,
+   "path": "Lib/test/test_cppext/setup.py",
+   "rho": 1000,
+   "sha256": "f06e9fd4fd5c478588893837a6899b28d7afe5e54640e366a39d9be9d081fd1e",
+   "tokens": 2796
+  },
+  {
+   "bytes": 14577,
+   "path": "Lib/test/test_tabnanny.py",
+   "rho": 1000,
+   "sha256": "8c15a8a125af58774d7c5ddeb48f7a4263b52557a8a63465b8f61d92575176c6",
+   "tokens": 9532
+  },
+  {
+   "bytes": 1023,
+   "path": "Lib/encodings/cp950.py",
+   "rho": 1000,
+   "sha256": "27811178b450731fc955b1247656a605d04e5ee98e0d585e4596b94b703a27f6",
+   "tokens": 847
+  },
+  {
+   "bytes": 20180,
+   "path": "Lib/test/test_unittest/test_skipping.py",
+   "rho": 1000,
+   "sha256": "8360832f28a16f819ce1f51d541e60b98a679de4e509708a1c664d9f74bd6ac1",
+   "tokens": 13131
+  },
+  {
+   "bytes": 5565,
+   "path": "Tools/freeze/test/freeze.py",
+   "rho": 1000,
+   "sha256": "7befdc280952b680346353022289acc3a6dae04c81be919b205f9acb34868915",
+   "tokens": 3759
+  },
+  {
+   "bytes": 1061,
+   "path": "Lib/encodings/iso2022_jp_1.py",
+   "rho": 1000,
+   "sha256": "63bacad13a979a5519fcaa4f1e1e07b2c7415005167fac3a689408c7d886fabd",
+   "tokens": 871
+  },
+  {
+   "bytes": 7759,
+   "path": "Lib/test/test_io/utils.py",
+   "rho": 1000,
+   "sha256": "c075cc48de01a29e7f1e6f48584e0cfb5e0b8efa6bd48317fc11e30fe5704f5a",
+   "tokens": 5166
+  },
+  {
+   "bytes": 1039,
+   "path": "Lib/test/test_tools/test_reindent.py",
+   "rho": 1000,
+   "sha256": "4d547ce80d2917eda8500e465b22f56c738c43c42883b1bd1e72474a96752635",
+   "tokens": 857
+  },
+  {
+   "bytes": 714,
+   "path": "Lib/test/tf_inherit_check.py",
+   "rho": 1000,
+   "sha256": "a4fc0efd8ac47181439a5dcfc19d53cabbe88ba7bff49edafa421f9f04b82220",
+   "tokens": 649
+  },
+  {
+   "bytes": 47181,
+   "path": "Lib/test/test_gzip.py",
+   "rho": 1000,
+   "sha256": "1971272266d714da572886437e52f5f063efeeef8a909a655317043b1b09783d",
+   "tokens": 30443
+  },
+  {
+   "bytes": 73,
+   "path": "Lib/test/test_pyrepl/__main__.py",
+   "rho": 1000,
+   "sha256": "6943a77ba3d47235bda3743b001a67879fb326f6e1652f6dc1e2964a16efae02",
+   "tokens": 237
+  },
+  {
+   "bytes": 99,
+   "path": "Lib/test/test_lazy_import/data/broken_module.py",
+   "rho": 1000,
+   "sha256": "bbac83492224200e9c5a7f9d724536b447ebfdfe42ae6a007038eec85e4b3763",
+   "tokens": 254
+  },
+  {
+   "bytes": 13954,
+   "path": "Lib/test/libregrtest/save_env.py",
+   "rho": 1000,
+   "sha256": "162cbb3be95cdd5c465869200efd0b1436d99bf555323433f837a6a1054baabf",
+   "tokens": 9138
+  },
+  {
+   "bytes": 12023,
+   "path": "Lib/test/test_zipimport_support.py",
+   "rho": 1000,
+   "sha256": "75dc5387dfb4310edd2f13ed556c180cded5e38feeef82affa3a2f6dfee4e7a4",
+   "tokens": 7900
+  },
+  {
+   "bytes": 417,
+   "path": "Lib/test/test_json/test_pickleable.py",
+   "rho": 1000,
+   "sha256": "22cb0bcd3241fb45982948c82d44110a718ef77e9694a6455b546018aa562526",
+   "tokens": 458
+  },
+  {
+   "bytes": 2586,
+   "path": "Lib/importlib/resources/simple.py",
+   "rho": 1000,
+   "sha256": "813f6f6b1e8158b4b4276aa82ec7618039cc69ecf00fee73bb7e22b7da06ae18",
+   "tokens": 1848
+  },
+  {
+   "bytes": 3105,
+   "path": "Tools/c-analyzer/c_parser/preprocessor/errors.py",
+   "rho": 1000,
+   "sha256": "cec7e6c4d18277031306c78ccd92e8e90169cda8854e10352a5a2380bcd480d5",
+   "tokens": 2182
+  },
+  {
+   "bytes": 8420,
+   "path": "Lib/idlelib/idle_test/test_browser.py",
+   "rho": 1000,
+   "sha256": "bdfd3bd9ab02ee535e77f3233920f80891eb84d7042f7db381afc7766b3702eb",
+   "tokens": 5590
+  },
+  {
+   "bytes": 2005,
+   "path": "Lib/idlelib/zzdummy.py",
+   "rho": 1000,
+   "sha256": "5e248f0ea4f35052d23bb2c43564aa567b8cebaf91fd63ba0be8fef2f4167945",
+   "tokens": 1476
+  },
+  {
+   "bytes": 13780,
+   "path": "Lib/test/support/socket_helper.py",
+   "rho": 1000,
+   "sha256": "955a680b7bc63618d8397856677064dda330546c9cb9ea879d9e3cbfd332e027",
+   "tokens": 9027
+  },
+  {
+   "bytes": 51,
+   "path": "Lib/test/test_lazy_import/data/basic_from_unused.py",
+   "rho": 1000,
+   "sha256": "53ac2229750c1a57d7cb5814d60ba13de9f7f09ba80e72ef0ba525ac684f2b56",
+   "tokens": 223
+  },
+  {
+   "bytes": 2717,
+   "path": "Tools/build/generate_re_casefix.py",
+   "rho": 1000,
+   "sha256": "9404af235bc1a35fe62876edadde7685c8121bc6a932795f6086df8703c454bb",
+   "tokens": 1933
+  },
+  {
+   "bytes": 62643,
+   "path": "Tools/clinic/libclinic/dsl_parser.py",
+   "rho": 1000,
+   "sha256": "42300120a91d534349dab6d9dbc397da2d211590507c6a671c0948e1eec6c31d",
+   "tokens": 40357
+  },
+  {
+   "bytes": 7985,
+   "path": "Lib/test/test_baseexception.py",
+   "rho": 1000,
+   "sha256": "f788987b1669c7ad70856cb2b90acd2acefa4ef8c50ab7758b82766376933b9e",
+   "tokens": 5311
+  },
+  {
+   "bytes": 758,
+   "path": "Lib/test/test_tkinter/__init__.py",
+   "rho": 1000,
+   "sha256": "8c7adc0bf41492dcad400cc6d764f9f19e945c718e52874cd1c91f10f124103f",
+   "tokens": 677
+  },
+  {
+   "bytes": 38217,
+   "path": "Lib/test/test_unittest/testmock/testhelpers.py",
+   "rho": 1000,
+   "sha256": "a0b83a67fc27b067f1add604e17b76dc9d4cc2b4621839d79c1d754e0fae21e6",
+   "tokens": 24697
+  },
+  {
+   "bytes": 17697,
+   "path": "Lib/test/test_unittest/testmock/testmagicmethods.py",
+   "rho": 1000,
+   "sha256": "2a3ccd25a66b5f10a0d69d460cc537eb46b56367aaa9c13db9bfb4f9d7803220",
+   "tokens": 11539
+  },
+  {
+   "bytes": 16,
+   "path": "Lib/test/test_lazy_import/data/metasyntactic/waldo/__init__.py",
+   "rho": 1000,
+   "sha256": "9b1ffb6279801e8a856d879dd3bbd2d156948bf37f81dafb0d787fe360ae118c",
+   "tokens": 201
+  },
+  {
+   "bytes": 5966,
+   "path": "Tools/clinic/libclinic/cpp.py",
+   "rho": 1000,
+   "sha256": "0f1b7d82263c04a014d7f584780a800e0d5bafeea843ed725a0e2dcc94004912",
+   "tokens": 4016
+  },
+  {
+   "bytes": 1752,
+   "path": "Lib/idlelib/idle_test/test_tree.py",
+   "rho": 1000,
+   "sha256": "62ae68d64105485107e8173f94ce09739f276004bc8fa65efa5add2c6188e166",
+   "tokens": 1314
+  },
+  {
+   "bytes": 109586,
+   "path": "Lib/test/test_urlparse.py",
+   "rho": 1000,
+   "sha256": "459cabdddf556227dd95bfc70481060157302a591ded7798c26a4bc01994454b",
+   "tokens": 70448
+  },
+  {
+   "bytes": 1176,
+   "path": "Lib/test/test_free_threading/test_reversed.py",
+   "rho": 1000,
+   "sha256": "ad9547c48fb1deefdcdb502ee71ec3362733d4d67ca8bb8f657f9309a6e2e230",
+   "tokens": 945
+  },
+  {
+   "bytes": 228,
+   "path": "Lib/test/test_multiprocessing_spawn/__init__.py",
+   "rho": 1000,
+   "sha256": "9760de61d00cc3ca9c9e3c47e505e66d211491f8100ca3c3c10997b5e247c408",
+   "tokens": 337
+  },
+  {
+   "bytes": 28,
+   "path": "Lib/test/test_lazy_import/data/pkg/b.py",
+   "rho": 1000,
+   "sha256": "85d491389ca69066bde7f57978b60a903ebbe77c03aab87159e632c4fbc79a41",
+   "tokens": 209
+  },
+  {
+   "bytes": 225166,
+   "path": "Lib/test/test_decimal.py",
+   "rho": 1000,
+   "sha256": "ca15844928dfaf2a6634557fdc06c0598b9d2f1dd5b9bb41dc3a5d9f28e3bd51",
+   "tokens": 144572
+  },
+  {
+   "bytes": 653,
+   "path": "Lib/test/crashers/infinite_loop_re.py",
+   "rho": 1000,
+   "sha256": "c92ccd80d6b46af82b417c429251351d04d4f1bec7c05534b828319a4d6c60d5",
+   "tokens": 609
+  },
+  {
+   "bytes": 137264,
+   "path": "Lib/test/test_import/__init__.py",
+   "rho": 1000,
+   "sha256": "14ed2414c2fed9f086f8b200de56780a913c25fe2d0f8d6e846ff22d71ff7502",
+   "tokens": 88201
+  },
+  {
+   "bytes": 11303,
+   "path": "Lib/test/test_descrtut.py",
+   "rho": 1000,
+   "sha256": "d1b0d8ded51735df65f5af8e96300a9d2c1b73c783833be92f1bda9f38645536",
+   "tokens": 7439
+  },
+  {
+   "bytes": 12661,
+   "path": "Lib/test/test_asyncio/test_server.py",
+   "rho": 1000,
+   "sha256": "ece4c2b9b149d210e133858ae5f75e23aa380005fe5f2257bb7ca9bf5986bf82",
+   "tokens": 8309
+  },
+  {
+   "bytes": 3648,
+   "path": "Lib/test/test_tomllib/test_error.py",
+   "rho": 1000,
+   "sha256": "0a34dacf67e89f3769e28906544549554f5ad9745daf5d2a4302ab8c0130416d",
+   "tokens": 2530
+  },
+  {
+   "bytes": 34714,
+   "path": "Lib/test/test_queue.py",
+   "rho": 1000,
+   "sha256": "0a8cbd270747fcb1403dbe2a3ac169f9695bbf663b65d6ed84247cd619be1317",
+   "tokens": 22449
+  },
+  {
+   "bytes": 18587,
+   "path": "Lib/multiprocessing/forkserver.py",
+   "rho": 1000,
+   "sha256": "4d60208af12580210c917e0fa4fb3b7e0d8a7684cc3637fe3b2baa2a6498e2dd",
+   "tokens": 12109
+  },
+  {
+   "bytes": 19652,
+   "path": "Tools/cases_generator/optimizer_generator.py",
+   "rho": 1000,
+   "sha256": "3cf3e9e3881b33700a851732c18ab32db4dddd4488ecc7b83e6e404caffd7e2f",
+   "tokens": 12792
+  },
+  {
+   "bytes": 91,
+   "path": "Lib/test/test_zipfile/__main__.py",
+   "rho": 1000,
+   "sha256": "4de67b523ced8be40590ee6671a5008243fb86a66173c8d2c77f729283b3bc3a",
+   "tokens": 249
+  },
+  {
+   "bytes": 209732,
+   "path": "Lib/test/test_tarfile.py",
+   "rho": 1000,
+   "sha256": "6ddaad56ce57a5622b39f2ec1c7f365bdc7ceb603481e0c1338f7261d262502d",
+   "tokens": 134670
+  },
+  {
+   "bytes": 9038,
+   "path": "Tools/clinic/libclinic/block_parser.py",
+   "rho": 1000,
+   "sha256": "ae2a3c72d561591f6e0dd4e539246ef9d0b68b3fc39a7623cb2f8e15432bed9e",
+   "tokens": 5986
+  },
+  {
+   "bytes": 165,
+   "path": "Lib/test/support/refleak_helper.py",
+   "rho": 1000,
+   "sha256": "e2ae780ff989e88949e699113ad359db7ccf31be069fc5c3b00828d78ce344bc",
+   "tokens": 296
+  },
+  {
+   "bytes": 72411,
+   "path": "Lib/test/test_httpservers.py",
+   "rho": 1000,
+   "sha256": "af4904e91f7999840485168b6e0fbd7e93eb83461b2d0cea4ccf09d6be58e878",
+   "tokens": 46623
+  },
+  {
+   "bytes": 611,
+   "path": "Lib/_pyrepl/types.py",
+   "rho": 1000,
+   "sha256": "2840b6447451bdddb096f38c27a4e0628d89cfbfa14c345c127ec7b5b82165bb",
+   "tokens": 582
+  },
+  {
+   "bytes": 44690,
+   "path": "Lib/test/test_ftplib.py",
+   "rho": 1000,
+   "sha256": "bfbef8a11fb68e87a7682838a0424b13cfcc47646998bcaf94cc560fbf408f6d",
+   "tokens": 28844
+  },
+  {
+   "bytes": 2814,
+   "path": "Lib/test/test_free_threading/test_dbm_gnu.py",
+   "rho": 1000,
+   "sha256": "d691e76c0b01b36160852f9a9d90c1491499d2747c35599fbf68c4ffa5606a5b",
+   "tokens": 1995
+  },
+  {
+   "bytes": 13762,
+   "path": "Lib/encodings/koi8_u.py",
+   "rho": 1000,
+   "sha256": "28989691945837aaa7eacb786b282cf063e13f16938f2a4481223f1b1891d805",
+   "tokens": 9015
+  },
+  {
+   "bytes": 10155,
+   "path": "Lib/asyncio/queues.py",
+   "rho": 1000,
+   "sha256": "43b899d2340b001d9ec3295309b67b29e4788333e42634d830a8b4b88de2e03f",
+   "tokens": 6702
+  },
+  {
+   "bytes": 30821,
+   "path": "Lib/test/support/smtpd.py",
+   "rho": 1000,
+   "sha256": "5812c5876fb4036982885e82c7433308d87bc860110b9f65df441c30f25d5fba",
+   "tokens": 19947
+  },
+  {
+   "bytes": 73863,
+   "path": "Lib/test/test_csv.py",
+   "rho": 1000,
+   "sha256": "ed8d16aa63d8ebdb584232a271033f231be093c114a5012421696c94f738a212",
+   "tokens": 47554
+  },
+  {
+   "bytes": 2453,
+   "path": "Lib/test/libregrtest/filter.py",
+   "rho": 1000,
+   "sha256": "9a625519e96606e098424ca6fd2772281e001259885e60c1ed09acee3e8f47aa",
+   "tokens": 1764
+  },
+  {
+   "bytes": 20632,
+   "path": "Tools/clinic/libclinic/clanguage.py",
+   "rho": 1000,
+   "sha256": "2177178b5f25075f4442c950ea2dc1b4974ba970ddc0fc63c1a0afff667d8ef1",
+   "tokens": 13416
+  },
+  {
+   "bytes": 2804,
+   "path": "Lib/test/test_datetime.py",
+   "rho": 1000,
+   "sha256": "fb36625a43ea8cc05fc05f230fa7063705cdd781ae70867f27b14813d79105b8",
+   "tokens": 1989
+  },
+  {
+   "bytes": 1875,
+   "path": "Lib/test/test_ctypes/test_varsize_struct.py",
+   "rho": 1000,
+   "sha256": "1c96b88712f4d6a7ed98856e4170e77116b62661ebbe5095d6760a738a108a2f",
+   "tokens": 1393
+  },
+  {
+   "bytes": 1879,
+   "path": "Lib/turtledemo/minimal_hanoi.py",
+   "rho": 1000,
+   "sha256": "21902fdba0367e6a3df5f96752254f711767bd32de2b56b124afbdc25cbd340e",
+   "tokens": 1396
+  },
+  {
+   "bytes": 38676,
+   "path": "Lib/test/test_asyncio/test_futures.py",
+   "rho": 1000,
+   "sha256": "0ba1da179088aad08107a322ac153820bfb006d7ddf027b0aa2d54699c47fbb7",
+   "tokens": 24991
+  },
+  {
+   "bytes": 8300,
+   "path": "Tools/clinic/libclinic/cli.py",
+   "rho": 1000,
+   "sha256": "90c3f2bf0853b21aa56c0c3d43dcc8c475ff576ac621960444348421c4681e70",
+   "tokens": 5506
+  },
+  {
+   "bytes": 8653,
+   "path": "Lib/concurrent/interpreters/_queues.py",
+   "rho": 1000,
+   "sha256": "78abed0202e6be84ed5294401c1652786de6e59ab5677b83efd2b52b263f6f4c",
+   "tokens": 5739
+  },
+  {
+   "bytes": 15189,
+   "path": "Lib/test/test_unittest/test_suite.py",
+   "rho": 1000,
+   "sha256": "14b020516d754b9f50d46c7c6944d462650f3b9ff8cc7a3c51fd96bce534fa29",
+   "tokens": 9930
+  },
+  {
+   "bytes": 15275,
+   "path": "Lib/test/test_asyncio/test_timeouts.py",
+   "rho": 1000,
+   "sha256": "c8bcfc0e56949f2a6bc89ecb1dcf5f0b7aa0932792618e58c090113ac50342e5",
+   "tokens": 9986
+  },
+  {
+   "bytes": 15075,
+   "path": "Lib/idlelib/colorizer.py",
+   "rho": 1000,
+   "sha256": "8f01700426abc442c421cb7569e697a499efd4f2cbf77fcb044d3fd19f50b304",
+   "tokens": 9857
+  },
+  {
+   "bytes": 16470,
+   "path": "Lib/test/test_capi/test_run.py",
+   "rho": 1000,
+   "sha256": "783bcf14c4b25290f485a67327fb7b55e7cc1dcfba0144a42ce7a6c67b5ae150",
+   "tokens": 10752
+  },
+  {
+   "bytes": 12499,
+   "path": "Lib/asyncio/taskgroups.py",
+   "rho": 1000,
+   "sha256": "af4dd9657a16874b90e6822205c947c78443b3c836110e5ed5a5459b2e58c2ef",
+   "tokens": 8205
+  },
+  {
+   "bytes": 5489,
+   "path": "Lib/wsgiref/util.py",
+   "rho": 1000,
+   "sha256": "03efcd2ce1a29f3b941899a9367313ceaa508005ffc838719b80f46e4fcba955",
+   "tokens": 3710
+  },
+  {
+   "bytes": 327,
+   "path": "Lib/cProfile.py",
+   "rho": 1000,
+   "sha256": "c6308f6bfe676744e4b284980a2dee5ae277597735386f139c77a2328575e7ee",
+   "tokens": 400
+  },
+  {
+   "bytes": 27,
+   "path": "Lib/test/relimport.py",
+   "rho": 1000,
+   "sha256": "b61ce17b00a1338fca815852eae64f7c819b9ed34a6f5c40ee189ff32312d8fc",
+   "tokens": 208
+  },
+  {
+   "bytes": 1579,
+   "path": "Lib/test/test_perfmaps.py",
+   "rho": 1000,
+   "sha256": "b104930b97de5fd79fd571cda260e7794d8e6300c87282c98b3a54bb98c47203",
+   "tokens": 1203
+  },
+  {
+   "bytes": 2087,
+   "path": "Lib/test/test_free_threading/test_re.py",
+   "rho": 1000,
+   "sha256": "a35886eb40e1711daf562c8e89e6ae42ff2cef0a7baf89382bebac7bb7b7d398",
+   "tokens": 1529
+  },
+  {
+   "bytes": 8572,
+   "path": "Lib/test/test_index.py",
+   "rho": 1000,
+   "sha256": "bc74f38459434a91477197a4c9b3a58bb2bd4c70027472003c0e363c6d7efad5",
+   "tokens": 5687
+  },
+  {
+   "bytes": 2653,
+   "path": "Lib/test/test_tkinter/test_filedialog.py",
+   "rho": 1000,
+   "sha256": "6d037e76268321dedf64b1e611b1c50c6fe997418948cd87e6c72b525f955eec",
+   "tokens": 1890
+  },
+  {
+   "bytes": 1316,
+   "path": "Lib/email/mime/application.py",
+   "rho": 1000,
+   "sha256": "9bd0445dde897940686533b265251930bb527637000bf8b572c2f1ee3b952b56",
+   "tokens": 1035
+  },
+  {
+   "bytes": 1539,
+   "path": "Lib/test/support/numbers.py",
+   "rho": 1000,
+   "sha256": "fd9c8f35ef65c32612599a89a3ff8fe320268bd139a1c1a773cdfdd44096202c",
+   "tokens": 1178
+  },
+  {
+   "bytes": 148,
+   "path": "Lib/test/test_os/__init__.py",
+   "rho": 1000,
+   "sha256": "4759fb797c51d00cedef8d26c1f2ccb952f6785fd9161b1e3ad8eb538b37b4c4",
+   "tokens": 286
+  },
+  {
+   "bytes": 2142,
+   "path": "Tools/peg_generator/pegen/keywordgen.py",
+   "rho": 1000,
+   "sha256": "87416fabf3eef317e334fde3578f5088c0f757f1a6a98c8d70ec94947247d61a",
+   "tokens": 1564
+  },
+  {
+   "bytes": 53251,
+   "path": "Tools/scripts/summarize_stats.py",
+   "rho": 1000,
+   "sha256": "36fdcc5d78996da93a69ce9cfc484b2af32ab921091be15ac1c3b9b96f475970",
+   "tokens": 34333
+  },
+  {
+   "bytes": 31245,
+   "path": "Lib/ntpath.py",
+   "rho": 1000,
+   "sha256": "3f9a0dad7f2384868b46d37b942885a3e88659c55f16fb8db1689040d84954b4",
+   "tokens": 20226
+  },
+  {
+   "bytes": 142,
+   "path": "Lib/test/test_zipfile/__init__.py",
+   "rho": 1000,
+   "sha256": "8962a375442bddd8d49865f3bf601c2c7a741fe947d8ec667358bb640cd0d19b",
+   "tokens": 282
+  },
+  {
+   "bytes": 6453,
+   "path": "Lib/test/test_dbm_ndbm.py",
+   "rho": 1000,
+   "sha256": "694554baef2aa99b1d9392e19449a6244b0fe99cb25cef1db12f2dfc15185ad6",
+   "tokens": 4329
+  },
+  {
+   "bytes": 2501,
+   "path": "Lib/signal.py",
+   "rho": 1000,
+   "sha256": "7ab742598dad84740a2f85b03ffd783be7aa6c16ecd3ad03de323a95ae6299dd",
+   "tokens": 1791
+  },
+  {
+   "bytes": 7908,
+   "path": "Lib/test/test_capi/test_capsule.py",
+   "rho": 1000,
+   "sha256": "c8c501e98170d86d57996644a26f0aa3c57c7472bbb586a0a818c6b4347e1df7",
+   "tokens": 5262
+  },
+  {
+   "bytes": 690,
+   "path": "Lib/test/test_xxtestfuzz.py",
+   "rho": 1000,
+   "sha256": "d770b2e06978a09668f2651aafa6784a43290660d2b275cb5289deb944180031",
+   "tokens": 633
+  },
+  {
+   "bytes": 5145,
+   "path": "Lib/multiprocessing/resource_sharer.py",
+   "rho": 1000,
+   "sha256": "bba3c7f2b76a9cf4e8ceb642801c405411da95adf91947d81b0043586038290e",
+   "tokens": 3490
+  },
+  {
+   "bytes": 13456,
+   "path": "Tools/build/generate_slots.py",
+   "rho": 1000,
+   "sha256": "53c71e126faf141bfbd6f636fcf50e8ce263f5031987a8c2c4146ee28e0ff591",
+   "tokens": 8818
+  },
+  {
+   "bytes": 3028,
+   "path": "Lib/test/test_codecencodings_kr.py",
+   "rho": 1000,
+   "sha256": "5a05ebfa6213aea5c4af520eb9ff4c08eb27b1aecc61c30e078e388d6fcaf05a",
+   "tokens": 2132
+  },
+  {
+   "bytes": 14481,
+   "path": "Lib/test/test_fnmatch.py",
+   "rho": 1000,
+   "sha256": "b6218bf75e1920ca273339589b88e522969184dc02eefe5272e1798fa7cc2f0c",
+   "tokens": 9476
+  },
+  {
+   "bytes": 9176,
+   "path": "Lib/test/support/threading_helper.py",
+   "rho": 1000,
+   "sha256": "93976321a0592dda85d769089d443f7ce6f0742911852d3d875de5f03a8d7471",
+   "tokens": 6075
+  },
+  {
+   "bytes": 760,
+   "path": "Lib/importlib/metadata/_collections.py",
+   "rho": 1000,
+   "sha256": "0b1021ce5177835af0bbf7cc881e7726d450894161d11822329a0ebe62bfa1c8",
+   "tokens": 678
+  },
+  {
+   "bytes": 1484,
+   "path": "Lib/test/test_importlib/threaded_import_hangers.py",
+   "rho": 1000,
+   "sha256": "9abe8bca9a7aa94921124a9aaa89da0d6b805c2278e9544b6b3083e3e037bcf4",
+   "tokens": 1142
+  },
+  {
+   "bytes": 6032,
+   "path": "Lib/test/test_cppext/__init__.py",
+   "rho": 1000,
+   "sha256": "9fb0e4249e5820a674ca0f39167148e51154815762dbda4a5a237b319c39812e",
+   "tokens": 4059
+  },
+  {
+   "bytes": 74,
+   "path": "Lib/test/test_lazy_import/data/try_except_eager_from.py",
+   "rho": 1000,
+   "sha256": "d2a63dfe85c7a8cc4dfa4eaa81236f5c488f2d68d86af50396c9be90020a1079",
+   "tokens": 238
+  },
+  {
+   "bytes": 21645,
+   "path": "Lib/gettext.py",
+   "rho": 1000,
+   "sha256": "67a0b1c242bc3459d395e91e4f63358bf71a291836eded444256310d2c9bb51d",
+   "tokens": 14070
+  },
+  {
+   "bytes": 282,
+   "path": "Lib/test/test_importlib/metadata/_context.py",
+   "rho": 1000,
+   "sha256": "fd668b11de55893e93f4de9f430a4ca7625b502cd8b0c8019252ebc54694ea08",
+   "tokens": 371
+  },
+  {
+   "bytes": 1105,
+   "path": "Lib/ctypes/macholib/framework.py",
+   "rho": 1000,
+   "sha256": "302439e40d9cbdd61b8b7cffd0b7e1278a6811b635044ee366a36e0d991f62da",
+   "tokens": 899
+  },
+  {
+   "bytes": 37216,
+   "path": "Platforms/Android/__main__.py",
+   "rho": 1000,
+   "sha256": "1a947e8ce95a0015b72e3a4a389fd38bb114b167bf93add00f00b8e93a4a18ad",
+   "tokens": 24055
+  },
+  {
+   "bytes": 54586,
+   "path": "Lib/ssl.py",
+   "rho": 1000,
+   "sha256": "95db7a49830290bf1fd8cc841b1ae343092f104c8697c997670793586c10ef6c",
+   "tokens": 35193
+  },
+  {
+   "bytes": 11769,
+   "path": "Lib/numbers.py",
+   "rho": 1000,
+   "sha256": "e5e73beba4a7674bd5e9a881a202d403a0c3e2b59af4181699155ea4827a7561",
+   "tokens": 7737
+  },
+  {
+   "bytes": 3797,
+   "path": "Lib/importlib/metadata/_adapters.py",
+   "rho": 1000,
+   "sha256": "af98bc5cbaca4fac66ae9a11119859adf7333980e6ad565e2415b9bb41f32065",
+   "tokens": 2625
+  },
+  {
+   "bytes": 55011,
+   "path": "Lib/test/test_asyncio/test_locks.py",
+   "rho": 1000,
+   "sha256": "c81db4b231eae340867c55da20ef0ec937db79df92c600e8321b5c88b31a71aa",
+   "tokens": 35466
+  },
+  {
+   "bytes": 55838,
+   "path": "Lib/configparser.py",
+   "rho": 1000,
+   "sha256": "ecdf3db38d608b3bc277657b88f3de35b3af501d58b604beb079c385cc6bd7f2",
+   "tokens": 35989
+  },
+  {
+   "bytes": 126,
+   "path": "Lib/test/test_dataclasses/dataclass_textanno.py",
+   "rho": 1000,
+   "sha256": "1274341e8132110bb9797f33f733800277e6f1ac8c690ba9df6385944236aca1",
+   "tokens": 271
+  },
+  {
+   "bytes": 109457,
+   "path": "Lib/test/test_httplib.py",
+   "rho": 1000,
+   "sha256": "8b8ee52439ec311b7d937a894035d8816bcf53cf8c1b3e1619c3dfd9ba3d35da",
+   "tokens": 70377
+  },
+  {
+   "bytes": 6526,
+   "path": "Lib/test/test_interpreters/test_lifecycle.py",
+   "rho": 1000,
+   "sha256": "46fff31570a148dd2aa6c4fe05fcb4f9a7fb4ef0c5891533ccd529e1f8c298f8",
+   "tokens": 4375
+  },
+  {
+   "bytes": 1669,
+   "path": "Lib/test/test_asyncio/test_threads.py",
+   "rho": 1000,
+   "sha256": "016f778e281fbba57497f199cb1cff0511ac5f2b12961c25d9ba5d2a63d2cb07",
+   "tokens": 1261
+  },
+  {
+   "bytes": 10828,
+   "path": "Lib/test/test_asyncio/test_waitfor.py",
+   "rho": 1000,
+   "sha256": "3b5f4f79619214c296c6ee8aee83556f243cd28050efc7a1bce548f24ca0dc08",
+   "tokens": 7134
+  },
+  {
+   "bytes": 905,
+   "path": "Lib/test/test_zipfile/_path/_test_params.py",
+   "rho": 1000,
+   "sha256": "14322d450396fcb2678e9b8b5a0731ec8edf6b2a4584037e460dac00ec66e2fa",
+   "tokens": 771
+  },
+  {
+   "bytes": 174,
+   "path": "Lib/test/test_lazy_import/data/multi_from_import.py",
+   "rho": 1000,
+   "sha256": "6d09fa0b613df2876a52e0a1d2f1d994500431eb367bfc7a2c318b06d71da3dd",
+   "tokens": 302
+  },
+  {
+   "bytes": 1076,
+   "path": "Lib/test/test_free_threading/test_enumerate.py",
+   "rho": 1000,
+   "sha256": "0c37553d8a140283c88281280162ad541edc367eae65c2edecf56e1fb72ef535",
+   "tokens": 881
+  },
+  {
+   "bytes": 203,
+   "path": "Lib/test/test_multiprocessing_spawn/test_manager.py",
+   "rho": 1000,
+   "sha256": "ff58ee4945d960ef431f8b6989de9a93bca4e9d15e0ab8c5af384902772d3e3d",
+   "tokens": 321
+  },
+  {
+   "bytes": 233,
+   "path": "Lib/test/test_tools/i18n_data/multiple_keywords.py",
+   "rho": 1000,
+   "sha256": "c34807ab4dc60251148b445acf6194f1a33357fcade18586e68b6197080f4cf6",
+   "tokens": 340
+  },
+  {
+   "bytes": 5721,
+   "path": "Lib/test/test_pstats.py",
+   "rho": 1000,
+   "sha256": "b26d85902b3d6d9789b4d1d1fce26b8e06767d96856e96b52e55e6928a87beb4",
+   "tokens": 3859
+  },
+  {
+   "bytes": 991,
+   "path": "Lib/_pyrepl/windows_eventqueue.py",
+   "rho": 1000,
+   "sha256": "ca39efc778d55c97357fc8b95f25f1c9301f79f487ee7486f24bf872a87c3aa7",
+   "tokens": 826
+  },
+  {
+   "bytes": 227,
+   "path": "Lib/test/test_doctest/sample_doctest_no_docstrings.py",
+   "rho": 1000,
+   "sha256": "c86fb360619e4114fd71ac6000909d6da367e11bdb9fd77ee83769f17079066d",
+   "tokens": 336
+  },
+  {
+   "bytes": 56921,
+   "path": "Lib/test/test_sax.py",
+   "rho": 1000,
+   "sha256": "b50b2d118f7211125a725a7411bb63c2e3978b09fbf00acc48f5d7e1a2fa145e",
+   "tokens": 36690
+  },
+  {
+   "bytes": 3200,
+   "path": "Lib/test/test_zoneinfo/_support.py",
+   "rho": 1000,
+   "sha256": "cfc24feae7118a1b08d1357548234b7a3491869d0466305a47cc962e4f7c833e",
+   "tokens": 2243
+  },
+  {
+   "bytes": 37972,
+   "path": "Lib/test/pythoninfo.py",
+   "rho": 1000,
+   "sha256": "5ee03020d7d33112fad966e8d74a50178a9c800a78009cf001eb0e1c52f99b90",
+   "tokens": 24540
+  },
+  {
+   "bytes": 205,
+   "path": "Lib/test/test_multiprocessing_spawn/test_processes.py",
+   "rho": 1000,
+   "sha256": "4c5ab3a1875887418f42c11d5642e605a50ce089939a0f341e5ccdd6e988c1d8",
+   "tokens": 322
+  },
+  {
+   "bytes": 1783,
+   "path": "Lib/test/test_importlib/extension/test_case_sensitivity.py",
+   "rho": 1000,
+   "sha256": "825e06f2a9d2d3cb0b9532e9d23f990f06e212c2a4c75430fd25a39ba0f863f0",
+   "tokens": 1334
+  },
+  {
+   "bytes": 740,
+   "path": "Lib/test/test_multiprocessing_forkserver/__init__.py",
+   "rho": 1000,
+   "sha256": "f9a1b32521a7fb2e956dbee2a1aef30fe6a74c914389c49e7b16f16cb05bae83",
+   "tokens": 666
+  },
+  {
+   "bytes": 19088,
+   "path": "Lib/posixpath.py",
+   "rho": 1000,
+   "sha256": "fb385aa49b97674cd1eb2b71b2407874e4a3579e3bcb7b31e0cb89a00de373df",
+   "tokens": 12431
+  },
+  {
+   "bytes": 48432,
+   "path": "Lib/email/message.py",
+   "rho": 1000,
+   "sha256": "1ac20dcc473fe23d90f6339eca42da431a99fc667807dc589105a33b5136f824",
+   "tokens": 31244
+  },
+  {
+   "bytes": 67,
+   "path": "Lib/test/test_lazy_import/data/try_except_eager.py",
+   "rho": 1000,
+   "sha256": "7db2e5c89614e7de42d1e241ac56ec9605fb18fd254de95c956f6bc70eed3f8e",
+   "tokens": 234
+  },
+  {
+   "bytes": 271795,
+   "path": "Lib/test/_test_multiprocessing.py",
+   "rho": 1000,
+   "sha256": "21c7d542b3741ea88c3702698533c55be914958d3e246e6b1e1cd43aa5c4a0d6",
+   "tokens": 174469
+  }
+ ],
+ "gold": [
+  "Lib/bz2.py",
+  "Lib/xml/etree/ElementInclude.py",
+  "Lib/lzma.py",
+  "Lib/compression/zstd/_zstdfile.py",
+  "Lib/poplib.py",
+  "Lib/token.py",
+  "Lib/stat.py",
+  "Lib/tkinter/messagebox.py",
+  "Lib/xml/dom/__init__.py",
+  "Lib/encodings/zlib_codec.py",
+  "Lib/curses/ascii.py",
+  "Lib/encodings/bz2_codec.py",
+  "Lib/dbm/sqlite3.py",
+  "Lib/bisect.py",
+  "Lib/encodings/uu_codec.py",
+  "Lib/encodings/charmap.py",
+  "Lib/pathlib/_os.py",
+  "Lib/importlib/resources/_functional.py",
+  "Lib/encodings/punycode.py",
+  "Lib/email/iterators.py",
+  "Lib/re/_constants.py",
+  "Lib/email/contentmanager.py",
+  "Lib/reprlib.py",
+  "Lib/turtledemo/penrose.py",
+  "Lib/importlib/resources/_adapters.py",
+  "Lib/asyncio/tools.py",
+  "Lib/_pyrepl/pager.py",
+  "Lib/encodings/utf_32.py",
+  "Lib/codeop.py",
+  "Lib/encodings/utf_16.py",
+  "Lib/encodings/utf_8_sig.py",
+  "Lib/turtledemo/forest.py",
+  "Lib/pty.py",
+  "Lib/multiprocessing/context.py",
+  "Lib/profiling/sampling/binary_collector.py",
+  "Lib/getpass.py",
+  "Lib/ensurepip/__init__.py",
+  "Lib/email/base64mime.py",
+  "Lib/turtledemo/nim.py",
+  "Lib/importlib/resources/abc.py",
+  "Lib/idlelib/textview.py",
+  "Lib/fileinput.py",
+  "Lib/email/quoprimime.py",
+  "Lib/asyncio/graph.py",
+  "Lib/xml/dom/pulldom.py",
+  "Lib/encodings/idna.py",
+  "Lib/tkinter/font.py",
+  "Lib/idlelib/tooltip.py",
+  "Lib/dbm/dumb.py",
+  "Lib/importlib/metadata/_text.py",
+  "Lib/json/decoder.py",
+  "Lib/_pyrepl/utils.py",
+  "Lib/hmac.py",
+  "Lib/_pyrepl/console.py",
+  "Lib/zipfile/_path/__init__.py",
+  "Lib/encodings/rot_13.py",
+  "Lib/tkinter/filedialog.py",
+  "Lib/profiling/sampling/live_collector/display.py",
+  "Lib/email/_encoded_words.py",
+  "Lib/idlelib/calltip_w.py"
+ ],
+ "id": "ca8e01d67009c",
+ "n_gold": 60,
+ "perturbed": true,
+ "release": "v3.15.0",
+ "rhos": [
+  10,
+  100,
+  1000
+ ],
+ "seed": 1,
+ "sha256": "438596cac081036d3c1d532ab7e7335eeb35567bc961749a0d5797176db0db68",
+ "targets": {
+  "10": 100000,
+  "100": 1000000,
+  "1000": 10000000
+ },
+ "totals": {
+  "10": 101372,
+  "100": 1086883,
+  "1000": 10029977
+ },
+ "window": 10000
+}

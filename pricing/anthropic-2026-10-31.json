@@ -1,0 +1,42 @@
+{
+  "version": "anthropic-2026-10-31",
+  "as_of": "2026-10-31",
+  "source": "Anthropic pricing, prompt-caching, models, token-counting and thinking documentation, retrieved 2026-10-31",
+  "sources": [
+    "https://platform.claude.com/docs/en/about-claude/pricing",
+    "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+    "https://platform.claude.com/docs/en/about-claude/models/overview",
+    "https://platform.claude.com/docs/en/build-with-claude/token-counting",
+    "https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking",
+    "https://platform.claude.com/docs/en/build-with-claude/thinking"
+  ],
+  "verified": true,
+  "models": {
+    "claude-haiku-5-5": {
+      "input": 100000,
+      "output": 500000,
+      "cache_write_5m": 125000,
+      "cache_write_1h": 200000,
+      "cache_read": 10000,
+      "min_cache_tokens": 512,
+      "max_prompt_tokens_for_tier": null,
+      "long_context": {
+        "threshold_prompt_tokens": 100000,
+        "input": 500000,
+        "output": 2500000,
+        "cache_write_5m": 625000,
+        "cache_write_1h": 1000000,
+        "cache_read": 50000
+      }
+    },
+    "claude-sonnet-5-5": {
+      "input": 2000000,
+      "output": 10000000,
+      "cache_write_5m": 2500000,
+      "cache_write_1h": 4000000,
+      "cache_read": 100000,
+      "min_cache_tokens": 512,
+      "max_prompt_tokens_for_tier": null
+    }
+  }
+}

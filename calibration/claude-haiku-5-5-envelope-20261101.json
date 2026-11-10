@@ -1,0 +1,258 @@
+{
+  "baseline": {
+    "minimal_tool": 328,
+    "no_tools": 7
+  },
+  "calibration_sha256": "1a0f5d719845238a788f396810192fccfbbe939a97d77241f2025c4ebfc3b1cf",
+  "content_estimator": {
+    "calibration_sha256": "1a0f5d719845238a788f396810192fccfbbe939a97d77241f2025c4ebfc3b1cf",
+    "coefficients": {
+      "json": {
+        "a": "0.396422",
+        "a_hi": "0.476115",
+        "b": "123.304824"
+      },
+      "other": {
+        "a": "0.423053",
+        "a_hi": "0.483429",
+        "b": "4.942834"
+      },
+      "prose": {
+        "a": "0.378599",
+        "a_hi": "0.502914",
+        "b": "-17.31882"
+      },
+      "python": {
+        "a": "0.3684",
+        "a_hi": "0.641234",
+        "b": "190.166804"
+      }
+    },
+    "estimator": "calib-v2",
+    "model": "claude-haiku-5-5",
+    "version": 2
+  },
+  "counter": "count_tokens",
+  "created": "2026-11-01",
+  "envelope": {
+    "base": 3,
+    "message": 3,
+    "text": 0,
+    "thinking": 0,
+    "tool_result": 0,
+    "tool_use": 62
+  },
+  "errors": {
+    "thinking": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.1.content.0: Invalid `signature` in `thinking` block'}, 'request_id': 'req_011Cgbnd7sDUeWAdcnUsKTxL'}"
+  },
+  "fits": {
+    "message": {
+      "intercept": "335",
+      "slope": "8"
+    },
+    "text": {
+      "intercept": "335",
+      "slope": "1"
+    },
+    "tool": {
+      "intercept": "340.511111",
+      "slope": "67.733333"
+    }
+  },
+  "max_abs_residual": 18,
+  "model": "claude-haiku-5-5",
+  "note": "tool_use and tool_result always come in pairs, so only their sum is identifiable; it is attributed to tool_use",
+  "raw": {
+    "base": "3",
+    "message": "3",
+    "text": "0",
+    "thinking": "0",
+    "tool_result": "0",
+    "tool_use": "61.7333"
+  },
+  "requests": [
+    {
+      "k": 0,
+      "kind": "text",
+      "sha256": "c78480118bb1caf58d9ca9f96cdbe04561fce6447d2a56254eccdf79e861bf70",
+      "tokens": 335
+    },
+    {
+      "k": 0,
+      "kind": "message",
+      "sha256": "c78480118bb1caf58d9ca9f96cdbe04561fce6447d2a56254eccdf79e861bf70",
+      "tokens": 335
+    },
+    {
+      "k": 0,
+      "kind": "tool",
+      "sha256": "7cf8211c8bc5188349978cb3fd33f81d54140eccbaa6cc2638604576690ac27b",
+      "tokens": 343
+    },
+    {
+      "k": 1,
+      "kind": "text",
+      "sha256": "c23bdc493526020b3af824a502cd53ed022032d72aadbf575485aac2568d9a36",
+      "tokens": 336
+    },
+    {
+      "k": 1,
+      "kind": "message",
+      "sha256": "7cf8211c8bc5188349978cb3fd33f81d54140eccbaa6cc2638604576690ac27b",
+      "tokens": 343
+    },
+    {
+      "k": 1,
+      "kind": "tool",
+      "sha256": "f01be2725e39ce554ca6511f26c53f9395ef26fc793ad82adef59630ae3c9494",
+      "tokens": 393
+    },
+    {
+      "k": 2,
+      "kind": "text",
+      "sha256": "345f60158278a0a86a4ef8d84c3ebdf40ce93c4008417028109d2c3ffc180b7e",
+      "tokens": 337
+    },
+    {
+      "k": 2,
+      "kind": "message",
+      "sha256": "9e086baca6c287870f34ee7e9d08b9c2894efb438a06c5360ee0605ae32d26eb",
+      "tokens": 351
+    },
+    {
+      "k": 2,
+      "kind": "tool",
+      "sha256": "22c334cdbc35bf076310b22b4e6514858aac6fb9a813d9380848902e2fe63b5b",
+      "tokens": 483
+    },
+    {
+      "k": 3,
+      "kind": "text",
+      "sha256": "676e22c61836cc6940e2df02a7c1ba6025bfa3b688a548655486ebee39b47af5",
+      "tokens": 338
+    },
+    {
+      "k": 3,
+      "kind": "message",
+      "sha256": "da7969af9ced770988572dc7d937dec5d921fa89118d2a1d03fa83464377634e",
+      "tokens": 359
+    },
+    {
+      "k": 3,
+      "kind": "tool",
+      "sha256": "e6e798d42da07eca072f37af894d7340e314fe8b3b6c31644ad676123c063f8a",
+      "tokens": 549
+    },
+    {
+      "k": 4,
+      "kind": "text",
+      "sha256": "642d13fe568ed897d7b3e983e792a124a66cc202468c2dd0ff4c2a87212edd76",
+      "tokens": 339
+    },
+    {
+      "k": 4,
+      "kind": "message",
+      "sha256": "7285cccab2a4021c54664b123f75d6fad3e711ea395de8c724327b7b8a93aa01",
+      "tokens": 367
+    },
+    {
+      "k": 4,
+      "kind": "tool",
+      "sha256": "e4a1a030583ece377ac852f8c835593363cf92a4810821e4de6479c9d4004ac0",
+      "tokens": 615
+    },
+    {
+      "k": 5,
+      "kind": "text",
+      "sha256": "3c277a262bfb4c55c95fb40e6cbffba43a265fbd90ea8ee5a616f424e170d88b",
+      "tokens": 340
+    },
+    {
+      "k": 5,
+      "kind": "message",
+      "sha256": "e7fe747db7ef2fee009327dfb0020fe911695a67bfe0bbde43cf9c79cf7ea57b",
+      "tokens": 375
+    },
+    {
+      "k": 5,
+      "kind": "tool",
+      "sha256": "f0666ccce4753d9177542f5f65259b640eca393ab97991c5b898a32a46821c51",
+      "tokens": 681
+    },
+    {
+      "k": 6,
+      "kind": "text",
+      "sha256": "6ef60c47fb549062db229d8d306ea63727a9373afef5bc859ce993bb1fc1a86c",
+      "tokens": 341
+    },
+    {
+      "k": 6,
+      "kind": "message",
+      "sha256": "ea9f1360f06530da02c2307214b01c4827997d8b0f7f2895b5da4093ccdbd426",
+      "tokens": 383
+    },
+    {
+      "k": 6,
+      "kind": "tool",
+      "sha256": "06ca23769da5a4ed45c9efabf748ed1c8ec1abb0895ff0648cfb4e23652fd306",
+      "tokens": 747
+    },
+    {
+      "k": 7,
+      "kind": "text",
+      "sha256": "21fc4298e5d05b8f9950ce909ab87b74eb62b4b49a0483a1e5f59712ccf9f6d7",
+      "tokens": 342
+    },
+    {
+      "k": 7,
+      "kind": "message",
+      "sha256": "6ef8e3d06879d79099a88dca1f5a0a4212f449b19a1de9fec21fc0e3823d69dd",
+      "tokens": 391
+    },
+    {
+      "k": 7,
+      "kind": "tool",
+      "sha256": "31c79d2de9764a6ead4363b9bd28f501fb2399b491c146e82625678b37aee191",
+      "tokens": 813
+    },
+    {
+      "k": 8,
+      "kind": "text",
+      "sha256": "cd1e84b3cd9ec70a4f578eb64c9b7037e08d3a0cd4c678b53662128330607c2d",
+      "tokens": 343
+    },
+    {
+      "k": 8,
+      "kind": "message",
+      "sha256": "b4f1fa095bfab546d137d35b919dd99462ba265bc19aa9baef37157cc549b75f",
+      "tokens": 399
+    },
+    {
+      "k": 8,
+      "kind": "tool",
+      "sha256": "e683daade58db3dbd48d4f17117e5b93cbd353007032b9fb51a52433938d3679",
+      "tokens": 879
+    }
+  ],
+  "thinking": {
+    "type": "disabled"
+  },
+  "tool_definitions": {
+    "B3": {
+      "tokens": 0,
+      "tools_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "B4": {
+      "tokens": 666,
+      "tools_sha256": "26d4854bd700d214b0c370605f9b7a5287d3530d81b5b61d7188da113cd0afcb"
+    },
+    "L": {
+      "tokens": 1428,
+      "tools_sha256": "25c77e1826331800055aa1ab0a50f339fc6a9a49cf01e2a48e54e49fc0696ab8"
+    }
+  },
+  "unmeasured": [
+    "thinking"
+  ],
+  "version": "envelope-v1"
+}

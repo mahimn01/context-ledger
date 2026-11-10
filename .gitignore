@@ -1,0 +1,22 @@
+# Runtime state, credentials, local caches and checkpoints
+.env
+.env.*
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.DS_Store
+*.log
+.clp*/
+.context-ledger*/
+models/*
+!models/edited/
+models/edited/*
+!models/edited/eval/
+reproduced/
+*.safetensors
+!adapters/astra_loop_fix/adapter_model.safetensors
+!adapters/astra_loop_fix/mlx/adapters.safetensors
+
+.hypothesis/

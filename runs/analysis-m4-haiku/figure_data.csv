@@ -1,0 +1,10 @@
+model,arm,rho,HR,lo,hi
+claude-haiku-5-5,B3,10,0,0,0
+claude-haiku-5-5,B3,100,0,0,0
+claude-haiku-5-5,B3,1000,0,0,0
+claude-haiku-5-5,B4,10,0,0,0
+claude-haiku-5-5,B4,100,0,0,0
+claude-haiku-5-5,B4,1000,0,0,0
+claude-haiku-5-5,L,10,0,0,0
+claude-haiku-5-5,L,100,0,0,0
+claude-haiku-5-5,L,1000,0,0,0

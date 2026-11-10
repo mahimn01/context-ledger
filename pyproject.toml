@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "context-ledger"
+version = "0.1.0"
+description = "Reference implementation of the Context Ledger Protocol (CLP)"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Mahimn Patel" }]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+context-ledger = "context_ledger.cli:main"
+
+[project.optional-dependencies]
+anthropic = ["anthropic>=2,<3"]
+dev = ["pytest", "hypothesis"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-m 'not corpus'"
+markers = ["corpus: builds from the real CPython tarball in .cache/cpython (opt-in: pytest -m corpus)"]

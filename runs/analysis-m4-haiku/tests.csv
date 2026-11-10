@@ -1,0 +1,14 @@
+test,model,family,estimate,ci_low,ci_high,p,p_kind,p_holm,verdict,n_episodes,valid_resamples,note
+H1-B3,claude-haiku-5-5,primary,0,0,0,1,one-sided,1,not detected at this n,12,10000,"OLS slope of HR on log10 rho over rho [10, 100, 1000]"
+H1-B4,claude-haiku-5-5,primary,0,0,0,1,one-sided,1,not detected at this n,12,10000,"OLS slope of HR on log10 rho over rho [10, 100, 1000]"
+H2,claude-haiku-5-5,primary,0,0,0,1,one-sided,1,not detected at this n,12,10000,"slope(L) - slope(B4) over rho [10, 100, 1000], paired episodes"
+H2-McNemar,claude-haiku-5-5,supporting,0,0,0,1,two-sided,,not detected at this n,12,10000,"rho 1000: wrong only under L b=0, only under B4 c=0, paired questions n=72"
+H2,claude-sonnet-5-5,secondary,,,,,one-sided,,not run,0,0,not run
+H2-McNemar,claude-sonnet-5-5,secondary,,,,,two-sided,,not run,0,0,not run at rho 1000
+H3,claude-haiku-5-5,primary,0,0,0,1,one-sided,1,not detected at this n,12,10000,"HR(L) - HR(B4), rho [100, 1000] pooled"
+H3-NI,claude-haiku-5-5,primary,-0.402778,-0.597222,-0.222222,,none,,not met,12,10000,accuracy(L) - accuracy(B4); its CI lower bound must exceed -0.03
+H4,claude-haiku-5-5,primary,1.784418,1.148216,2.403096,0.7698,one-sided,1,not supported,12,10000,"median episode cost L / B4 over rho [10, 100, 1000]; judged by CI upper <= 1.5"
+H4,claude-sonnet-5-5,secondary,,,,,one-sided,,not run,0,0,not run
+logistic-slope-B3,claude-haiku-5-5,secondary,,,,,"one-sided (Wald, cluster-robust)",,not_estimable,12,0,zero events
+logistic-slope-B4,claude-haiku-5-5,secondary,,,,,"one-sided (Wald, cluster-robust)",,not_estimable,12,0,zero events
+logistic-slope-L,claude-haiku-5-5,secondary,,,,,"one-sided (Wald, cluster-robust)",,not_estimable,12,0,zero events

@@ -1,0 +1,234 @@
+{
+ "arms": [
+  "L"
+ ],
+ "budget_usd": "0.60",
+ "condition": "forced",
+ "config_hash": "7e04c1b67bde266f2d488b6debfde42e591d873f1aa4a1cd0918beb3b81794cd",
+ "corpus_id": "ca8e01d67009c",
+ "episodes": "7-10",
+ "estimator": {
+  "calibration_sha256": "1a0f5d719845238a788f396810192fccfbbe939a97d77241f2025c4ebfc3b1cf",
+  "coefficients": {
+   "json": {
+    "a": "0.396422",
+    "a_hi": "0.476115",
+    "b": "123.304824"
+   },
+   "other": {
+    "a": "0.423053",
+    "a_hi": "0.483429",
+    "b": "4.942834"
+   },
+   "prose": {
+    "a": "0.378599",
+    "a_hi": "0.502914",
+    "b": "-17.31882"
+   },
+   "python": {
+    "a": "0.3684",
+    "a_hi": "0.641234",
+    "b": "190.166804"
+   }
+  },
+  "envelope": {
+   "base": 3,
+   "message": 3,
+   "text": 0,
+   "thinking": 0,
+   "tool_result": 0,
+   "tool_use": 62
+  },
+  "envelope_sha256": "be562d1f68874495f0b1a8d32392e120cc8cce36553e4253a2691db0628dc10f",
+  "estimator": "calib-v3",
+  "model": "claude-haiku-5-5",
+  "version": 3
+ },
+ "harness_patch": "v3.1-empty-text-cache-control",
+ "incomplete": false,
+ "key_profile": "research",
+ "l_mechanism": "l-v3",
+ "leakscan": "pass",
+ "live": true,
+ "model": "claude-haiku-5-5",
+ "pressure": {
+  "L": {
+   "answer_calls": 360,
+   "calls_over_w": 0,
+   "compactions_per_episode": "0",
+   "folds_per_episode": "82.75",
+   "prompt_over_w_max": "0.9477",
+   "prompt_over_w_p50": "0.7903",
+   "prompt_over_w_p95": "0.9327",
+   "share_calls_half_full": "0.9444"
+  }
+ },
+ "pricing": {
+  "pricing_hash": "a6d3867dcfe43a9767e93f5fd2bdfdb6470bf9426dea9334d3c5f7feb5dbbbfc",
+  "verified": true,
+  "version": "anthropic-2026-10-31"
+ },
+ "prompts": {
+  "compaction": {
+   "sha256": "404c760cda45d02917426dafb7efe42fb9fa729dbef4091252e2632242e4713a",
+   "version": "clp-m3-compact-1"
+  },
+  "sha256": {
+   "B3": "ea42c19a059b73e4c42fc46bca71c4f08aea0ff93f09150caf2d3aefe6be6f3c",
+   "B4": "37016aed6ceeab0f84d868b16ba45a08c938eb6705af9c9f3ce329e5534311e4",
+   "L": "15bdf6b3162b3b8bb270858b3c047a6acf1b1dec1ad402f24ceb2a8b0382b9cb"
+  },
+  "version": "clp-v3-forced"
+ },
+ "questions": {
+  "L": [
+   "v3e07q00",
+   "v3e07q01",
+   "v3e07q02",
+   "v3e07q03",
+   "v3e07q04",
+   "v3e07q05",
+   "v3e07q06",
+   "v3e07q07",
+   "v3e07q08",
+   "v3e07q09",
+   "v3e07q10",
+   "v3e07q11",
+   "v3e07q12",
+   "v3e07q13",
+   "v3e07q14",
+   "v3e07q15",
+   "v3e07q16",
+   "v3e07q17",
+   "v3e07q18",
+   "v3e07q19",
+   "v3e07q20",
+   "v3e07q21",
+   "v3e07q22",
+   "v3e07q23",
+   "v3e07q24",
+   "v3e07q25",
+   "v3e08q00",
+   "v3e08q01",
+   "v3e08q02",
+   "v3e08q03",
+   "v3e08q04",
+   "v3e08q05",
+   "v3e08q06",
+   "v3e08q07",
+   "v3e08q08",
+   "v3e08q09",
+   "v3e08q10",
+   "v3e08q11",
+   "v3e08q12",
+   "v3e08q13",
+   "v3e08q14",
+   "v3e08q15",
+   "v3e08q16",
+   "v3e08q17",
+   "v3e08q18",
+   "v3e08q19",
+   "v3e08q20",
+   "v3e08q21",
+   "v3e08q22",
+   "v3e08q23",
+   "v3e08q24",
+   "v3e08q25",
+   "v3e09q00",
+   "v3e09q01",
+   "v3e09q02",
+   "v3e09q03",
+   "v3e09q04",
+   "v3e09q05",
+   "v3e09q06",
+   "v3e09q07",
+   "v3e09q08",
+   "v3e09q09",
+   "v3e09q10",
+   "v3e09q11",
+   "v3e09q12",
+   "v3e09q13",
+   "v3e09q14",
+   "v3e09q15",
+   "v3e09q16",
+   "v3e09q17",
+   "v3e09q18",
+   "v3e09q19",
+   "v3e09q20",
+   "v3e09q21",
+   "v3e09q22",
+   "v3e09q23",
+   "v3e09q24",
+   "v3e09q25",
+   "v3e10q00",
+   "v3e10q01",
+   "v3e10q02",
+   "v3e10q03",
+   "v3e10q04",
+   "v3e10q05",
+   "v3e10q06",
+   "v3e10q07",
+   "v3e10q08",
+   "v3e10q09",
+   "v3e10q10",
+   "v3e10q11",
+   "v3e10q12",
+   "v3e10q13",
+   "v3e10q14",
+   "v3e10q15",
+   "v3e10q16",
+   "v3e10q17",
+   "v3e10q18",
+   "v3e10q19",
+   "v3e10q20",
+   "v3e10q21",
+   "v3e10q22",
+   "v3e10q23",
+   "v3e10q24",
+   "v3e10q25"
+  ]
+ },
+ "questions_per_episode": null,
+ "questions_sha256": "166adaaef84ca154f05f265c37bc795e1e96f61c35911444a4747503738ae9d7",
+ "questions_version": "v3",
+ "read_cap_tokens": 750,
+ "rho": 10,
+ "run_id": "v3-grid-haiku-forced-r10-e7-10-Lrerun",
+ "smoke": false,
+ "spend": {
+  "global_cap_pusd": 180000000000000,
+  "hard_max_pusd": 200000000000000,
+  "key_profile": "research",
+  "open": [],
+  "outstanding_pusd": 0,
+  "per_model_pusd": {
+   "claude-haiku-5-5": 172444915000
+  },
+  "per_run_pusd": {
+   "v3-grid-haiku-allowed-r10-e6-10-Lrerun": 93040030000,
+   "v3-grid-haiku-forced-r10-e7-10-Lrerun": 79404885000
+  },
+  "records": 1620,
+  "remaining_pusd": 179827555085000,
+  "remaining_usable_pusd": 179827555085000,
+  "reserve_pusd": 20000000000000,
+  "reserve_runs": [],
+  "run_cap_pusd": 600000000000,
+  "spent_pusd": 172444915000,
+  "usable_cap_pusd": 180000000000000,
+  "use_reserve": false
+ },
+ "spend_ledger": "./.clp-spend/research/spend.jsonl",
+ "stopped": null,
+ "tool_definitions": {
+  "source": "envelope calibration file",
+  "tokens": {
+   "L": 1428
+  }
+ },
+ "units": {
+  "done": 4,
+  "total": 4
+ },
+ "window": 3000
+}

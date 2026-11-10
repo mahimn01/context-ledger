@@ -1,0 +1,258 @@
+{
+  "baseline": {
+    "minimal_tool": 328,
+    "no_tools": 7
+  },
+  "calibration_sha256": "9873138a42e95e856770bad5a243a3d7c123217b94fcad364e59c7242310601a",
+  "content_estimator": {
+    "calibration_sha256": "9873138a42e95e856770bad5a243a3d7c123217b94fcad364e59c7242310601a",
+    "coefficients": {
+      "json": {
+        "a": "0.396422",
+        "a_hi": "0.476115",
+        "b": "123.304824"
+      },
+      "other": {
+        "a": "0.423053",
+        "a_hi": "0.483429",
+        "b": "4.942834"
+      },
+      "prose": {
+        "a": "0.378599",
+        "a_hi": "0.502914",
+        "b": "-17.31882"
+      },
+      "python": {
+        "a": "0.3684",
+        "a_hi": "0.641234",
+        "b": "190.166804"
+      }
+    },
+    "estimator": "calib-v2",
+    "model": "claude-sonnet-5-5",
+    "version": 2
+  },
+  "counter": "count_tokens",
+  "created": "2026-11-01",
+  "envelope": {
+    "base": 3,
+    "message": 3,
+    "text": 0,
+    "thinking": 0,
+    "tool_result": 0,
+    "tool_use": 62
+  },
+  "errors": {
+    "thinking": "BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages.1.content.0: Invalid `signature` in `thinking` block'}, 'request_id': 'req_011CgbndZmwzEbyyg4LBr7wX'}"
+  },
+  "fits": {
+    "message": {
+      "intercept": "335",
+      "slope": "8"
+    },
+    "text": {
+      "intercept": "335",
+      "slope": "1"
+    },
+    "tool": {
+      "intercept": "340.511111",
+      "slope": "67.733333"
+    }
+  },
+  "max_abs_residual": 18,
+  "model": "claude-sonnet-5-5",
+  "note": "tool_use and tool_result always come in pairs, so only their sum is identifiable; it is attributed to tool_use",
+  "raw": {
+    "base": "3",
+    "message": "3",
+    "text": "0",
+    "thinking": "0",
+    "tool_result": "0",
+    "tool_use": "61.7333"
+  },
+  "requests": [
+    {
+      "k": 0,
+      "kind": "text",
+      "sha256": "ea703d494c1f81cd86e3fbf60e305cbf691135e6468d5821b9d2dfd62c82de5a",
+      "tokens": 335
+    },
+    {
+      "k": 0,
+      "kind": "message",
+      "sha256": "ea703d494c1f81cd86e3fbf60e305cbf691135e6468d5821b9d2dfd62c82de5a",
+      "tokens": 335
+    },
+    {
+      "k": 0,
+      "kind": "tool",
+      "sha256": "e67beade38e6bda6951fc05d088f42873a815a586d3363fba8fdc590504f4489",
+      "tokens": 343
+    },
+    {
+      "k": 1,
+      "kind": "text",
+      "sha256": "cc66c74dabd6b40d00bf44c1075d81e189369546fbd06897b1cfe13e88f09e0b",
+      "tokens": 336
+    },
+    {
+      "k": 1,
+      "kind": "message",
+      "sha256": "e67beade38e6bda6951fc05d088f42873a815a586d3363fba8fdc590504f4489",
+      "tokens": 343
+    },
+    {
+      "k": 1,
+      "kind": "tool",
+      "sha256": "6a291214ba66a2567bb0d79b294678524254e471b566d90c370a935e9bbf7363",
+      "tokens": 393
+    },
+    {
+      "k": 2,
+      "kind": "text",
+      "sha256": "98cb181a989b8b6ec378db2f5ea78d26719c5fe61c495c909ae42d8f0bf783d6",
+      "tokens": 337
+    },
+    {
+      "k": 2,
+      "kind": "message",
+      "sha256": "fcbb7a98978dad6000aed81c9c46abb61b669be217c21c7fcc9dc5b5bed422d5",
+      "tokens": 351
+    },
+    {
+      "k": 2,
+      "kind": "tool",
+      "sha256": "40d8523999ddddfd9ce59ecffa68b76aedd6c024f811f11d64507649736be8b5",
+      "tokens": 483
+    },
+    {
+      "k": 3,
+      "kind": "text",
+      "sha256": "268072408cfc9f1c63000d916eb388aa12e228c92a9d95d893294eb9b0b4ad61",
+      "tokens": 338
+    },
+    {
+      "k": 3,
+      "kind": "message",
+      "sha256": "8769ab188cf7f52339ac3bd31c2032225ef7a167037074bf5b1cc627dfa6cc47",
+      "tokens": 359
+    },
+    {
+      "k": 3,
+      "kind": "tool",
+      "sha256": "a142ba2e867edf361d032b841102cfec2abb26148a1d97eeffc7cccd891a2aad",
+      "tokens": 549
+    },
+    {
+      "k": 4,
+      "kind": "text",
+      "sha256": "556ebacd14351c636d61b22e513f9c0de6b1a3c04d578578c941176aa0cdce7f",
+      "tokens": 339
+    },
+    {
+      "k": 4,
+      "kind": "message",
+      "sha256": "faf3879389e38ad0964f5a637243f5f4f2dac915f9455da75a28293ef5844f26",
+      "tokens": 367
+    },
+    {
+      "k": 4,
+      "kind": "tool",
+      "sha256": "8417acca663410005d8dc84b853896170faf062d12905e94b732f17c83ab8bdc",
+      "tokens": 615
+    },
+    {
+      "k": 5,
+      "kind": "text",
+      "sha256": "867f2d6e209cc0cc4afb702dacd61b8c3bb8e39d199f4c4291a21cfbf004a560",
+      "tokens": 340
+    },
+    {
+      "k": 5,
+      "kind": "message",
+      "sha256": "9af36cf04815d473c8b5fda33c3a9946582423d5159edcb29e5f4fd07f87674c",
+      "tokens": 375
+    },
+    {
+      "k": 5,
+      "kind": "tool",
+      "sha256": "76e026da6957412b66980febb378756f216e96a3b08b0e025c89f7b59893b51a",
+      "tokens": 681
+    },
+    {
+      "k": 6,
+      "kind": "text",
+      "sha256": "7a0b38e43742d1b63d9d0c427b1ac57706945103d9bca4876e771e574070bf8e",
+      "tokens": 341
+    },
+    {
+      "k": 6,
+      "kind": "message",
+      "sha256": "c076316c481a6f0fe2c998416e664fd20a77d58a483b56a40e2986bfdbe01822",
+      "tokens": 383
+    },
+    {
+      "k": 6,
+      "kind": "tool",
+      "sha256": "832aa0429222c0d91f0f05b1513d0dd31ab3313de5835f8de5f0b06be27c171a",
+      "tokens": 747
+    },
+    {
+      "k": 7,
+      "kind": "text",
+      "sha256": "f84f735e507e365bc2498c209c64fb8529c13dafbf5befe9258feee0061a7159",
+      "tokens": 342
+    },
+    {
+      "k": 7,
+      "kind": "message",
+      "sha256": "9371eabd703f0dc257f7a6cdda71ad5bd1014027fc2fd6eb2b7b5164ae43bd9a",
+      "tokens": 391
+    },
+    {
+      "k": 7,
+      "kind": "tool",
+      "sha256": "d714b3d713776fc1acb3305449d42374829ef4ad8891009854162a454557391d",
+      "tokens": 813
+    },
+    {
+      "k": 8,
+      "kind": "text",
+      "sha256": "9ad124b39f2d7d0ad56d55ce5aafde65f975308ab811b86c65ace8c6e166ccad",
+      "tokens": 343
+    },
+    {
+      "k": 8,
+      "kind": "message",
+      "sha256": "23da58d3bf068315ace0046867c822ff24e8f091a1cb379a6563bda714d281a9",
+      "tokens": 399
+    },
+    {
+      "k": 8,
+      "kind": "tool",
+      "sha256": "32e0c3ec225e1b387985c0d2ea79e85cc172ee09ef3987b749110f8fbb40735e",
+      "tokens": 879
+    }
+  ],
+  "thinking": {
+    "type": "between_tools"
+  },
+  "tool_definitions": {
+    "B3": {
+      "tokens": 0,
+      "tools_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "B4": {
+      "tokens": 666,
+      "tools_sha256": "26d4854bd700d214b0c370605f9b7a5287d3530d81b5b61d7188da113cd0afcb"
+    },
+    "L": {
+      "tokens": 1428,
+      "tools_sha256": "25c77e1826331800055aa1ab0a50f339fc6a9a49cf01e2a48e54e49fc0696ab8"
+    }
+  },
+  "unmeasured": [
+    "thinking"
+  ],
+  "version": "envelope-v1"
+}

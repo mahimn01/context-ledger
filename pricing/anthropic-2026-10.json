@@ -1,0 +1,26 @@
+{
+  "version": "anthropic-2026-10",
+  "as_of": "2026-10-31",
+  "source": "design notes; verify against https://platform.claude.com/docs/en/about-claude/pricing before any paid run",
+  "verified": false,
+  "models": {
+    "claude-haiku-5-5": {
+      "input": 100000,
+      "output": 500000,
+      "cache_write_5m": 125000,
+      "cache_write_1h": 200000,
+      "cache_read": 10000,
+      "min_cache_tokens": 4096,
+      "max_prompt_tokens_for_tier": 100000
+    },
+    "claude-sonnet-5-5": {
+      "input": 2000000,
+      "output": 10000000,
+      "cache_write_5m": 2500000,
+      "cache_write_1h": 4000000,
+      "cache_read": 100000,
+      "min_cache_tokens": 1024,
+      "max_prompt_tokens_for_tier": null
+    }
+  }
+}
